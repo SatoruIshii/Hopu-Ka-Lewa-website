@@ -7,7 +7,7 @@
 <head>
 <?php require_once 'headCommonPreTitle.php'; ?>
     
-<title>Yet another mobile boilerplate</title>
+<title>Hopu Ka Lewa</title>
 
 <meta name="description" content="">
 <meta name="keywords" content="">
@@ -18,29 +18,6 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <!-- end JS-->
 
-
-<!-- columns demo style. DELETE IT! -->
-<style type="text/css">
-<!--
-
-#columnsdemo .grid_1 h1,
-#columnsdemo .grid_2 h1,
-#columnsdemo .grid_3 h1,
-#columnsdemo .grid_4 h1,
-#columnsdemo .grid_5 h1,
-#columnsdemo .grid_6 h1,
-#columnsdemo .grid_7 h1,
-#columnsdemo .grid_8 h1,
-#columnsdemo .grid_9 h1,
-#columnsdemo .grid_10 h1,
-#columnsdemo .grid_11 h1,
-#columnsdemo .grid_12 h1 {
-border: solid 1px black;
-		text-align: center;
-		padding: 10px;
-}
--->
-</style>
 </head>
 
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
@@ -50,13 +27,9 @@ border: solid 1px black;
 <!-- header area -->
     <header>
 		       
-        <div id="banner">
-        
-        	<div id="logo"><img src="images/logo.png" width="290" height="100" alt="logo"></div>
-            
+        <div id="banner">            
 			<hgroup>
-			  <h1>Yet Another</h1>
-				<h2>Mobile Boilerplate</h2>
+			  <h1>HOPU KA LEWA</h1>
 			</hgroup>            
         </div>
         
