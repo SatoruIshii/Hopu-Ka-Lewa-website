@@ -1,11 +1,13 @@
 <!-- CSS-->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Cuprum' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/grid.css">
 <link rel="stylesheet" href="css/superfish.css">
 <link rel="stylesheet" href="css/flexslider.css" />
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/type/kilogram/stylesheet.css">
+<link rel="stylesheet" href="css/custom.css">
 <!-- end CSS-->
     
 <!-- JS-->

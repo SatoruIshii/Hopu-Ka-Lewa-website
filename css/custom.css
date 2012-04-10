@@ -1,0 +1,16 @@
+/* 
+    Document   : custom
+    Created on : Apr 9, 2012, 11:17:23 PM
+    Author     : kcmckell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+header hgroup > h1 {
+    font-family: KiloGramRegular;
+}
