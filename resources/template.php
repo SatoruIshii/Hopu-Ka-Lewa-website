@@ -61,7 +61,40 @@ border: solid 1px black;
         </div>
         
         <nav id="topnav" role="navigation" class="clearfix">  
-        	<?php require 'navbar.php'; ?>
+        	<ul class="sf-menu" id="mobileselect">
+			<li class="current">
+				<a href="#a">menu item</a>
+				<ul>
+					<li>
+						<a href="#aa">menu item</a>
+					</li>
+					<li class="current">
+						<a href="#ab">menu item</a>
+						<ul>
+							<li class="current"><a href="#">menu item</a></li>
+							<li><a href="#aba">menu item</a></li>
+							<li><a href="#abb">menu item</a></li>
+						</ul>
+					</li>
+					<li><a href="#">menu item</a></li>
+					<li><a href="#">menu item</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">menu item</a>
+			</li>
+			<li>
+				<a href="#">menu item</a>
+				<ul>
+					<li><a href="#">menu item</a></li>
+					<li><a href="#">menu item</a></li>
+					<li><a href="#">menu item</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">menu item</a>
+			</li>	
+		</ul>     
 		</nav><!-- #access -->
         
 <!-- responsive FlexSlider image slideshow -->
