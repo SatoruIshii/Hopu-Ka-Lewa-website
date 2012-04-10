@@ -5,40 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-<meta charset="utf-8">
-<!-- Mobile viewport optimized: j.mp/bplateviewport -->
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon" />
-
+<?php require_once 'headCommonPreTitle.php'; ?>
+    
 <title>Yet another mobile boilerplate</title>
+
 <meta name="description" content="">
 <meta name="keywords" content="">
 
-<!-- CSS-->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Cuprum' rel='stylesheet' type='text/css'>
-
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/grid.css">
-<link rel="stylesheet" href="css/superfish.css">
-<link rel="stylesheet" href="css/flexslider.css" />
-<link rel="stylesheet" href="css/style.css">
-<!-- end CSS-->
-    
-<!-- JS-->
-<!-- grab jQuery from Google SDN , fallback on local, if offline -->
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">google.load("jquery", "1.6.2");</script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-<!-- modernizr library for IE 6-8 -->
-<!--[if lt IE 9]><script src="js/libs/modernizr-2.0.6.min.js"></script><![endif]-->
-
-<!-- superfish menu by Joel Birch http://users.tpg.com.au/j_birch/plugins/superfish/ -->
-<script type="text/javascript" src="js/superfish/hoverIntent.js"></script>
-<script type="text/javascript" src="js/superfish/superfish.js"></script>
-
-<!-- responsive select menu by Matt Kersley. Turns ul / ol into select box https://github.com/mattkersley/Responsive-Menu -->
-<script type="text/javascript" src="js/jquery.mobileselect.js"></script>
+<?php require_once 'headCommonPostTitle.php'; ?>
 
 <!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
 <script src="js/jquery.flexslider-min.js"></script>
@@ -215,9 +189,7 @@ border: solid 1px black;
 </div> <!--! end of #container --> 
 <!-- footer area -->    
 <footer>
-	<div id="colophon" class="clearfix">
-    	Footer stuff
-    </div>
+    <?php require_once 'footerCommon.php'; ?>
 </footer>
     
 <script type="text/javascript">
