@@ -1,1 +1,1 @@
-<base href="/">
+<base href="/Hopu-Ka-Lewa-website/">
