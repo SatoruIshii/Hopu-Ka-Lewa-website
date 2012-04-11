@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
+<?php require_once 'base.php'; ?>
 <?php require_once 'headCommonPreTitle.php'; ?>
     
 <title>Hopu Ka Lewa</title>

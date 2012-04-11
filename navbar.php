@@ -1,20 +1,20 @@
 <ul class="sf-menu" id="mobileselect">
     <li class="current">
-        <a href="/">Hopu Main</a>
+        <a href="#">Hopu Main</a>
     </li>
     <li>
-        <a href="#">Team Bid</a>
+        <a href="bid_hopu.php">Team Bid</a>
     </li>
     <li>
-        <a href="#">Individual Registration</a>
+        <a href="register_hopu.php">Individual Registration</a>
     </li>
     <li>
-        <a href="#">Logistics</a>
+        <a href="logistics.php">Logistics</a>
     </li>
     <li>
-        <a href="#">Hopu Hat Draw</a>
+        <a href="hatdraw.php">Hopu Hat Draw</a>
     </li>
     <li>
-        <a href="#">History</a>
+        <a href="history.php">History</a>
     </li>
 </ul> 
