@@ -42,20 +42,28 @@
     <div class="flexslider">
 	    <ul class="slides">
 	    	<li>
-	    		<img src="images/pic1.jpg" />
+	    		<img src="images/ClayMcKell_DSC1822.jpg" />
 	    		<p class="flex-caption">Birds...</p>
 	    	</li>
 	    	<li>
-	    		<a href="http://www.prowebdesign.ro"><img src="images/pic2.jpg" /></a>
-	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>
+	    		<img src="images/ClayMcKell_DSC1829.jpg" />
+<!--	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>-->
 	    	</li>
 	    	<li>
-	    		<img src="images/pic3.jpg" />
-                <p class="flex-caption">Macro bugger!</p>
+	    		<img src="images/ClayMcKell_DSC1838.jpg" />
+<!--                <p class="flex-caption">Macro bugger!</p>-->
 	    	</li>
 	    	<li>
-	    		<img src="images/pic4.jpg" />
-                <p class="flex-caption">Photos by &copy; Konstantin Chuenkov</p>
+	    		<img src="images/ClayMcKell_DSC2130.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2137.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2181.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2339.jpg" />
 	    	</li>
 	    </ul>
 	  </div>
@@ -66,64 +74,53 @@
 
 <!-- main content area -->   
     <div id="main" role="main">
-    
-<!-- left sidebar -->    
-    <aside class="grid_4">
-    <h2>Secondary Section menu</h2>
-        <nav id="secondary-navigation">
-        		<ul>
-					<li><a href="#">menu item</a></li>
-					<li><a href="#">menu item</a></li>
-					<li><a href="#">menu item</a></li>
-				</ul>
-         </nav>
 
-      </aside><!-- #end left sidebar -->
     
 <!-- content area -->    
-      <div id="content" class="grid_8">
-		<h1>H1 Header</h1>
-        <p>your content goes here<br>
-          <br>
-          Responsive image:<br>
-        <img src="images/pic4.jpg" width="960" height="400" alt="fill in">        </p>
+      <div id="content">
+          <section id="vitals" class="grid_8">
+              <hgroup>
+                  <h1>
+                      Hopucalypse 2012
+                  </h1>
+              </hgroup>
+              <dl>
+                  <dt>Who:</dt>
+                    <dd>You and up to 16 spirited co-ed teams.</dd>
+                  <dt>What:</dt>
+                    <dd>Two days on the field, one day at the beach.</dd>
+                  <dt>When:</dt>
+                    <dd>November 9-12, 2012</dd>
+                  <dt>Where:</dt>
+                    <dd><a href="http://www.google.com/maps?f=q&hl=en&q=+Kalanianaole+Hwy+%26+Ehukai+St,+waimanalo+hawaii&ie=UTF8&z=15&ll=21.33839,-157.70299&spn=0.026063,0.048966&om=1">Waimanalo Polo Fields</a>, Oahu, Hawai'i</dd>                    
+                  <dt>Why:</dt>
+                    <dd>It's the end of the world!</dd>
+              </dl>
+          </section>
+          <section class="grid_4">
+              FACEBOOK ftw!
+          </section>
+          <section id="details" class="grid_8">
+              <hgroup>
+                  <h1>Bids & Registration Details</h1>
+              </hgroup>
+              <p>
+              Candy canes cheesecake topping faworki halvah toffee chocolate gummies. Chocolate cake topping jujubes sweet faworki marzipan. Topping soufflé pudding pie lollipop. Gummi bears lemon drops tiramisu. Tart brownie cotton candy cookie. Bear claw sweet dragée jelly. Lollipop marzipan candy tiramisu marshmallow toffee chocolate cake. Bonbon cookie macaroon soufflé candy jujubes. Bonbon cotton candy cotton candy. Apple pie jelly beans topping lemon drops cotton candy halvah jujubes.
+              </p>
+              <p>
+Liquorice bear claw pie marzipan tootsie roll donut jelly beans fruitcake bear claw. Danish gummi bears candy canes jelly beans ice cream toffee lollipop brownie. Cotton candy macaroon jelly-o marshmallow chocolate bar halvah dragée. Donut wypas lollipop jujubes. Jelly-o lollipop candy. Macaroon applicake soufflé cheesecake halvah gummies.
+              </p>
+              <p>
+Tart bear claw chocolate cake brownie sesame snaps croissant jelly-o. Toffee jelly-o oat cake dragée icing. Sweet roll liquorice liquorice carrot cake chocolate bar faworki pudding. Tiramisu marshmallow cookie fruitcake biscuit tiramisu. Candy caramels liquorice applicake. Sweet donut wafer brownie tootsie roll bear claw apple pie.
+              </p>
+          </section>
+          <section class="grid_4">
+              SAVAGE ftw
+          </section>
+		
       </div><!-- #end content area -->
       
- <!-- columns demo-->
-<div id="columnsdemo">
-<h2 style="width:100%; clear:both">Columns demo</h2>
-<div class="grid_12"><h1>12</h1></div>
-
-<div class="grid_1"><h1>1</h1></div>
-<div class="grid_11"><h1>11</h1></div>
-
-<div class="grid_2"><h1>2</h1></div>
-<div class="grid_10"><h1>10</h1></div>
-
-<div class="grid_3"><h1>3</h1></div>
-<div class="grid_9"><h1>9</h1></div>
-
-<div class="grid_4"><h1>4</h1></div>
-<div class="grid_8"><h1>8</h1></div>
-
-<div class="grid_5"><h1>5</h1></div>
-<div class="grid_7"><h1>7</h1></div>
-
-<div class="grid_6"><h1>6</h1></div>
-<div class="grid_6"><h1>6</h1></div>
-		
-<div class="grid_4"><h1>4</h1></div>
-<div class="grid_4"><h1>4</h1></div>
-<div class="grid_4"><h1>4</h1></div>
-
-<div class="grid_1"><h1>1</h1></div>
-<div class="grid_2"><h1>2</h1></div>
-<div class="grid_3"><h1>3</h1></div>
-<div class="grid_3"><h1>3</h1></div>
-<div class="grid_3"><h1>3</h1></div>
-</div>
-<!-- end columns demo -->  
-      
+  
   </div><!-- #end main -->
     
 
