@@ -42,20 +42,28 @@
     <div class="flexslider">
 	    <ul class="slides">
 	    	<li>
-	    		<img src="images/pic1.jpg" />
+	    		<img src="images/ClayMcKell_DSC1822.jpg" />
 	    		<p class="flex-caption">Birds...</p>
 	    	</li>
 	    	<li>
-	    		<a href="http://www.prowebdesign.ro"><img src="images/pic2.jpg" /></a>
-	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>
+	    		<img src="images/ClayMcKell_DSC1829.jpg" />
+<!--	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>-->
 	    	</li>
 	    	<li>
-	    		<img src="images/pic3.jpg" />
-                <p class="flex-caption">Macro bugger!</p>
+	    		<img src="images/ClayMcKell_DSC1838.jpg" />
+<!--                <p class="flex-caption">Macro bugger!</p>-->
 	    	</li>
 	    	<li>
-	    		<img src="images/pic4.jpg" />
-                <p class="flex-caption">Photos by &copy; Konstantin Chuenkov</p>
+	    		<img src="images/ClayMcKell_DSC2130.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2137.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2181.jpg" />
+	    	</li>
+            <li>
+	    		<img src="images/ClayMcKell_DSC2339.jpg" />
 	    	</li>
 	    </ul>
 	  </div>
