@@ -5,7 +5,7 @@
 
 /* typography */
 body{
-	color:#666;
+	color:#ddd;
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:1em; line-height:normal; 
 	}
@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6{
 	font-family: Arial, Helvetica, sans-serif; 
 	line-height:120%;
 	margin:0;
-	padding:0; font-family: Arial, Helvetica, sans-serif; line-height:120%} 
+	padding:0;
+}
 
 
 /* links */
@@ -82,10 +83,11 @@ footer{
 	padding:20px 0; }
 
 /*colors and bgs*/
-body{background:url(../images/bg.png);}
+/*body{background:url(../images/bg.png);}*/
+body{background: #333;}
 h1, h2, h3, h4, h5, h6{
-	color:#8ebd01; 
-	text-shadow:0 2px 0px #fff;}
+	color:#EE2222; 
+	text-shadow:1px 3px 0px #000;}
 
 footer{ 
 	background:url(../images/footer-bg.png) top repeat-x;
