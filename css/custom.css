@@ -11,6 +11,10 @@
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
+h1 {
+    font-family: Nosifer;
+}    
+
 header hgroup > h1 {
     font-family: KiloGramRegular;
 }
