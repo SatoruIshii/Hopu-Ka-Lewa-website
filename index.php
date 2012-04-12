@@ -78,7 +78,7 @@
     
 <!-- content area -->    
       <div id="content">
-          <section id="vitals" class="grid_8">
+          <section id="vitals" class="grid_5">
               <hgroup>
                   <h1>
                       Hopucalypse 2012
@@ -97,10 +97,9 @@
                     <dd>It's the end of the world!</dd>
               </dl>
           </section>
-          <section class="grid_4">
-              FACEBOOK ftw!
-          </section>
-          <section id="details" class="grid_8">
+          <section id="facebook" class="grid_4">
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="500" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>          </section>
+          <section id="details" class="grid_7">
               <hgroup>
                   <h1>Bids & Registration Details</h1>
               </hgroup>
@@ -149,5 +148,14 @@ Tart bear claw chocolate cake brownie sesame snaps croissant jelly-o. Toffee jel
 
 </script>
 	
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 </body>
 </html>
