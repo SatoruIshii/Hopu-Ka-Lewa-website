@@ -114,7 +114,8 @@ Tart bear claw chocolate cake brownie sesame snaps croissant jelly-o. Toffee jel
               </p>
           </section>
           <section class="grid_4">
-              SAVAGE ftw
+                <small>Hopu Ka Lewa is proudly sponsored by Savage Ultimate:</small>
+              <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
           </section>
 		
       </div><!-- #end content area -->
