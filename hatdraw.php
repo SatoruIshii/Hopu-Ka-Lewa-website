@@ -10,8 +10,7 @@ $params = array(
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',
   'keywords' => 'Hawaii, ultimate, outer island, neighbor island, frisbee, ultimate frisbee, coed, hat, hat draw',
-  'content' => '<div id="content" class="grid_12">
-            <section id="hatdraw">
+  'content' => '<section id="hatdraw">
               <hgroup>
                   <h1>
                       Hopu Hat Draw Title
@@ -20,8 +19,7 @@ $params = array(
               <p>
                   Tell me more!
               </p>
-          </section>
-          </div>' //,
+          </section>' //,
 //  'slider' => array(
 //    array(
 //      'uri' => 'images/ClayMcKell_DSC1829.jpg',
