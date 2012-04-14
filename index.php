@@ -1,83 +1,39 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
-<head>
-<?php require_once 'base.php'; ?>
-<?php require_once 'headCommonPreTitle.php'; ?>
-    
-<title>Hopu Ka Lewa</title>
-
-<meta name="description" content="">
-<meta name="keywords" content="">
-
-<?php require_once 'headCommonPostTitle.php'; ?>
-
-<!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
-<script src="js/jquery.flexslider-min.js"></script>
-<!-- end JS-->
-
-</head>
-
-<body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
-
-  <div id="container" class="clearfix">
-  
-<!-- header area -->
-    <header>
-		       
-        <div id="banner">            
-			<hgroup>
-			  <h1>HOPU KA LEWA</h1>
-			</hgroup>            
-        </div>
-        
-        <nav id="topnav" role="navigation" class="clearfix">  
-        	<?php require 'navbar.php'; ?>
-		</nav><!-- #access -->
-        
-<!-- responsive FlexSlider image slideshow -->
-    <div class="flexslider">
-	    <ul class="slides">
-	    	<li>
-	    		<img src="images/ClayMcKell_DSC1822.jpg" />
-	    		<p class="flex-caption">Birds...</p>
-	    	</li>
-	    	<li>
-	    		<img src="images/ClayMcKell_DSC1829.jpg" />
-<!--	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>-->
-	    	</li>
-	    	<li>
-	    		<img src="images/ClayMcKell_DSC1838.jpg" />
-<!--                <p class="flex-caption">Macro bugger!</p>-->
-	    	</li>
-	    	<li>
-	    		<img src="images/ClayMcKell_DSC2130.jpg" />
-	    	</li>
-            <li>
-	    		<img src="images/ClayMcKell_DSC2137.jpg" />
-	    	</li>
-            <li>
-	    		<img src="images/ClayMcKell_DSC2181.jpg" />
-	    	</li>
-            <li>
-	    		<img src="images/ClayMcKell_DSC2339.jpg" />
-	    	</li>
-	    </ul>
-	  </div>
-<!-- FlexSlider -->
-        
-    </header><!-- end header -->
-    
-
-<!-- main content area -->   
-    <div id="main" role="main">
-
-    
-<!-- content area -->    
-      <div id="content">
+<?php
+require_once 'twig/lib/Twig/Autoloader.php';
+Twig_Autoloader::register();
+$loader = new Twig_Loader_Filesystem('templates');
+$twig = new Twig_Environment($loader, array(
+  'cache' => 'tmp/chache',
+));
+$template = $twig->loadTemplate('hopu_template_2012.php');
+$params = array(
+  'description' => "Hawaii's premier co-ed ultimate tournament",
+  'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament',
+  'slider' => array(
+    array(
+      'uri' => 'images/ClayMcKell_DSC1822.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC1829.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC1838.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC2130.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC2137.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC2181.jpg',
+    ),
+    array(
+      'uri' => 'images/ClayMcKell_DSC2339.jpg',
+    )
+  ),
+  'fbscript' => true,
+  'content' => '<div id="content">
           <section id="vitals" class="grid_5">
               <hgroup>
                   <h1>
@@ -92,9 +48,9 @@
                   <dt>When:</dt>
                     <dd>November 9-12, 2012</dd>
                   <dt>Where:</dt>
-                    <dd><a href="http://www.google.com/maps?f=q&hl=en&q=+Kalanianaole+Hwy+%26+Ehukai+St,+waimanalo+hawaii&ie=UTF8&z=15&ll=21.33839,-157.70299&spn=0.026063,0.048966&om=1">Waimanalo Polo Fields</a>, Oahu, Hawai'i</dd>                    
+                    <dd><a href="http://www.google.com/maps?f=q&hl=en&q=+Kalanianaole+Hwy+%26+Ehukai+St,+waimanalo+hawaii&ie=UTF8&z=15&ll=21.33839,-157.70299&spn=0.026063,0.048966&om=1">Waimanalo Polo Fields</a>, Oahu, Hawai&#039i</dd>                    
                   <dt>Why:</dt>
-                    <dd>It's the end of the world!</dd>
+                    <dd>It&#039s the end of the world!</dd>
               </dl>
           </section>
           <section id="facebook" class="grid_4">
@@ -118,45 +74,7 @@ Tart bear claw chocolate cake brownie sesame snaps croissant jelly-o. Toffee jel
               <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
           </section>
 		
-      </div><!-- #end content area -->
-      
-  
-  </div><!-- #end main -->
-    
-
-</div> <!--! end of #container --> 
-<!-- footer area -->    
-<footer>
-    <?php require_once 'footerCommon.php'; ?>
-</footer>
-    
-<script type="text/javascript">
-
-// Fireup the plugins
-	$(document).ready(function(){
-	// initialise menu
-	jQuery('ul.sf-menu').superfish();
-		
-	// initialise  slideshow
-	$('.flexslider').flexslider();
-
-	//mobile select menu
-	$('#mobileselect').mobileMenu({
-		switchWidth: 480, // at what size to begin showing the select box
-      	indentString: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'	 // how to indent the menu items in select box						  
-											  });
-		});
-
-</script>
-	
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-</body>
-</html>
+      </div>'
+);
+$template->display($params);
+?>

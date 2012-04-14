@@ -1,3 +1,35 @@
+<!--
+    /*
+     * Hopu Ka Lewa webpage template.
+     * written by Clay "Dukes" McKell, 2012.
+     * clay@claymckell.com
+     * 
+     * Hello and welcome Hopu developer!
+     * You've found the general template for all Hopu pages.  Congrats!
+     * We're using the Twig templating system: http://www.twig-project.org/
+     * Basically, this means that every new page you'll create should have the following PHP commands at the top:
+     * 
+     * &lt ? php
+        require_once 'twig/lib/Twig/Autoloader.php';
+        Twig_Autoloader::register();
+        $loader = new Twig_Loader_Filesystem('templates');
+        $twig = new Twig_Environment($loader, array(
+          'cache' => 'tmp/chache',
+        ));
+        $template = $twig->loadTemplate('hopu_template_2012.php');
+        $params = array(
+          'pagetitle' => 'Hat Draw',
+          'description' => 'Outer island hat draw tournament.',
+          'keywords' => 'Hawaii, ultimate, outer island, neighbor island, frisbee, ultimate frisbee, coed, hat, hat draw',
+          'content' => 'Page content goes here.'
+        );
+        $template->display($params);
+        ? &gt
+     * 
+     * The page design below is based on the Yet Another Mobiler Boilerplage (YAMB): http://www.prowebdesign.ro/yet-another-boilerplate-for-responsive-mobile-web-design-yamb/
+     * 
+     */
+-->
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -7,7 +39,7 @@
 {% block head %}
     {% include 'base.html' %}
     {% include 'headCommonPreTitle.html' %}
-    <title>{{ pagetitle }} | Hopu Ka Lewa</title>
+    <title>{{ pagetitle ? pagetitle ~ ' | ' : '' }} Hopu Ka Lewa</title>
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
     <!-- CSS-->
@@ -65,13 +97,11 @@
     <div id="main" role="main">
 
     
-<!-- content area -->    
-      <div id="content" class="grid_12">
-          {% autoescape false %}
-            {{ content }}
-            
-          {% endautoescape %}
-      </div><!-- #end content area -->
+    <!-- content area -->    
+      {% autoescape false %}
+        {{ content }}  
+      {% endautoescape %}
+    <!-- #end content area -->
   </div><!-- #end main -->
     
 
@@ -81,8 +111,8 @@
     {% include 'footerCommon.html' %}
 </footer>
     
+{% block subfootscript %}
 <script type="text/javascript">
-
 // Fireup the plugins
 	$(document).ready(function(){
 	// initialise menu
@@ -98,8 +128,19 @@
       	indentString: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'	 // how to indent the menu items in select box						  
 											  });
 		});
-
 </script>
-	
+
+{% if fbscript is defined %}
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+{% endif %}
+{% endblock %}
+
 </body>
 </html>
