@@ -19,7 +19,14 @@ $params = array(
               <p>
                   Tell me more!
               </p>
-          </section>'
+          </section>' //,
+//  'slider' => array(
+//    array(
+//      'uri' => 'images/ClayMcKell_DSC1829.jpg',
+//      'href' => 'http://ee.hawaii.edu/~mckell',
+//      'caption' => 'Ballin'
+//    )
+//  )
 );
 $template->display($params);
 ?>
