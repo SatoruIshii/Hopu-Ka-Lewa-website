@@ -3,34 +3,17 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    <head>
-        <title>My first Twig template</title>
-    </head>
-    <body>
-        My name is {{ name }}.
-        My friends are:
-        <ul>
-            {% for person in friends %}
-            <li>{{ person.firstname }} {{ person.lastname }}</li>
-            {% endfor %}
-        </ul>
-    </body>
-</html>
-
-
 <head>
-<?php require_once 'base.php'; ?>
-<?php require_once 'headCommonPreTitle.php'; ?>
-    
-<title>Hat Draw | Hopu Ka Lewa</title>
-
-<meta name="description" content="">
-<meta name="keywords" content="">
-
-<?php require_once 'headCommonPostTitle.php'; ?>
+    {% include 'base.html' %}
+    {% include 'headCommonPreTitle.html' %}
+    <title>{{ pagetitle }} | Hopu Ka Lewa</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <!-- CSS-->
+    <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    {% include 'headCommonPostTitle.html' %}
 
 </head>
-
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
 
   <div id="container" class="clearfix">
@@ -45,7 +28,7 @@
         </div>
         
         <nav id="topnav" role="navigation" class="clearfix">  
-        	<?php require 'navbar.php'; ?>
+        	{% include 'navbar.html' %}
 		</nav><!-- #access -->
        
         
@@ -58,28 +41,17 @@
     
 <!-- content area -->    
       <div id="content" class="grid_12">
-          <section id="hatdraw">
-              <hgroup>
-                  <h1>
-                      Hopu Hat Draw Title
-                  </h1>
-              </hgroup>
-              <p>
-                  Tell me more!
-              </p>
-          </section>
-          
-		
+          {% autoescape false %}
+            {{ content }}
+          {% endautoescape %}
       </div><!-- #end content area -->
-      
-  
   </div><!-- #end main -->
     
 
 </div> <!--! end of #container --> 
 <!-- footer area -->    
 <footer>
-    <?php require_once 'footerCommon.php'; ?>
+    {% include 'footerCommon.html' %}
 </footer>
     
 <script type="text/javascript">
