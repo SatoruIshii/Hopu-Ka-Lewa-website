@@ -1,75 +1,16 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
-<head>
-<?php require_once 'base.php'; ?>
-<?php require_once 'headCommonPreTitle.php'; ?>
-    
-<title>History | Hopu Ka Lewa</title>
-
-<meta name="description" content="">
-<meta name="keywords" content="">
-
-<?php require_once 'headCommonPostTitle.php'; ?>
-
-<!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
-<script src="js/jquery.flexslider-min.js"></script>
-<!-- end JS-->
-
-</head>
-
-<body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
-
-  <div id="container" class="clearfix">
-  
-<!-- header area -->
-    <header>
-		       
-        <div id="banner">            
-			<hgroup>
-			  <h1>HOPU KA LEWA</h1>
-			</hgroup>            
-        </div>
-        
-        <nav id="topnav" role="navigation" class="clearfix">  
-        	<?php require 'navbar.php'; ?>
-		</nav><!-- #access -->
-        
-<!-- responsive FlexSlider image slideshow -->
-    <div class="flexslider">
-	    <ul class="slides">
-	    	<li>
-	    		<img src="images/pic1.jpg" />
-	    		<p class="flex-caption">Birds...</p>
-	    	</li>
-	    	<li>
-	    		<a href="http://www.prowebdesign.ro"><img src="images/pic2.jpg" /></a>
-	    		<p class="flex-caption">and bees. This image is also wrapped in a link!</p>
-	    	</li>
-	    	<li>
-	    		<img src="images/pic3.jpg" />
-                <p class="flex-caption">Macro bugger!</p>
-	    	</li>
-	    	<li>
-	    		<img src="images/pic4.jpg" />
-                <p class="flex-caption">Photos by &copy; Konstantin Chuenkov</p>
-	    	</li>
-	    </ul>
-	  </div>
-<!-- FlexSlider -->
-        
-    </header><!-- end header -->
-    
-
-<!-- main content area -->   
-    <div id="main" role="main">
-
-    
-<!-- content area -->    
-      <div id="content">
+<?php
+require_once 'twig/lib/Twig/Autoloader.php';
+Twig_Autoloader::register();
+$loader = new Twig_Loader_Filesystem('templates');
+$twig = new Twig_Environment($loader, array(
+  'cache' => 'tmp/chache',
+));
+$template = $twig->loadTemplate('hopu_template_2012.php');
+$params = array(
+  'pagetitle' => 'History',
+  'description' => "History of Hopu Ka Lewa.",
+  'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, history, spirit, tradition',
+  'content' => '<div id="content">
           <hgroup>
               <h1>
                   Hopu Ka Lewa History
@@ -124,11 +65,11 @@
 <tr class=even><td>2006b</td><td>&nbsp;</td><td>Aaron Rosa</td>
  <td>Kevin Kelly, Laura Gilda, Eric DeRuyeter, Jason Sickmiller,
 Kevin McGraw</td></tr>
-<tr class=odd><td>2006a</td><td>Waimea Kaua'i</td><td>Kevin Kelly</td>
+<tr class=odd><td>2006a</td><td>Waimea Kaua&#039i</td><td>Kevin Kelly</td>
  <td>Laura Gilda, Aaron Rosa, Eric DeRuyeter, Frances Ajo, Jason
 Sickmiller</td></tr>
-<tr class=even><td>2005</td><td>Kaunakakai (One-ali'i Park),
-Moloka'i</td><td>Laura Gilda</td>
+<tr class=even><td>2005</td><td>Kaunakakai (One-ali&#039i Park),
+Moloka&#039i</td><td>Laura Gilda</td>
  <td>Rebecca Eldredge, Sara Simmons, Heather Mitchell, Kevin
 Kelly, Frank Dabrosky, Jason Sickmiller</td></tr>
 <tr class=odd><td>2004</td><td>Hana, Maui</td><td>Dave Strang</td>
@@ -141,7 +82,7 @@ Gilda</td></tr>
 <tr class=odd><td>2002</td><td>&nbsp;</td><td>Ignacio Lobos</td>
  <td>Rebecca Eldredge, Chris Johnson, Leilani Durand, Jim Teo,
 Karen Brimacombe, Ramzi Mirshak</td></tr>
-<tr class=even><td>2001</td><td>Hanalei, Kaua'i</td><td>Ignacio
+<tr class=even><td>2001</td><td>Hanalei, Kaua&#039i</td><td>Ignacio
 Lobos</td>
  <td>Scott Todd, Rebecca Eldredge, Chris Johnson, Leilani Durand,
 Jim Teo, Laura Gilda, Jacqui Ford</td></tr>
@@ -177,7 +118,7 @@ Lobos, Julie Najita, Rick Needham, Scott Todd</td></tr>
             team had entered a bid. Eyebrows were raised, noses twitched in
             discomfort, and some grumbling was heard in the room as we
             pondered whether Hopu would turn from a dream into
-            disappointment. Yet, this little group of disc players wasn't
+            disappointment. Yet, this little group of disc players wasn&#039t
             about to give up.
             </p>
             <p>
@@ -204,36 +145,7 @@ smoothly were Julie Najita, Michael Constantinides, Rick Needham,
 Helga Mispelblom Beyer, Ignacio Lobos and Scott Todd. 
           </section>
 		
-      </div><!-- #end content area -->
-      
-  
-  </div><!-- #end main -->
-    
-
-</div> <!--! end of #container --> 
-<!-- footer area -->    
-<footer>
-    <?php require_once 'footerCommon.php'; ?>
-</footer>
-    
-<script type="text/javascript">
-
-// Fireup the plugins
-	$(document).ready(function(){
-	// initialise menu
-	jQuery('ul.sf-menu').superfish();
-		
-	// initialise  slideshow
-	$('.flexslider').flexslider();
-
-	//mobile select menu
-	$('#mobileselect').mobileMenu({
-		switchWidth: 480, // at what size to begin showing the select box
-      	indentString: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'	 // how to indent the menu items in select box						  
-											  });
-		});
-
-</script>
-	
-</body>
-</html>
+      </div>'
+);
+$template->display($params);
+?>
