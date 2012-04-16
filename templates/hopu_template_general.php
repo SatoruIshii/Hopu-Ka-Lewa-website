@@ -25,7 +25,10 @@
         );
         $template->display($params);
         ? &gt
-     * 
+     *
+     * Other possible variables include:
+     * 'slider' => array( array( 'uri' => 'path/to/image/file', 'href' => 'URL for link'), ... )
+     * 'fbscript' => true  // Boolean to include Facebook like box initialization script or not.
      * The page design below is based on the Yet Another Mobiler Boilerplage (YAMB): http://www.prowebdesign.ro/yet-another-boilerplate-for-responsive-mobile-web-design-yamb/
      * 
      */
