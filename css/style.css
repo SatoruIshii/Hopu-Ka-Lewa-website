@@ -32,14 +32,14 @@ a:hover{ text-decoration:none;}
 	margin: auto;}
 
 header{ 
-	margin: 0 0 20px 0;}
+	margin: 0 0 10px 0;}
 header, header nav, #main, footer,  #banner{
 	width:100%;}
 #logo{ 
 	float:left; 
 	padding-right:2%}
 header{
-	padding:10px 0 40px 0;}
+	padding:10px 0 10px 0;}
 header h1{ 
 	font-size:3.2em;}
 header h2{ 
