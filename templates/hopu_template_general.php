@@ -29,6 +29,12 @@
      * Other possible variables include:
      * 'slider' => array( array( 'uri' => 'path/to/image/file', 'href' => 'URL for link'), ... )
      * 'fbscript' => true  // Boolean to include Facebook like box initialization script or not.
+     * 'customstyle' => array(
+     *                  'selector' => array(
+     *                      'attribute1' => 'value1', 'attribute2 => 'value2'
+     *                      )
+     *                  )
+     * Basically you can include any last-minute custom CSS with this guy.
      * The page design below is based on the Yet Another Mobiler Boilerplage (YAMB): http://www.prowebdesign.ro/yet-another-boilerplate-for-responsive-mobile-web-design-yamb/
      * 
      */
@@ -51,6 +57,11 @@
         <!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
         <script src="js/jquery.flexslider-min.js"></script>
     {% endif %}
+    {% for selector, style in customstyle %}
+        <style type="text/css">
+            {{ selector }} {{'{'}} {% for attr, val in style %} {{attr}}:{{val}}; {% endfor %} {{'}'}}
+        </style>
+    {% endfor %}
 {% endblock %}
 </head>
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
