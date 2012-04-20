@@ -18,7 +18,7 @@ $params = array(
                   </h1>
               </hgroup>
               Bidding is open?
-              <p>Hell yeah, go to [["http://www.hawaiiultimate.com" | Hawaii Ultimate ]] to register!
+              <!--<p>Hell yeah, go to [["http://www.hawaiiultimate.com" | Hawaii Ultimate ]] to register!-->
           </section>
           
 		
