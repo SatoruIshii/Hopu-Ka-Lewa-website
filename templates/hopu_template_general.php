@@ -135,13 +135,9 @@
     {% if slider is defined %}
     	// initialise  slideshow
         $('.flexslider').flexslider({
-            animation: 'slide',
+            animation: 'fade',
             pauseOnHover: true
         });
-        //TODO: Grab image widths here.  Then conditionally add padding-left to the li's that will center the image.
-        //      Be sure to also add a window resize listener.
-//        var imgwidths = $('.flexslider li img').width();
-//        console.log(imgwidths);
         
     {% endif %}
 	//mobile select menu
