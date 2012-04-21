@@ -11,10 +11,10 @@
     {{ parent() }}
     <script>
         $(document).ready(function(){
-            \\ Make sure there's enough height to fit the graphics.
+            // Make sure there's enough height to fit the graphics.
             $('#content').css('min-height','600px');
-            \\ Insert top graphic with inline style.
-            $('header>nav').after('<div id="headgraphic" style="position:absolute; opacity:.85; z-index: 10;"><img src="images/Hopucalypse-head.png"/></div>');
+            // Insert top graphic with inline style.
+            $('header>nav').after('<div id="headgraphic" style="position:absolute; opacity:.85; z-index: 10; padding-top:16px;"><img src="images/Hopucalypse-head.png"/></div>');
         });
     </script>
 {% endblock %}    
