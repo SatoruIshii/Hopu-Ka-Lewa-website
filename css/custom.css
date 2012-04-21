@@ -15,9 +15,19 @@ h1 {
     font-family: Nosifer;
 }    
 
+header #logo {
+    max-height: 56px;
+    max-width: 50px;
+}
+
 header hgroup > h1 {
     font-family: KiloGramRegular;
 }
+
+.sf-menu {
+    margin-top: 0.5em;
+}
+
 .slides li {
     text-align: center;
 }

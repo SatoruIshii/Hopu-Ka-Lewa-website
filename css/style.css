@@ -37,11 +37,11 @@ header, header nav, #main, footer,  #banner{
 	width:100%;}
 #logo{ 
 	float:left; 
-	padding-right:2%}
+	padding:10px;}
 header{
 	padding:10px 0 10px 0;}
 header h1{ 
-	font-size:3.2em;}
+	font-size:4em;}
 header h2{ 
 	font-size:1.8em;}
 
@@ -200,7 +200,7 @@ header h2{ font-size:1.6em;}
 #container, #colophon{width:94%;}
 
 #logo, header hgroup{ width:100%; text-align:center;}
-#logo img{max-width:100%;}
+#logo {display:none;}
 
 header h1{ font-size:1.8em;}
 header h2{ font-size:1.2em;}
@@ -221,7 +221,7 @@ header h2{ font-size:1.2em;}
 	margin-right: 0;
 	width:100%;
 }
-#topnav{ display:block; width:100%; text-align:center; background:#8dbc01; padding:15px 0; margin:15px 0; border-radius:7px;}
+#topnav{ display:block; width:100%; text-align:center; background:#222; padding:15px 0; margin:15px 0; border-radius:7px;}
 #mobileMenu_mobileselect { display:block; width:90%; margin:auto; height:1.6em;}
 
 footer .grid_4{ border-bottom:1px dotted #ccc; padding-bottom:10px;}
