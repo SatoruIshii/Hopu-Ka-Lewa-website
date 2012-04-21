@@ -74,7 +74,7 @@
 		       
         <div id="banner">            
 			<hgroup>
-			  <h1>HOPU KA LEWA</h1>
+                <h1>{% block logo %}{% endblock %}HOPU KA LEWA</h1>
 			</hgroup>            
         </div>
         
