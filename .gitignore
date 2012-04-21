@@ -1,3 +1,4 @@
 # gitignore
 2011/*
 tmp/*
+templates/base.html
