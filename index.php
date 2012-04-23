@@ -3,7 +3,7 @@ require_once 'twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
-  'cache' => 'tmp/chache',
+//  'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
 $params = array(
@@ -41,12 +41,30 @@ $params = array(
                   </h1>
               </hgroup>
               <dl>
-                  <dt>Who:</dt>
-                    <dd>You and up to 16 spirited co-ed teams.</dd>
                   <dt>What:</dt>
                     <dd>Two days on the field, one day at the beach.</dd>
                   <dt>When:</dt>
-                    <dd>November 9-12, 2012</dd>
+                    <dd>November 9-12, 2012.  Important details:
+                        <dl>
+                            <dt>Friday, Nov. 9: 2-7pm</dt>
+                                <dd><ul>
+                                    <li>Player check-in</li>
+                                    <li>8pm Spirit Circle</li>
+                                    <li>Captains Meeting following Spirit Circle</li>
+                                </ul></dd>
+                            <dt>Saturday, Nov. 10: 8am - 5pm</dt>
+                                <dd>Pool play on grass fields</dd>
+                            <dt>Sunday, Nov. 11: 9am - 5pm</dt>
+                                <dd><ul>
+                                    <li>Bracket play on grass fields</li>
+                                    <li>9pm Award ceremony</li>
+                                </ul></dd>
+                            <dt>Monday, Nov. 12: 10am</dt>
+                                <dd>Beach hat draw at Waimanalo Bay</dd>
+                            <dt>Saturday - Sunday Nov. 17-18</dt>
+                                <dd>Post-Hopu Hat Draw on Maui</dd>
+                        </dl>
+                    </dd>
                   <dt>Where:</dt>
                     <dd><a href="http://www.google.com/maps?f=q&hl=en&q=+Kalanianaole+Hwy+%26+Ehukai+St,+waimanalo+hawaii&ie=UTF8&z=15&ll=21.33839,-157.70299&spn=0.026063,0.048966&om=1">Waimanalo Polo Fields</a>, Oahu, Hawai&#039i</dd>                    
                   <dt>Why:</dt>
