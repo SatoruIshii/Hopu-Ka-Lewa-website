@@ -1,16 +1,18 @@
 {% extends 'hopu_template_general.php' %}
+
 {% block logo %}
     <img id="logo" src="images/Hopu14Logo.jpg" />
 {% endblock %}
+
 {% block head %}
     {{ parent() }}
     <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-        #content { background: url(images/Hopucalypse-foot.png) bottom center no-repeat;
-                   min-heigt: 800px;
-        }
-    </style>
 {% endblock %}
+
+{% block footimage %}
+    <img src="images/Hopucalypse-foot.jpg" alt="Apocalypse comes to Waimanalo." />
+{% endblock %}
+
 {% block subfootscript %}
     {{ parent() }}
     <script>
@@ -35,10 +37,13 @@
                 'max-height':lhnf - 2*Math.floor(lhnf*padfactor),
                 'max-height':Math.floor(aspectratio*(lhnf - 2*Math.floor(lhnf*padfactor)))
             });
-        // Make sure there's enough height to fit the graphics.
-            $('#content').css('min-height','600px');
         // Insert top graphic with inline style.
             $('header>nav').after('<div id="headgraphic" style="position:absolute; opacity:.85; z-index: 10; padding-top:16px; max-width:100%;"><img src="images/Hopucalypse-head.png" style="max-width:100%; height:auto;"/></div>');
+            // If no flexslider, give the content div some headroom.
+            if ($('div.flexslider').length<=0) {
+                var imh = $('div#headgraphic').height();
+                $('#content').css('margin-top',imh*0.9);
+            }
         });
     </script>
 {% endblock %}    

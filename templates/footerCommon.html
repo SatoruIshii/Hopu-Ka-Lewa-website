@@ -1,6 +1,29 @@
+{% block footerCommon %}
 <div id="colophon" class="clearfix">
-    Footer stuff
+    <div class="grid_12" id="footimage">
+        {% block footimage %}{% endblock %}
+    </div>
+    <div class="grid_4">
+        <details>
+            <summary>Web Design</summary>
+            <ul>
+                <li><a href="http://www.claymckell.com">Clay "Dukes" McKell</a></li>
+                <li>Jess Kaneshiro</li>
+            </ul>
+        </details>
+    </div>
+    <div class="grid_4">
+        <details>
+            <summary>Design Credits</summary>
+            <dl>
+                <dt>Design Template:</dt><dd><a href="http://www.prowebdesign.ro/yamb/">YAMB</a></dd>
+                <dt>PHP Templating:</dt><dd><a href="http://twig.sensiolabs.org/">Twig</a></dd>
+            </dl>
+        </details>
+    </div>
+    
 </div>
 <nav id="botnav" role="navigation" class="clearfix">  
     {% include 'navbar.html' %}
 </nav>
+{% endblock %}

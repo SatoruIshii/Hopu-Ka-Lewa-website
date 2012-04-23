@@ -122,7 +122,10 @@
 </div> <!--! end of #container --> 
 <!-- footer area -->    
 <footer>
-    {% include 'footerCommon.html' %}
+    {% use 'footerCommon.html' %}
+    {% block footerCommon %}
+        {{ parent() }}
+    {% endblock %}
 </footer>
     
 {% block subfootscript %}
@@ -147,6 +150,8 @@
 											  });
 		});
 </script>
+
+{% include 'analytics.html' %}
 
 {% if fbscript is defined %}
     <div id="fb-root"></div>

@@ -31,3 +31,7 @@ header hgroup > h1 {
 .slides li {
     text-align: center;
 }
+
+footer div#footimage {
+    text-align: center;
+}
