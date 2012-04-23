@@ -110,12 +110,13 @@
 <!-- main content area -->   
     <div id="main" role="main">
 
-    
+    {% block contentarea %}
     <!-- content area -->    
       {% autoescape false %}
         {{ content }}  
       {% endautoescape %}
     <!-- #end content area -->
+    {% endblock %}
   </div><!-- #end main -->
     
 
