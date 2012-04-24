@@ -75,17 +75,35 @@ $params = array(
 <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="500" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>          </section>
           <section id="details" class="grid_7">
               <hgroup>
-                  <h1>Bids & Registration Details</h1>
+                  <h1>Bids & Registration Summary</h1>
               </hgroup>
-              <p>
-              Candy canes cheesecake topping faworki halvah toffee chocolate gummies. Chocolate cake topping jujubes sweet faworki marzipan. Topping soufflé pudding pie lollipop. Gummi bears lemon drops tiramisu. Tart brownie cotton candy cookie. Bear claw sweet dragée jelly. Lollipop marzipan candy tiramisu marshmallow toffee chocolate cake. Bonbon cookie macaroon soufflé candy jujubes. Bonbon cotton candy cotton candy. Apple pie jelly beans topping lemon drops cotton candy halvah jujubes.
-              </p>
-              <p>
-Liquorice bear claw pie marzipan tootsie roll donut jelly beans fruitcake bear claw. Danish gummi bears candy canes jelly beans ice cream toffee lollipop brownie. Cotton candy macaroon jelly-o marshmallow chocolate bar halvah dragée. Donut wypas lollipop jujubes. Jelly-o lollipop candy. Macaroon applicake soufflé cheesecake halvah gummies.
-              </p>
-              <p>
-Tart bear claw chocolate cake brownie sesame snaps croissant jelly-o. Toffee jelly-o oat cake dragée icing. Sweet roll liquorice liquorice carrot cake chocolate bar faworki pudding. Tiramisu marshmallow cookie fruitcake biscuit tiramisu. Candy caramels liquorice applicake. Sweet donut wafer brownie tootsie roll bear claw apple pie.
-              </p>
+                <dl>
+                    <dt>Team Bid Deadline</dt>
+                        <dd>Team bids due on Aug. 17, 2012.</dd>
+                    <dt>Team Bid Deposits</dt>
+                        <dd>$360, which is credited towards three individual registration fees.  Your bid application is not complete until your deposit has been received.</dd>
+                    <dt>Individual Registration Fees:</dt>
+                        <dd><dl>
+                            <dt>Early-bird Fee:</dt><dd>$120 mailed or paid online before Sept. 30, 2012.</dd>
+                            <dt>Late Registration Fee:</dt><dd>$142 mailed or paid between Oct. 1 and Oct. 28, 3012</dd>
+                            <dt>Shame-on-you Late Registration</dt><dd>$159 paid online by Nov. 2 or cash or check on the fields on Nov. 9, 2012.</dd>
+                        </dl></dd>
+                    <dt>Guest Registration Fees:</dt>
+                        <dd><dl>
+                            <dt>Daily:</dt><dd>$20 (Does not include players packet, camping permit, nor breakfast)</dd>
+                            <dt>Weekend:</dt><dd>$70 (Includes breakfasts, dinners, drinks, camping permit, player&#039s pack, and entertainment)</dd>
+                        </dl></dd>
+                </dl>
+               <hgroup>
+                <h1>Refunds</h1>
+               </hgroup>
+                <ul>
+                    <li>Partial refund of team deposit must be requested on or before Sept. 28, 2012.</li>
+                    <li>Full individual player refunds must be requested on or before Sept. 28, 2012.</li>
+                    <li>Partial individual player refunds can be requested up until Nov. 2, 2012.</li>
+                </ul>
+<p>
+              
           </section>
           <section class="grid_4">
                 <small>Hopu Ka Lewa is proudly sponsored by Savage Ultimate:</small>
