@@ -115,6 +115,9 @@
       {% autoescape false %}
         {{ content }}  
       {% endautoescape %}
+      {% if indregurl %}
+        <iframe src="{{ indregurl }}" width="740" height="1500" frameborder="0" marginheight="0" marginwidth="0">It appears that your browser does not support iframes.  Please <a href="{{ indregurl }}">register using the Google form</a>.</iframe>
+      {% endif %}
     <!-- #end content area -->
     {% endblock %}
   </div><!-- #end main -->
