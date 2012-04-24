@@ -34,7 +34,7 @@ $params = array(
   ),
   'fbscript' => true,
   'content' => '<div id="content">
-          <section id="vitals" class="grid_5">
+          <section id="vitals" class="grid_7">
               <hgroup>
                   <h1>
                       Hopucalypse 2012
@@ -71,9 +71,10 @@ $params = array(
                     <dd>It&#039s the end of the world!</dd>
               </dl>
           </section>
-          <section id="facebook" class="grid_4">
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="500" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>          </section>
-          <section id="details" class="grid_7">
+          <section id="facebook" class="grid_5">
+            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
+          </section>
+          <section id="details" class="grid_8">
               <hgroup>
                   <h1>Bids & Registration Summary</h1>
               </hgroup>
