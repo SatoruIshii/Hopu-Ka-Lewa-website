@@ -14,12 +14,20 @@ $params = array(
             <section id="hatdraw">
               <hgroup>
                   <h1>
-                      Hopu Hat Draw Title
+                      Post-Hopu Ka Lewa Hat Draw
                   </h1>
               </hgroup>
-              <p>
-                  Tell me more!
-              </p>
+              <p>Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.</p>
+              <dl>
+                <dt>Who</dt><dd>Anyone and everyone.  Participation in Hopu Ka Lewa is not required.</dd>
+                <dt>What</dt><dd>All-day hat draw and party</dd>
+                <dt>Where</dt><dd>Maui, the Valley Isle</dd>
+                <dt>When</dt><dd>Nov. 17-18, 2012</dd>
+                <dt>Why</dt><dd>Each island has it&#039s own beauty and appeal.  Might as well fit in another ultimate tournament while you are hopping</dd>
+            </dl>
+            <p>
+                More details to come.
+            </p>
           </section>
           </div>' //,
 //  'slider' => array(
