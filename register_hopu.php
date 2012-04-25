@@ -87,6 +87,74 @@ $params = array(
                             <dt>Nov. 3-9, 2012</dt><dd>Shame-on-you rate applies: $159 (do not mail anything nor register nor pay online; register and pay at the fields on Nov. 9, 2012).</dd>
                         </dl>
                     </section>
+                    <section id="paymentoptions" class="grid_5">
+                        <h2>
+                            Methods of Payment
+                        </h2>
+                        <details>
+                            <summary>Credit Card</summary>
+                            <p>We use PayPal to process online credit card transactions.  Instructions will be presented to you after you submit your online individual registration.</p>
+                        </details>
+                        <details>
+                            <summary>Personal Check</summary>
+                            <p>If you choose not to pay online, please pay by sending a check payable to "Hopu Ka Lewa" to:</p>
+                            <blockquote>
+                                Kayleigh Hudson<br />
+                                1321 Wood Ave Apt 7<br />
+                                Colorado Springs, CO 80903
+                            </blockquote>
+                            <p>Along with your check, include a short note with your team name and the name you registered under.  If paying by check, you will still need to fill out the registration form online.  Simply indicate in your registreation that you will pay by check.</p>
+                            <p>Note that checks postmarked after <strong>Oct. 27</strong> will not be accepted.  Please either pay online or at the fields.</p>
+                        </details>
+                    </section>
+                    <section id="individualrefunds" class="grid_5">
+                        <h2>
+                            Individual Player Refunds
+                        </h2>
+                        <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
+                        <dl>
+                            <dt>Sep. 28, 2012</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopu@hawaiiultimate.com">email</a>, by Sep. 28.</dd>
+                            <dt>Sep. 28 - Nov. 2, 2012</dt><dd>Partial palyer&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
+                                                            <blockquote>Partial Refund = Paid Registration - $70.</blockquote>
+                                                            </dd>
+                        </dl>
+                    </section>
+                    <section id="pickups" class="grid_7">
+                        <h2>
+                            Pickup Players
+                        </h2>
+                        <p>No team?  No problem!</p>
+                        <h3>
+                            Aloha Spirit (pickup team)
+                        </h3>
+                            <p>
+                                We&#039ve got an Aloha Spirit team: A fun and spirited pickup team where you&#039ll meet cool people from all over.  To register, sign up on the online registration or drop us an <a href="mailto:hopu@hawaiiultimate.com">email</a> to tell us you would like to play for the Aloha Spirit Team.
+                            </p>
+                            <p>
+                                The Aloha Spirit team is limited to 12 male and 8 female players.  It will be filled on a <emph>first-come, first-served</emph> basis.
+                            </p>
+                        <h3>
+                            Orphan Player List
+                        </h3>
+                            <p>
+                                Are you interested in playing with an established team?  Often teams will attend even if they have small rosters and be looking to pick up orphan players.  To be considered, please send the Tournament Director an <a href="mailto:hopu@hawaiiultimate.com">email</a> that includes the following:
+                                <ul>
+                                    <li>Name: </li>
+                                    <li>Email: </li>
+                                    <li>Where are you from: </li>
+                                    <li>Height: </li>
+                                    <li>Male or Female? </li>
+                                    <li>Short Biography (Playing experience, preferred positions, what you bring to a team, etc.): </li>
+                                    <li>Personal best boat race time trial: </li>
+                                </ul>
+                            </p>
+                            <p>
+                                Perspective teams will contact you directly.  Pleaes notify the Tournament Director once you&#039ve picked up with a team.
+                            </p>
+                            <p>
+                                Note that players are not permitted to sign up for both the Aloha Spirit team and the Orphan Player list at the same time.  Please choose one.
+                            </p>
+                    </section>
           
       </div>'
 );
