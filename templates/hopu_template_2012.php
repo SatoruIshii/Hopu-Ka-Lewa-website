@@ -41,7 +41,7 @@
             $('header>nav').after('<div id="headgraphic" style="position:absolute; opacity:.85; z-index: 10; padding-top:16px; max-width:100%;"><img src="images/Hopucalypse-head.png" style="max-width:100%; height:auto;"/></div>');
             // If no flexslider, give the content div some headroom.
             if ($('div.flexslider').length<=0) {
-                var imh = $('div#headgraphic').height();
+                var imh = $('div#headgraphic>img').height();
                 $('#content').css('margin-top',imh*0.9);
             }
         });
