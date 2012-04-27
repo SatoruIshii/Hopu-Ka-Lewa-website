@@ -75,7 +75,7 @@ $params = array(
                             Important Individual Registration Dates
                         </h2>
                         <p>
-                            Please note these dates on your calendar so you how to register and how much to pay.
+                            Please note these dates on your calendar so you know how to register and how much to pay.
                         </p>
                         <dl>
                             <dt>Sep. 28, 2012</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
