@@ -40,69 +40,7 @@ $params = array(
     '2002' => array('','Ignacio Lobos','Rebecca Eldredge, Chris Johnson, Leilani Durand, Jim Teo, Karen Brimacombe, Ramzi Mirshak'),
     '2001' => array('Hanalei, Kauai','Ignacio Lobos','Scott Todd, Rebecca Eldredge, Chris Johnson, Leilani Durand, Jim Teo, Laura Gilda, Jacqui Ford'),
     '2000' => array('Hilo, Big Island','Corey Tyrrell','Michael Constantinides, Helga Mispelblom Beyer, Ignacio Lobos, Julie Najita, Rick Needham, Scott Todd')
-  ),
-  'slider' => array(
-    array(
-      'uri' => 'images/historyslides/ChrisStevens2006-DSCN4254.jpg',
-      'caption' => 'Aloha Spirit: 2006 Spirit Team'
-    ),
-    array(
-      'uri' => 'images/historyslides/ClayMcKell2010-_DSC1866.jpg',
-      'caption' => 'Megan Grimshaw: Tournament Director 2008-2012'
-    ),
-    array(
-      'uri' => 'images/historyslides/DonNajita2012-325928.jpg',
-      'caption' => 'Pirates: 2011 Penultimate Winner'
-    ),
-    array(
-      'uri' => 'images/historyslides/DonNajita2012-717799325_img_3033.jpg',
-      'caption' => 'Pirates: 2009 Penultimate Winner'
-    ),
-    array(
-      'uri' => 'images/historyslides/DonNajita2012-DSC05627.jpg',
-      'caption' => 'Pirates: 2006b Spirit Team'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan1980-743_4357.jpg',
-      'caption' => 'Swingers & Dumpers: 2007 Boat Race Winner'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2007-747_4788.jpg',
-      'caption' => 'Swing of Fire: 2007 Spirit Team'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2007-755_5598.jpg',
-      'caption' => 'Hana Hou: 2007 Champion'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-_MG_7168.jpg',
-      'caption' => 'Ignacio Lobos: Tournament Director 2001-2003'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-_MG_8158.jpg',
-      'caption' => 'Mystery Machine: 2009 Champion'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-Hopu04-0016.jpg',
-      'caption' => 'Forcing Zen: 2004 Penultimate Winner'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-Hopu04-0779.jpg',
-      'caption' => 'Hana Hou: 2004 Champion'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-IMG_2995.jpg',
-      'caption' => 'Party Van: 2008 Triple Crown'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2012-IMG_3060.jpg',
-      'caption' => 'Kevin Kelly: Tournament Director 2006a'
-    ),
-    array(
-      'uri' => 'images/historyslides/TomWhite2012-captain_fatbeard-2.jpg',
-      'caption' => 'Captain Fatbeard: 2010 Champion'
-    )
-  ),
+  )
 );
 $template->display($params);
 ?>
