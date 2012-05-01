@@ -11,25 +11,34 @@ $params = array(
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament',
   'slider' => array(
     array(
-      'uri' => 'images/ClayMcKell_DSC1822.jpg',
+      'uri' => 'images/mainslides/ClayMcKell2010-_DSC1838.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC1829.jpg',
+      'uri' => 'images/mainslides/ClayMcKell2010-_DSC2130.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC1838.jpg',
+      'uri' => 'images/mainslides/KavehKardan2007-749_4902.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC2130.jpg',
+      'uri' => 'images/mainslides/KavehKardan2007-754_5476.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC2137.jpg',
+      'uri' => 'images/mainslides/KavehKardan2012-IMG_1303.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC2181.jpg',
+      'uri' => 'images/mainslides/KavehKardan2012-IMG_1428.jpg',
     ),
     array(
-      'uri' => 'images/ClayMcKell_DSC2339.jpg',
+      'uri' => 'images/mainslides/KavehKardan2012-IMG_2508.jpg',
+    ),
+    array(
+      'uri' => 'images/mainslides/KavehKardan2012-IMG_2746.jpg',
+    ),
+    array(
+      'uri' => 'images/mainslides/KavehKardan2012-_MG_7366.jpg',
+    ),
+    array(
+      'uri' => 'images/mainslides/KavehKardan2012-_MG_7834.jpg',
     )
   ),
   'fbscript' => true,
