@@ -221,8 +221,8 @@ header h2{ font-size:1.2em;}
 	margin-right: 0;
 	width:100%;
 }
-#topnav{ display:block; width:100%; text-align:center; background:#222; padding:15px 0; margin:15px 0; border-radius:7px;}
-#mobileMenu_mobileselect { display:block; width:90%; margin:auto; height:1.6em;}
+#topnav, #botnav{ display:block; width:100%; text-align:center; background:#222; padding:15px 0; margin:15px 0; border-radius:7px;}
+#mobileMenu_mobileselect, #mobileMenu_mobileselect-foot { display:block; width:90%; margin:auto; height:1.6em;}
 
 footer .grid_4{ border-bottom:1px dotted #ccc; padding-bottom:10px;}
 }

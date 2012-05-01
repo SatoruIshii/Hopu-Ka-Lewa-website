@@ -32,6 +32,12 @@ header hgroup > h1 {
     text-align: center;
 }
 
+dt {
+    font-weight: bold;
+    color: #EE2222;
+    text-shadow: 1px 3px 0 #000000;
+}
+
 table {
     width: 100%;
 }
@@ -53,5 +59,13 @@ th, td {
 }
 
 footer div#footimage {
+    text-align: center;
+}
+
+footer summary {
+    text-align: center;
+}
+
+footer div#sponsoredbyhula {
     text-align: center;
 }

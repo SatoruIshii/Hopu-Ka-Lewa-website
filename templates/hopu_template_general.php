@@ -78,8 +78,10 @@
 			</hgroup>            
         </div>
         
-        <nav id="topnav" role="navigation" class="clearfix">  
-        	{% include 'navbar.html' %}
+        <nav id="topnav" role="navigation" class="clearfix"> 
+            <ul class="sf-menu" id="mobileselect">
+                {% include 'navbar.html' %}
+            </ul>
 		</nav><!-- #access -->
         {% if slider is defined %}
            <div class="flexslider">
@@ -111,13 +113,22 @@
     <div id="main" role="main">
 
     {% block contentarea %}
-    <!-- content area -->    
+    <!-- content area -->
+    <div id="content">
       {% autoescape false %}
         {{ content }}  
       {% endautoescape %}
-      {% if indregurl %}
-        <iframe src="{{ indregurl }}" width="740" height="1500" frameborder="0" marginheight="0" marginwidth="0">It appears that your browser does not support iframes.  Please <a href="{{ indregurl }}">register using the Google form</a>.</iframe>
-      {% endif %}
+      {% if googleform %}
+            <section id="{{ googleform.id }}" class="grid_12">
+                {% if googleform.active %}
+                    <iframe src="{{ googleform.src }}">Sorry, it appears that your browser does not support inline frames (iframes).  Please <a href="{{ googleform.src }}">register using the Google form</a>.</iframe>
+                {% else %}
+                    Sorry, no can register now.
+                {% endif %}
+            </section>
+        <!--<iframe src="{{ indregurl }}" width="740" height="1500" frameborder="0" marginheight="0" marginwidth="0">It appears that your browser does not support iframes.  Please <a href="{{ indregurl }}">register using the Google form</a>.</iframe>-->
+    {% endif %}
+    </div>
     <!-- #end content area -->
     {% endblock %}
   </div><!-- #end main -->
@@ -152,7 +163,12 @@
 		switchWidth: 480, // at what size to begin showing the select box
       	indentString: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'	 // how to indent the menu items in select box						  
 											  });
-		});
+$('#mobileselect-foot').mobileMenu({
+        switchWidth: 480,
+        indentString: '&nbsp;'
+    });
+	});
+    
 </script>
 
 {% include 'analytics.html' %}

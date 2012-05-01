@@ -10,13 +10,12 @@ $params = array(
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',
   'keywords' => 'Hawaii, ultimate, outer island, neighbor island, frisbee, ultimate frisbee, coed, hat, hat draw',
-  'content' => '<div id="content" class="grid_12">
-            <section id="hatdraw">
-              <hgroup>
+  'content' => '<hgroup class="grid_12">
                   <h1>
                       Post-Hopu Ka Lewa Hat Draw
                   </h1>
               </hgroup>
+              <section id="hatdraw">
               <p>Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.</p>
               <dl>
                 <dt>Who</dt><dd>Anyone and everyone.  Participation in Hopu Ka Lewa is not required.</dd>
@@ -28,8 +27,7 @@ $params = array(
             <p>
                 More details to come.
             </p>
-          </section>
-          </div>' //,
+          </section>' //,
 //  'slider' => array(
 //    array(
 //      'uri' => 'images/ClayMcKell_DSC1829.jpg',

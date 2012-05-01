@@ -33,13 +33,12 @@ $params = array(
     )
   ),
   'fbscript' => true,
-  'content' => '<div id="content">
-          <section id="vitals" class="grid_7">
-              <hgroup>
+  'content' => '<hgroup class="grid_12">
                   <h1>
                       Hopucalypse 2012
                   </h1>
               </hgroup>
+              <section id="vitals" class="grid_7">
               <dl>
                   <dt>What:</dt>
                     <dd>Two days on the field, one day at the beach.</dd>
@@ -109,9 +108,7 @@ $params = array(
           <section class="grid_4">
                 <small>Hopu Ka Lewa is proudly sponsored by Savage Ultimate:</small>
               <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
-          </section>
-		
-      </div>'
+          </section>'
 );
 $template->display($params);
 ?>
