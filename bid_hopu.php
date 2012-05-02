@@ -20,15 +20,15 @@ $params = array(
                         Hopu Ka Lewa 14 Team Bid Processes
                     </h1>
                     <p>
-                        Want to bring a team to Hopu 14?  Please fill out the bid application <a href="#teambidapp">below</a> and follow it with any supplementary materials you wish.
+                        Want to bring a team to Hopu 14?  Please fill out the bid application <a href="bid_hopu.php#teambidapp">below</a> and follow it with any supplementary materials you wish.
                     </p>
                 </hgroup>
                 <section id="bidpriorities" class="grid_7">
                     <h2>
-                        Bid Priority Criteria
+                        Bid Priority Considerations
                     </h2>
                     <p>
-                        We all love fun and creative bids.  Sometimes, it helps to know what the tournament committee is looking for in a bid.  Here&#039s a list of what we&#039re looking for, in descending order:
+                        Every year, Hopu Ka Lewa&#039s popularity grows, and we have gotten to the point where we regretfully cannot accept all of the bid applications we receive.  In accordance with the mission of Hopu Ka Lewa, the committee will decide on team bid applications with the following priority considerations in mind.  These are not requirements to submit a successful bid application, but will only help your chances for invitation.
                     </p>
                     <ol>
                         <li>Local Hawaii teams.</li>
