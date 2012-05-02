@@ -13,7 +13,8 @@ $params = array(
   'googleform' => array(
     'active' => TRUE,
     'id' => 'teambidapp',
-    'src' => ''
+    'src' => 'https://docs.google.com/spreadsheet/embeddedform?formkey=dHp4N19IRFV0bEFBbHItRkkwN0ZGWHc6MQ',
+    'height' => '1594px'
   ),
   'content' => '<hgroup class="grid_12">
                     <h1>

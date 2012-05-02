@@ -119,9 +119,9 @@
         {{ content }}  
       {% endautoescape %}
       {% if googleform %}
-            <section id="{{ googleform.id }}" class="grid_12">
+            <section id="{{ googleform.id }}" class="grid_12 googleform">
                 {% if googleform.active %}
-                    <iframe src="{{ googleform.src }}">Sorry, it appears that your browser does not support inline frames (iframes).  Please <a href="{{ googleform.src }}">register using the Google form</a>.</iframe>
+                    <iframe src="{{ googleform.src }}" width="98%" height="{{ googleform.height is defined ? googleform.height : '1000px' }}">Sorry, it appears that your browser does not support inline frames (iframes).  Please <a href="{{ googleform.src }}">register using the Google form</a>.</iframe>
                 {% else %}
                     Sorry, no can register now.
                 {% endif %}
