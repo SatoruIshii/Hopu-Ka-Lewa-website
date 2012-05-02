@@ -83,9 +83,7 @@ $params = array(
             <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
           </section>
           <section id="details" class="grid_8">
-              <hgroup>
-                  <h1>Bids & Registration Summary</h1>
-              </hgroup>
+              <h2>Bids & Registration Summary</h2>
                 <dl>
                     <dt>Team Bid Deadline</dt>
                         <dd>Team bids due on Aug. 17, 2012.</dd>
@@ -103,9 +101,7 @@ $params = array(
                             <dt>Weekend:</dt><dd>$70 (Includes breakfasts, dinners, drinks, camping permit, player&#039s pack, and entertainment)</dd>
                         </dl></dd>
                 </dl>
-               <hgroup>
-                <h1>Refunds</h1>
-               </hgroup>
+            <h2>Refunds</h2>
                 <ul>
                     <li>Partial refund of team deposit must be requested on or before Sept. 28, 2012.</li>
                     <li>Full individual player refunds must be requested on or before Sept. 28, 2012.</li>

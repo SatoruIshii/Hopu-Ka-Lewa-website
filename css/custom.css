@@ -15,6 +15,11 @@ h1 {
     font-family: Nosifer;
 }    
 
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 header #logo {
     max-height: 56px;
     max-width: 50px;
