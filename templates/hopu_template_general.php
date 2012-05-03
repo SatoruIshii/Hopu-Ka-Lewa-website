@@ -113,7 +113,8 @@
     	// initialise  slideshow
         $('.flexslider').flexslider({
             animation: 'fade',
-            pauseOnHover: true
+            pauseOnHover: true,
+            randomize: true
         });
         
     {% endif %}

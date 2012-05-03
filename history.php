@@ -67,11 +67,7 @@ $params = array(
       'caption' => 'Swingers & Dumpers: 2007 Boat Race Winner'
     ),
     array(
-      'uri' => 'images/historyslides/KavehKardan2007-747_4788.jpg',
-      'caption' => 'Swing of Fire: 2007 Spirit Team'
-    ),
-    array(
-      'uri' => 'images/historyslides/KavehKardan2007-755_5598.jpg',
+      'uri' => 'images/historyslides/2007-755_5572_v3.jpg',
       'caption' => 'Hana Hou: 2007 Champion'
     ),
     array(
@@ -101,6 +97,62 @@ $params = array(
     array(
       'uri' => 'images/historyslides/TomWhite2012-captain_fatbeard-2.jpg',
       'caption' => 'Captain Fatbeard: 2010 Champion'
+    ),
+    array(
+      'uri' => 'images/historyslides/MarleyDegner2012-Kumonwannalayya.jpg',
+      'caption' => 'Kumoniwannalayya: 2011 Champion'
+    ),
+    array(
+      'uri' => 'images/historyslides/KeokiCooper2012-SwingofFire2007.jpg',
+      'caption' => 'Swing of Fire: 2007 Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/LoriDaniels2005-hopu05-lorid_27.jpg',
+      'caption' => 'Swingers & Dumpers: 2005 Beer Bracket Winner.  Image: Lori Daniels'
+    ),
+    array(
+      'uri' => 'images/historyslides/DanielBailey2012-Daniel.jpg',
+      'caption' => 'Daniel Bailey: 2011 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/ChrisGarth2012-FB.jpg',
+      'caption' => 'Chris Garth: 2006b Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/AllanRudwick2012-Rowboat.jpg',
+      'caption' => 'Rowboat: 2010 Beer Bracket Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-HanaHou2005.jpg',
+      'caption' => 'Hana Hou: 2005 Champion'
+    ),
+    array(
+      'uri' => 'images/historyslides/KeokiCooper2012-SwingofFire2006b.jpg',
+      'caption' => 'Swing of Fire: 2006b Boat Race Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/JoelBrunger2012-pic5.jpg',
+      'caption' => 'Joel Brunger: 2010 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-Ninja_mondo_IMG_20120222_013613-2-2.jpg',
+      'caption' => 'Mondo Chun: 2000 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/MikeElhoff2012-Texas.jpg',
+      'caption' => 'Mike Elhoff: 2001 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/ClayMcKell2011-_DSC5320.jpg',
+      'caption' => 'Georgia Hart: 2006a Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/CurtRiffel2009-DSC_0442.jpg',
+      'caption' => 'Curt Riffel: 2009 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/ClayMcKell2011-_DSC5287.jpg',
+      'caption' => 'Chris Stevens: Tournament Director 2010-2012'
     )
   ),
 );
