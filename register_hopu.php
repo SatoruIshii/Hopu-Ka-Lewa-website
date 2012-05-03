@@ -7,7 +7,9 @@ $twig = new Twig_Environment($loader, array(
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
 $params = array(
-  'indregurl' => false,
+  'googleform' => array(
+    'active' => false
+  ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, registration, player',

@@ -82,6 +82,7 @@
                 {% if googleform.active %}
                     <iframe src="{{ googleform.src }}" width="98%" height="{{ googleform.height is defined ? googleform.height : '1000px' }}">Sorry, it appears that your browser does not support inline frames (iframes).  Please <a href="{{ googleform.src }}">register using the Google form</a>.</iframe>
                 {% else %}
+                <h2>Registration</h2>
                     Sorry, no can register now.
                 {% endif %}
             </section>
