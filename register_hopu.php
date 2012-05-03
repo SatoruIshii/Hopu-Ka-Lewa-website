@@ -21,7 +21,7 @@ $params = array(
                         Player fee includes all breakfasts and dinners, drinks, entertainment, camping, player&#039s pack (disc and Hopu surprise), plus all field supplies (water, fruit, EMT, etc.).  All players should register through the online registration system, which will be available once team bids are accepted.
                     </p>
                 </hgroup>
-                <section class="grid_7" id="individualregistration">
+                <section class="grid_8" id="individualregistration">
                     <h2>
                         Player Registration Rates
                     </h2>
@@ -44,10 +44,7 @@ $params = array(
                             Shame-on-you Registration (Oct. 29 - Nov. 9, 2012): $159
                         </h3>
                         <p>
-                            Hana hou: You must have registered and paid before Oct. 28 in order to avoid the Shame-on-you fee.  Also, only players registering before Oct. 1 are guaranteed a complete player&#039s pack.
-                        </p>
-                        <p>
-                            <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before Oct. 28 to be accepted.  Payment online is accepted until Nov. 2.  Checks or cash (no credit cards) are accepted as payment at the fields.
+                            Hana hou: You must have registered and paid before Oct. 28 in order to avoid the Shame-on-you fee.  Also, only players registering before Oct. 1 are guaranteed a complete player&#039s pack.  After Oct. 28, <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before Oct. 28 to be accepted.  Payment online is accepted until Nov. 2.  Checks or cash (no credit cards) are accepted as payment at the fields.
                         </p>
                     <h2>
                         Guest Registration Rates
@@ -71,7 +68,7 @@ $params = array(
                             Daily guests can register and pay online or at the fields.
                         </p>
                 </section>
-                <section class="grid_5" id="individualdates">
+                <section class="grid_4" id="individualdates">
                     <h2>
                         Important Individual Registration Dates
                     </h2>
@@ -82,13 +79,12 @@ $params = array(
                         <dt>Sep. 28, 2012</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
                         <dt>Sep. 30, 2012</dt><dd>Last day to register for Early-bird rate: $120 (payment must be made online or postmarked by this date).</dd>
                         <dt>Oct. 26, 2012</dt><dd>Last day to request a partial player&#039s refund.</dd>
-                        <dt>Oct. 27, 2012</dt><dd>Last day to mail a check as payment for tournament registration</dd>
                         <dt>Oct. 28, 2012</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
-                        <dt>Nov. 2, 2012</dt><dd>Last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after Oct. 27, 2012).</dd>
+                        <dt>Nov. 2, 2012</dt><dd>Last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after Oct. 28, 2012).</dd>
                         <dt>Nov. 3-9, 2012</dt><dd>Shame-on-you rate applies: $159 (do not mail anything nor register nor pay online; register and pay at the fields on Nov. 9, 2012).</dd>
                     </dl>
                 </section>
-                <section id="paymentoptions" class="grid_5">
+                <section id="paymentoptions" class="grid_4">
                     <h2>
                         Methods of Payment
                     </h2>
@@ -105,7 +101,7 @@ $params = array(
                             Colorado Springs, CO 80903
                         </blockquote>
                         <p>Along with your check, include a short note with your team name and the name you registered under.  If paying by check, you will still need to fill out the registration form online.  Simply indicate in your registreation that you will pay by check.</p>
-                        <p>Note that checks postmarked after <strong>Oct. 27</strong> will not be accepted.  Please either pay online or at the fields.</p>
+                        <p>Note that checks postmarked after <strong>Oct. 28</strong> will not be accepted.  Please either pay online or at the fields.</p>
                     </details>
                 </section>
                 <section id="individualrefunds" class="grid_5">
