@@ -68,7 +68,7 @@ $params = array(
                             Included for this rate are dinner, drinks, and entertainment.
                         </p>
                         <p>
-                            Daily guests can register and pay at the fields.  No need register online.
+                            Daily guests can register and pay online or at the fields.
                         </p>
                 </section>
                 <section class="grid_5" id="individualdates">
