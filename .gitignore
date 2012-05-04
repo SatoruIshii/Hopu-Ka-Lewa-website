@@ -1,4 +1,5 @@
 # gitignore
 2011/*
 tmp/*
+intermediate/*
 templates/base.html
