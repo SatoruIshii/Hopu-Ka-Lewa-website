@@ -79,8 +79,9 @@ $params = array(
       'caption' => 'Mystery Machine: 2009 Champion'
     ),
     array(
-      'uri' => 'images/historyslides/KavehKardan2012-Hopu04-0016.jpg',
-      'caption' => 'Forcing Zen: 2004 Penultimate Winner'
+      'uri' => 'images/historyslides/KavehKardan2012-ForcingZen.jpg',
+      'caption' => 'Forcing Zen: 2004 Penultimate Winner',
+      'credit' => 'Kaveh Kardan'
     ),
     array(
       'uri' => 'images/historyslides/KavehKardan2012-Hopu04-0779.jpg',
@@ -108,7 +109,8 @@ $params = array(
     ),
     array(
       'uri' => 'images/historyslides/LoriDaniels2005-hopu05-lorid_27.jpg',
-      'caption' => 'Swingers & Dumpers: 2005 Beer Bracket Winner.  Image: Lori Daniels'
+      'caption' => 'Swingers & Dumpers: 2005 Beer Bracket Winner',
+      'credit' => 'Lori Daniels'
     ),
     array(
       'uri' => 'images/historyslides/DanielBailey2012-Daniel.jpg',
@@ -153,6 +155,22 @@ $params = array(
     array(
       'uri' => 'images/historyslides/ClayMcKell2011-_DSC5287.jpg',
       'caption' => 'Chris Stevens: Tournament Director 2010-2012'
+    ),
+    array(
+      'uri' => 'images/historyslides/KateYeske2012-ButtRainbow-Edit.jpg',
+      'caption' => 'Butt Rainbow: 2011 Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-SuperstitionBoatRace.jpg',
+      'caption' => 'Superstition: 2011 Boat Race Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/MikeLong2010-Caliaskawaii.jpg',
+      'caption' => 'Caliaskawaii: 2010 Boat Race Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/DonNajita2003-DonPopo.jpg',
+      'caption' => 'Don Najita: 2001 Spirit Player'
     )
   ),
 );
