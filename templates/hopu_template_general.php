@@ -57,7 +57,11 @@
                            </a>
                        {% endif %}
                        {% if captionexists %}
-                            <p class="flex-caption">{{ item.caption }}</p>
+                            <p class="flex-caption">{{ item.caption }}
+                            {% if item.credit is defined %}
+                                <br/><small>Photo: {{ item.credit }}</small>
+                            {% endif %}
+                            </p>
                        {% endif %}
                    </li>
                    {% endfor %}
