@@ -49,7 +49,14 @@ $params = array(
                         Keep these dates in mind when planning to bring a team to Hopu!
                     </p>
                     <dl>
-                        <dt>Aug. 9, 2012</dt><dd>Postmark date for all team bid checks: $360.</dd>
+                        <dt>Aug. 9, 2012</dt><dd>
+                            Postmark date for all team bid checks: $360.  If paying by check, please make it out to:
+                            <blockquote>
+                                Kayleigh Hudson<br />
+                                1321 Wood Ave Apt 7<br />
+                                Colorado Springs, CO 80903
+                            </blockquote>
+                            </dd>
                         <dt>Aug. 17, 2012</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
                         <dt>Aug. 24, 2012</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
                         <dt>Aug. 31, 2012</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
