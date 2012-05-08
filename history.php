@@ -44,7 +44,7 @@ $params = array(
   'slider' => array(
     array(
       'uri' => 'images/historyslides/ChrisStevens2006-DSCN4254.jpg',
-      'caption' => 'Aloha Spirit: 2006b Spirit Team'
+      'caption' => 'Aloha Spirit: 2006b Penultimate Winner'
     ),
     array(
       'uri' => 'images/historyslides/ClayMcKell2010-_DSC1866.jpg',
@@ -179,6 +179,14 @@ $params = array(
     array(
       'uri' => 'images/historyslides/DonNajita2012-DSC05627.jpg',
       'caption' => 'Pirates: 2006b Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/RebeccaEldredge2012-ZenDisc2002PenUltimate.jpg',
+      'caption' => 'ZenDisc: 2002 Penultimate Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/RebeccaEldredge2012-ZenDisc2001.jpg',
+      'caption' => 'ZenDisc: 2000 Spirit Team'
     )
   ),
 );
