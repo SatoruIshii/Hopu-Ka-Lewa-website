@@ -39,6 +39,12 @@ $params = array(
     ),
     array(
       'uri' => 'images/mainslides/KavehKardan2012-_MG_7834.jpg'
+    ),
+    array(
+      'uri' => 'images/mainslides/HenryHsieh2012-2011finalsmen.jpg'
+    ),
+    array(
+      'uri' => 'images/mainslides/HenryHsieh2012-2011finalswomen.jpg'
     )
   ),
   'fbscript' => true,
