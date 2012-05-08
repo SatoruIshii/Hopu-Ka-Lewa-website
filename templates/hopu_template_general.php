@@ -110,7 +110,7 @@
 {% block subfootscript %}
 <script type="text/javascript">
 // Fireup the plugins
-	$(document).ready(function(){
+$(document).ready(function(){
 	// initialise menu
 	jQuery('ul.sf-menu').superfish();
     
@@ -128,13 +128,20 @@
 		switchWidth: 480, // at what size to begin showing the select box
       	indentString: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'	 // how to indent the menu items in select box						  
 											  });
-$('#mobileselect-foot').mobileMenu({
+    $('#mobileselect-foot').mobileMenu({
         switchWidth: 480,
         indentString: '&nbsp;'
     });
-	});
-    
+});    
 </script>
+
+{% if pagejs is defined %}
+    <script>
+        {% autoescape false %}
+        {{ pagejs }}
+        {% endautoescape %}
+    </script>
+{% endif %}
 
 {% include 'analytics.html' %}
 
