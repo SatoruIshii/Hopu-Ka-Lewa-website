@@ -29,7 +29,7 @@
           </section>
         <section id="adminhistory"class="grid_12">
               <table id="history_table">
-                <caption>Past Hopu Ka Lewa Details</caption>
+                <caption><h3>Past Hopu Ka Lewa Details</h3></caption>
                 <tr>
                  <th>Year</th>
                  <th>Hat-Draw Location</th>
