@@ -13,6 +13,16 @@ $params = array(
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, registration, player',
+  'pagejs' => '
+                $(document).ready(function(){
+                    var formsec = $("section.googleform");
+                    if (formsec.length > 0) {
+                        var formid = formsec.attr("id");
+                        if (formid != "") {
+                            $("nav#secondary-navigation ul").prepend("<li><a href=\"register_hopu.php#"+formid+"\">Register!</a></li>");
+                        }
+                    }                        
+                });',
   'content' => '    <hgroup class="grid_12">
                     <h1>
                         Hopu Ka Lewa 14 Individual Registration
@@ -21,7 +31,19 @@ $params = array(
                         Player fee includes all breakfasts and dinners, drinks, entertainment, camping, player&#039s pack (disc and Hopu surprise), plus all field supplies (water, fruit, EMT, etc.).  All players should register through the online registration system, which will be available once team bids are accepted.
                     </p>
                 </hgroup>
-                <section class="grid_8" id="individualregistration">
+                <aside class="grid_2">
+                    <h2>Info, Stat!</h2>
+                        <nav id="secondary-navigation">
+                            <ul>
+                                <li><a href="register_hopu.php#individualregistration">Player Registration Rates</a></li>
+                                <li><a href="register_hopu.php#individualdates">Important Dates</a></li>
+                                <li><a href="register_hopu.php#paymentoptions">Payment Options</a></li>
+                                <li><a href="register_hopu.php#individualrefunds">Refund Options</a></li>
+                                <li><a href="register_hopu.php#pickups">Pickup Players</a></li>
+                            </ul>
+                         </nav>
+                </aside><!-- #end left sidebar -->
+                <section class="grid_6" id="individualregistration">
                     <h2>
                         Player Registration Rates
                     </h2>
