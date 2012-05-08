@@ -38,6 +38,10 @@ header hgroup > h1 {
     text-align: center;
 }
 
+#secondary-navigation ul {
+    padding: 0;
+}
+
 dt {
     font-weight: bold;
     color: #EE2222;
