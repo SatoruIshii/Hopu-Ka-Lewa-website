@@ -81,12 +81,12 @@ $params = array(
                     <dt>Individual Registration Fees:</dt>
                         <dd><dl>
                             <dt>Early-bird Fee:</dt><dd>$120 mailed or paid online before Sept. 30, 2012.</dd>
-                            <dt>Late Registration Fee:</dt><dd>$142 mailed or paid between Oct. 1 and Oct. 28, 3012.</dd>
+                            <dt>Late Registration Fee:</dt><dd>$142 mailed or paid between Oct. 1 and Oct. 28, 2012.</dd>
                             <dt>Shame-on-you Late Registration</dt><dd>$159 paid online by Nov. 2 or cash or check on the fields on Nov. 9, 2012.</dd>
                         </dl></dd>
                     <dt>Guest Registration Fees:</dt>
                         <dd><dl>
-                            <dt>Daily:</dt><dd>$20 (Does not include players packet, camping permit, nor breakfast).</dd>
+                            <dt>Daily:</dt><dd>$20 (Does not include player&#039s pack, camping permit, nor breakfast).</dd>
                             <dt>Weekend:</dt><dd>$70 (Includes breakfasts, dinners, drinks, camping permit, player&#039s pack, and entertainment).</dd>
                         </dl></dd>
                 </dl>

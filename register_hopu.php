@@ -65,7 +65,10 @@ $params = array(
                             Included for this rate are dinner, drinks, and entertainment.
                         </p>
                         <p>
-                            Daily guests can register and pay online or at the fields.
+                            Daily guests may register online (but are not obligated to do so), however they must check-in and pay at the fields.
+                        </p>
+                        <p>
+                            Daily guests must be escorted through the field entrance by a paid player or be registered on the guest list.  To get on the guest list, a paid player must notify the Tournament Director of the guest&#039s name by Nov. 6.
                         </p>
                 </section>
                 <section class="grid_4" id="individualdates">
@@ -78,9 +81,8 @@ $params = array(
                     <dl>
                         <dt>Sep. 28, 2012</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
                         <dt>Sep. 30, 2012</dt><dd>Last day to register for Early-bird rate: $120 (payment must be made online or postmarked by this date).</dd>
-                        <dt>Oct. 26, 2012</dt><dd>Last day to request a partial player&#039s refund.</dd>
                         <dt>Oct. 28, 2012</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
-                        <dt>Nov. 2, 2012</dt><dd>Last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after Oct. 28, 2012).</dd>
+                        <dt>Nov. 2, 2012</dt><dd>Last day to request a partial player&#039s refund.<br/>Also, last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after Oct. 28, 2012).</dd>
                         <dt>Nov. 3-9, 2012</dt><dd>Shame-on-you rate applies: $159 (do not mail anything nor register nor pay online; register and pay at the fields on Nov. 9, 2012).</dd>
                     </dl>
                 </section>
@@ -111,7 +113,7 @@ $params = array(
                     <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
                         <dt>Sep. 28, 2012</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopu@hawaiiultimate.com">email</a>, by Sep. 28.</dd>
-                        <dt>Sep. 28 - Nov. 2, 2012</dt><dd>Partial palyer&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
+                        <dt>Sep. 28 - Nov. 2, 2012</dt><dd>Partial player&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
                                                         <blockquote>Partial Refund = Paid Registration - $70.</blockquote>
                                                         </dd>
                     </dl>

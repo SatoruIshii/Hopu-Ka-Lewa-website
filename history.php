@@ -16,9 +16,9 @@ $params = array(
     '2009' => array('Mystery Machine','<i>No winner recognized</i>','','Pirates','','Curt Riffel'),
     '2008' => array('Party Van','Party Van','Aloha Spirit','','Party Van','Meg DeLisle'),
     '2007' => array('Hana Hou','Swingers & Dumpers','','','Swing of Fire',''),
-    '2006b' => array('Hana Hou','Swing of Fire','BTP (California)','','Aloha Spirit','Ari Patz &<br/> Chris Garth'),
+    '2006b' => array('Hana Hou','Swing of Fire','Aloha Spirit','','Pirates','Ari Patz &<br/> Chris Garth'),
     '2006a' => array('Three Hour Tour','Three Hour Tour','','','Swing of Fire','Georgia Hart'),
-    '2005' => array('Hana Hou','Three Hour Tour','Jabouti','Swingers & Dumpers','',''),
+    '2005' => array('Hana Hou','Three Hour Tour','Jabouti','Swingers & Dumpers','Sippin&#039 Sallys','Josh White'),
     '2004' => array('Hana Hou','Three Hour Tour','Forcing Zen','Spirit Team','Shock-N-Awesome','Brian G. &<br/>Joe Paradis'),
     '2003' => array('Diego En Fuego','Swingers & Dumpers','Lei My Chaminade','Maui Mana','Swingers & Dumpers','Heather Mitchell &<br/>Chris Hurwitz'),
     '2002' => array('Hana Hou','Swingers & Dumpers','ZenDisc','Spirit Team','Chaminade','<i>Too many<br/>to write on trophy</i>'),
@@ -175,6 +175,10 @@ $params = array(
     array(
       'uri'=> 'images/historyslides/2012-THT2006a.jpg',
       'caption' => 'Three Hour Tour: Champions and Boat Race Winner'
+    ),
+    array(
+      'uri' => 'images/historyslides/DonNajita2012-DSC05627.jpg',
+      'caption' => 'Pirates: 2006b Spirit Team'
     )
   ),
 );
