@@ -27,6 +27,9 @@ $params = array(
             <p>
                 More details to come.
             </p>
+            <p>
+                We can say that there is usually complimentary camping that goes with the Hat Draw.  Many people find it more convenient to rent a car on outer islands.  Please keep this in mind when budgeting your trip.
+            </p>
           </section>' //,
 //  'slider' => array(
 //    array(

@@ -38,7 +38,7 @@ $params = array(
                         <li>Teams that anticipate that they will contribute something to Hopu Ka Lewa that has never been seen before and will change the tournament forever.</li>
                         <li>Teams with the highest number of players who are 100% committed to attending.</li>
                         <li>Bids submitted prior to the deadline.</li>
-                        <li>Teams whose registration fees are paid prior to the deadline</li>
+                        <li>Teams whose registration fees are paid prior to the deadline.</li>
                     </ol>
                 </section>
                 <section id="importantdates" class="grid_5">

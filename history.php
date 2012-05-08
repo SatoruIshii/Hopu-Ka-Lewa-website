@@ -13,10 +13,10 @@ $params = array(
   'champtable' => array(
     '2011' => array('Kumoniwannalayya','Superstition','Pirates','Butt Rainbow','Butt Rainbow','Clay "Dukes" McKell &<br/>Daniel Bailey'),
     '2010' => array('Captain Fatbeard','Caliaskawaii','Cyberninjas','Rowboat','Cyberninjas','Jess Kaneshiro &<br/>Joel Brunger'),
-    '2009' => array('Mystery Machine','<i>No winner recognized</i>','Pirates','','','Curt Riffel'),
+    '2009' => array('Mystery Machine','<i>No winner recognized</i>','','Pirates','','Curt Riffel'),
     '2008' => array('Party Van','Party Van','Aloha Spirit','','Party Van','Meg DeLisle'),
     '2007' => array('Hana Hou','Swingers & Dumpers','','','Swing of Fire',''),
-    '2006b' => array('Hana Hou','Swing of Fire','BTP (California)','','Pirates','Ari Patz &<br/> Chris Garth'),
+    '2006b' => array('Hana Hou','Swing of Fire','BTP (California)','','Aloha Spirit','Ari Patz &<br/> Chris Garth'),
     '2006a' => array('Three Hour Tour','Three Hour Tour','','','Swing of Fire','Georgia Hart'),
     '2005' => array('Hana Hou','Three Hour Tour','Jabouti','Swingers & Dumpers','',''),
     '2004' => array('Hana Hou','Three Hour Tour','Forcing Zen','Spirit Team','Shock-N-Awesome','Brian G. &<br/>Joe Paradis'),
@@ -44,7 +44,7 @@ $params = array(
   'slider' => array(
     array(
       'uri' => 'images/historyslides/ChrisStevens2006-DSCN4254.jpg',
-      'caption' => 'Aloha Spirit: 2006 Spirit Team'
+      'caption' => 'Aloha Spirit: 2006b Spirit Team'
     ),
     array(
       'uri' => 'images/historyslides/ClayMcKell2010-_DSC1866.jpg',
@@ -57,10 +57,6 @@ $params = array(
     array(
       'uri' => 'images/historyslides/DonNajita2012-717799325_img_3033.jpg',
       'caption' => 'Pirates: 2009 Penultimate Winner'
-    ),
-    array(
-      'uri' => 'images/historyslides/DonNajita2012-DSC05627.jpg',
-      'caption' => 'Pirates: 2006b Spirit Team'
     ),
     array(
       'uri' => 'images/historyslides/KavehKardan1980-743_4357.jpg',
