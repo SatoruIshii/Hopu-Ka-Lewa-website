@@ -171,6 +171,14 @@ $params = array(
     array(
       'uri' => 'images/historyslides/DonNajita2003-DonPopo.jpg',
       'caption' => 'Don Najita: 2001 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-THT2005.jpg',
+      'caption' => 'Three Hour Tour: 2005 Boat Race Winner'
+    ),
+    array(
+      'uri'=> 'images/historyslides/2012-THT2006a.jpg',
+      'caption' => 'Three Hour Tour: Champions and Boat Race Winner'
     )
   ),
 );
