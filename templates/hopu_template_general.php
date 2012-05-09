@@ -18,16 +18,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/type/kilogram/stylesheet.css">
     <link rel="stylesheet" href="css/custom.css">
-    <!-- end CSS-->
-    <!-- All JavaScript at the bottom, except this Modernizr build.
-       Modernizr enables HTML5 elements & feature detects for optimal performance.
-       Create your own custom Modernizr build: www.modernizr.com/download/ -->
-    <script src="js/libs/modernizr.custom.70368.js"></script>
     {% for selector, style in customstyle %}
         <style type="text/css">
             {{ selector }} {{'{'}} {% for attr, val in style %} {{attr}}:{{val}}; {% endfor %} {{'}'}}
         </style>
     {% endfor %}
+    <!-- end CSS-->
+    <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="js/libs/modernizr.custom.70368.js"></script>
 {% endblock %}
 </head>
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100)" id="home">
