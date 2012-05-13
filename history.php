@@ -187,6 +187,10 @@ $params = array(
     array(
       'uri' => 'images/historyslides/RebeccaEldredge2012-ZenDisc2001.jpg',
       'caption' => 'ZenDisc: 2000 Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-paga_pirate_2009.jpg',
+      'caption' => 'Chris Hurwitz: 2003 Spirit Player'
     )
   ),
 );
