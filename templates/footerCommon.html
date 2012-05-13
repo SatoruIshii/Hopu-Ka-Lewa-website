@@ -23,12 +23,14 @@
         </details>
     </div>
     <div class="grid_4">
-        <details>
-            <summary>Privacy Policy</summary>
-            <div>
-            {% include 'privacypolicy.html' %}
+        <a href="#dialog" class="modalLink">Privacy Policy</a>
+        <div id="modal">
+            <div id="dialog" class="window">
+                <div class="modalContents">
+                {% include 'privacypolicy.html' %}
+                </div>
             </div>
-        </details>
+        </div>            
     </div>
     <div class="grid_12" id="sponsoredbyhula">
         Hopu Ka Lewa is sponsored by <a href="http://www.hawaiiultimate.com">HULA</a>, Hawaii Ultimate League Association.  Questions?  Email <a href="mailto:hopu@hawaiiultimate.com">hopu<img src="images/at.gif" alt="The at sign"/>hawaiiultimate.com</a>
