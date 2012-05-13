@@ -84,15 +84,12 @@ footer div#sponsoredbyhula {
     text-align: center;
 }
 
-#modal .modelContents
-{
-   /* style the modal's contents, in this case we're just adding padding */
+#modal .modalContents {
    padding:24px;
    color: #888;
 }
 
-#blind
-{
+#blind {
    /* position element so the z-index can be set */
    position:fixed;
    /* set z-index so the blind will cover all page content */
@@ -115,7 +112,6 @@ footer div#sponsoredbyhula {
    width:400px;
    height:400px;
    overflow: scroll;
-   padding: 12px;
    /* give the window negative margins that match the width/2 and height/2 so it is centered */
    margin-left:-200px;
    margin-top:-124px;

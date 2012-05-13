@@ -134,7 +134,6 @@
         switchWidth: 480,
         indentString: '&nbsp;'
       });
-    });
     // modal setup
     // create variable to hold the current modal window
     var activeWindow;
@@ -189,8 +188,8 @@
         $('#blind').fadeOut(250,	function(){	$(this).remove(); });
 
     };
-});    
-</script>
+  });    
+  </script>
 
 {% if pagejs is defined %}
     <script>
