@@ -9,7 +9,8 @@ $template = $twig->loadTemplate('hopu_template_pay.php');
 $params = array(
   'pagetitle' => 'Pay Team Bid',
   'description' => "",
-  'keywords' => ''
+  'keywords' => '',
+  'hosted_button_id' => '563799WLT7CQL'
   );
 $template->display($params);
 ?>
