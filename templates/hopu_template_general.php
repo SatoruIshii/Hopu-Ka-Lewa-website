@@ -10,7 +10,7 @@
     <title>{{ pagetitle ? pagetitle ~ ' | ' : '' }} Hopu Ka Lewa</title>
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
-    <!-- CSS-->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style120509.css">
     <link rel="stylesheet" href="css/type/kilogram/stylesheet.css">
     {% for selector, style in customstyle %}
@@ -102,13 +102,18 @@
   <script type="text/javascript" src="js/superfish/superfish.js"></script>
   <!-- responsive select menu by Matt Kersley. Turns ul / ol into select box https://github.com/mattkersley/Responsive-Menu -->
   <script type="text/javascript" src="js/jquery.mobileselect.js"></script>
-  <!-- Polyfill for DETAILS element -->
-  <script type="text/javascript" src="js/details.polyfill.min.js"></script>
   {% if slider is defined %}
     <!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
     <script src="js/jquery.flexslider-min.js"></script>
   {% endif %}
   <script type="text/javascript">
+      // Conditionally load Details Polyfill
+      Modernizr.load([
+          {
+              test : Modernizr.details,
+              nope : 'js/details.polyfill.min.js'
+          }
+      ])
     // Fireup the plugins
     $(document).ready(function(){
       // initialise menu
