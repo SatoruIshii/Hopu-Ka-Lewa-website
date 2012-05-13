@@ -11,11 +11,9 @@
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
     <!-- CSS-->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="css/style-min-120512.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/type/kilogram/stylesheet.css">
     <link rel="stylesheet" href="css/custom.css">
     {% for selector, style in customstyle %}
