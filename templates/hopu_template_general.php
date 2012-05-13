@@ -104,7 +104,7 @@
   <script type="text/javascript" src="js/superfish/hoverIntent.js"></script>
   <script type="text/javascript" src="js/superfish/superfish.js"></script>
   <!-- responsive select menu by Matt Kersley. Turns ul / ol into select box https://github.com/mattkersley/Responsive-Menu -->
-  <script type="text/javascript" src="js/jquery.mobileselect.js"></script>
+  <script type="text/javascript" src="js/jquery.mobileselect-min.js"></script>
   <!-- Polyfill for DETAILS element -->
   <script type="text/javascript" src="js/details.polyfill.min.js"></script>
   {% if slider is defined %}
