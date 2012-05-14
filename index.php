@@ -107,7 +107,7 @@ $params = array(
           </section>
           <section class="grid_4">
                 <small>Hopu Ka Lewa is proudly sponsored by Savage Ultimate:</small>
-              <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
+              <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" style="background:white;" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
           </section>'
 );
 foreach($params['slider'] as $k => &$v) {
