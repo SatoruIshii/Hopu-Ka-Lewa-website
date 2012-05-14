@@ -53,7 +53,7 @@
                 {% if hrefexists %}
                   <a href="{{ item.href }}">
                     {% endif %}
-                      <div class="slider-image-container" data-small="{{ item.uri_small }}" data-large="{{ item.uri }}" data-small-width="400"
+                      <div class="slider-image-container" data-small="{{ item.uri_small }}" data-large="{{ item.uri }}" data-small-width="406"
                         <noscript><img src="{{ item.uri_small }}"/></noscript>
                       </div>
                     {% if hrefexists %}
