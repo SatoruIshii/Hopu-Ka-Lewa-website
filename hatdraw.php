@@ -3,7 +3,7 @@ require_once 'twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
-//  'cache' => 'tmp/chache',
+  'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
 $params = array(
@@ -30,14 +30,7 @@ $params = array(
             <p>
                 We can say that there is usually complimentary camping that goes with the Hat Draw.  Many people find it more convenient to rent a car on outer islands.  Please keep this in mind when budgeting your trip.
             </p>
-          </section>' //,
-//  'slider' => array(
-//    array(
-//      'uri' => 'images/ClayMcKell_DSC1829.jpg',
-//      'href' => 'http://ee.hawaii.edu/~mckell',
-//      'caption' => 'Ballin'
-//    )
-//  )
+          </section>'
 );
 $template->display($params);
 ?>
