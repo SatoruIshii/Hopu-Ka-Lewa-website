@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style-min-120512.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/type/kilogram/stylesheet.css">
+    <link rel="stylesheet" href="css/type/type.css">
     <link rel="stylesheet" href="css/custom.css">
     {% for selector, style in customstyle %}
         <style type="text/css">
@@ -119,6 +119,8 @@
 
       {% if slider is defined %}
         // Responsibly render images for slideshow.
+        // Thanks to vasilisvg:
+        // https://gist.github.com/1200270
         $('.slider-image-container').each(function() {
     var $this = $(this),
         screenWidth = $(window).width(),
