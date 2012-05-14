@@ -11,7 +11,7 @@
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
     <!-- CSS-->
-    <link rel="stylesheet" href="css/style-min-120512.css" />
+    <link rel="stylesheet" href="css/style-min.120512.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/type/type.css">
