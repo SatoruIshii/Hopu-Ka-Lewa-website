@@ -125,12 +125,8 @@
         // https://gist.github.com/1200270
         var windowWidth = $(window).width();
         $('.slider-image-container').each(function() {
-//          console.log($(this));
           var $this = $(this),
           theSource = windowWidth < $this.data('small-width') ? $this.data('small') : $this.data('large');
-          console.log(windowWidth < $this.data('small-width'));
-          console.log($this.data('small'));
-//          console.log(theSource);
           $this.html('<img src="' + theSource + '">');
         });
         // initialise  slideshow
