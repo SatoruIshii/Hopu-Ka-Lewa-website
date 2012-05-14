@@ -47,13 +47,15 @@
         <div class="flexslider">
           <ul class="slides">
             {% for item in slider %}
-              <li class="slider-image-container" data-small="{{ item.uri-small }}" data-large="{{ item.uri }}" data-small-width="328">
+              <li>
                 {% set hrefexists = item.href is defined %}
                 {% set captionexists = item.caption is defined %}
                 {% if hrefexists %}
                   <a href="{{ item.href }}">
                     {% endif %}
-                      <noscript><img src="{{ item.uri_small }}"/></noscript>
+                      <div class="slider-image-container" data-small="{{ item.uri_small }}" data-large="{{ item.uri }}" data-small-width="400"
+                        <noscript><img src="{{ item.uri_small }}"/></noscript>
+                      </div>
                     {% if hrefexists %}
                   </a>
                 {% endif %}
@@ -121,13 +123,16 @@
         // Responsibly render images for slideshow.
         // Thanks to vasilisvg:
         // https://gist.github.com/1200270
+        var windowWidth = $(window).width();
         $('.slider-image-container').each(function() {
-    var $this = $(this),
-        screenWidth = $(window).width(),
-        theSource =
-            screenWidth < $this.data('small-width') ? $this.data('small') : $this.data('large');
-    $this.append('<img src="' + theSource + '">');
-});
+//          console.log($(this));
+          var $this = $(this),
+          theSource = windowWidth < $this.data('small-width') ? $this.data('small') : $this.data('large');
+          console.log(windowWidth < $this.data('small-width'));
+          console.log($this.data('small'));
+//          console.log(theSource);
+          $this.html('<img src="' + theSource + '">');
+        });
         // initialise  slideshow
         $('.flexslider').flexslider({
           animation: 'fade',
