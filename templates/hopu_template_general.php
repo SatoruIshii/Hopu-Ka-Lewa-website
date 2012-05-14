@@ -47,13 +47,13 @@
         <div class="flexslider">
           <ul class="slides">
             {% for item in slider %}
-              <li>
+              <li class="slider-image-container" data-small="{{ item.uri-small }}" data-large="{{ item.uri }}" data-small-width="328">
                 {% set hrefexists = item.href is defined %}
                 {% set captionexists = item.caption is defined %}
                 {% if hrefexists %}
                   <a href="{{ item.href }}">
                     {% endif %}
-                      <img src="{{ item.uri }}"/>
+                      <noscript><img src="{{ item.uri_small }}"/></noscript>
                     {% if hrefexists %}
                   </a>
                 {% endif %}
@@ -118,6 +118,14 @@
       jQuery('ul.sf-menu').superfish();
 
       {% if slider is defined %}
+        // Responsibly render images for slideshow.
+        $('.slider-image-container').each(function() {
+    var $this = $(this),
+        screenWidth = $(window).width(),
+        theSource =
+            screenWidth < $this.data('small-width') ? $this.data('small') : $this.data('large');
+    $this.append('<img src="' + theSource + '">');
+});
         // initialise  slideshow
         $('.flexslider').flexslider({
           animation: 'fade',

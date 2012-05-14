@@ -63,7 +63,7 @@ $params = array(
       'caption' => 'Swingers & Dumpers: 2007 Boat Race Winner'
     ),
     array(
-      'uri' => 'images/historyslides/2007-755_5572_v3.jpg',
+      'uri' => 'images/historyslides/2007-755_5572_v3-2.jpg',
       'caption' => 'Hana Hou: 2007 Champion'
     ),
     array(
@@ -194,5 +194,9 @@ $params = array(
     )
   ),
 );
+foreach($params['slider'] as $k => &$v) {
+  $temppath = str_replace('historyslides','historyslides/small',$v['uri']);
+  $v['uri_small'] = str_replace('.jpg', '-small.jpg', $temppath);
+}
 $template->display($params);
 ?>
