@@ -3,7 +3,7 @@ require_once 'twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
-//  'cache' => 'tmp/chache',
+  'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
 $params = array(
@@ -66,29 +66,3 @@ $params = array(
 );
 $template->display($params);
 ?>
-
-<!-- Notes -->
-<!--
-    <section id="bidrequirements" class="grid_7">
-                    <h2>
-                        Bid Application
-                    </h2>
-                    <p>
-                        Please be sure to include this information in your bid.
-                    </p>
-                    <ul>
-                        <li>Team name</li>
-                        <li>Where are you from?</li>
-                        <li>Team captain name(s)</li>
-                        <li>Email contact</li>
-                        <li>Phone number</li>
-                        <li>Expected size of team</li>
-                        <li>Current number of players who are 100% committedd to attend</li>
-                        <li>Approximately what fraction of your team will be 21 years of age or older at the time of the tournament?</li>
-                        <li>Which 3 individual player registrations should the team bid deposit count towards?</li>
-                        <li>Tell us about your team</li>
-                        <li>If invited, what will your team contribute to Hopu Ka Lewa 14?  What will you contribute to the theme?</li>
-                        <li>How will your team prepare for the Hopucalypse?</li>
-                    </ul>
-                </section>
--->
