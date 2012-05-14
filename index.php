@@ -110,5 +110,9 @@ $params = array(
               <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
           </section>'
 );
+foreach($params['slider'] as $k => &$v) {
+  $temppath = str_replace('mainslides','mainslides/small',$v['uri']);
+  $v['uri_small'] = str_replace('.jpg', '-small.jpg', $temppath);
+}
 $template->display($params);
 ?>
