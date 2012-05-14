@@ -329,7 +329,9 @@ FileETag None
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine On
-# RewriteBase /
+  RewriteBase /Hopu-Ka-Lewa-website
+  RewriteCond %{REQUEST_FILENAME}.php -f 
+  RewriteRule ^(.*)$ $1.php [L]
 </IfModule>
 
 
