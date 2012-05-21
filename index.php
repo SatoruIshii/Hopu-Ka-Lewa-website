@@ -47,7 +47,7 @@ $params = array(
       'uri' => 'images/mainslides/HenryHsieh2012-2011finalswomen.jpg'
     )
   ),
-  'fbscript' => true,
+  'fbscript' => false,
   'content' => '<hgroup class="grid_12">
                   <h1>
                       The Hopucalypse is Upon Us: Nov. 9-12, 2012
