@@ -56,7 +56,7 @@ $params = array(
     ),
     array(
       'uri' => 'images/historyslides/DonNajita2012-717799325_img_3033.jpg',
-      'caption' => 'Pirates: 2009 Penultimate Winner'
+      'caption' => 'Pirates: 2009 Beer Bracket Winner'
     ),
     array(
       'uri' => 'images/historyslides/KavehKardan1980-743_4357.jpg',
