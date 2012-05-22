@@ -6,12 +6,15 @@ $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
+date_default_timezone_set('Pacific/Honolulu');
+$curdate = date('m-d-Y');
+require 'model/dates.php';
 $params = array(
   'pagetitle' => 'Team Bid Registration',
   'description' => "Instructions for submitting a team bid to Hopu Ka Lewa 14.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid',
   'googleform' => array(
-    'active' => TRUE,
+    'active' => $curdate <= $dates['bid_deadline'],
     'id' => 'teambidapp',
     'src' => 'https://docs.google.com/spreadsheet/embeddedform?formkey=dHp4N19IRFV0bEFBbHItRkkwN0ZGWHc6MQ',
     'height' => '1594px'
@@ -20,7 +23,7 @@ $params = array(
                     <h1>
                         Hopu Ka Lewa 14 Team Bid Processes
                     </h1>
-                    <p>
+                    <p> 
                         Want to bring a team to Hopu 14?  Please fill out the bid application <a href="bid_hopu.php#teambidapp">below</a> and follow it with any supplementary materials you wish.
                     </p>
                 </hgroup>
@@ -49,7 +52,7 @@ $params = array(
                         Keep these dates in mind when planning to bring a team to Hopu!
                     </p>
                     <dl>
-                        <dt>Aug. 9, 2012</dt><dd>
+                        <dt>' . date('M j, Y',$dates['postmark_deadline']) . '</dt><dd>
                             Postmark date for all team bid checks: $360.  If paying by check, please make it out to:
                             <blockquote>
                                 Kayleigh Hudson<br />
@@ -57,10 +60,10 @@ $params = array(
                                 Colorado Springs, CO 80903
                             </blockquote>
                             </dd>
-                        <dt>Aug. 17, 2012</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
-                        <dt>Aug. 24, 2012</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
-                        <dt>Aug. 31, 2012</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
-                        <dt>Sep. 28, 2012</dt><dd>Last day to request partial refund of team deposit.</dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
+                        <dt>' . date('M j, Y',$dates['invites_out']) . '</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
+                        <dt>' . date('M j, Y',$dates['accept_deadline']) . '</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
+                        <dt>' . date('M j, Y',$dates['team_refund']) . '</dt><dd>Last day to request partial refund of team deposit.</dd>
                     </dl>
                 </section>'
 );
