@@ -6,9 +6,12 @@ $twig = new Twig_Environment($loader, array(
 //  'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2012.php');
+date_default_timezone_set('Pacific/Honolulu');
+$curdate = date('m-d-Y');
+require 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => false
+    'active' => false  // ( $curdate >= $dates['earlybird_start']) && ( $curdate <= $dates['shameonyou_end'])
   ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
@@ -48,25 +51,25 @@ $params = array(
                         Player Registration Rates
                     </h2>
                         <h3>
-                            Early-bird (Aug. 31 to Sep. 30, 2012): $120
+                            Early-bird (' . date('M j',$dates['earlybird_start']) . ' - ' . date('M j, Y',$dates['earlybird_end']) . '): $120
                         </h3>
                         <p>
-                            You must have registered and paid before Sep. 30 in order to avoid increased fees.  That means that your check must be postmarked before Sep. 30.
+                            You must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid increased fees.  That means that your check must be postmarked before ' . date('M j',$dates['earlybird_end']) . '.
                         </p>
                         <h3>
-                            Late Registration (Oct. 1 - Oct. 28, 2012): $140
+                            Late Registration (' . date('M j',$dates['latereg_start']) . ' - ' . date('M j, Y',$dates['latereg_end']) . '): $140
                         </h3>
                         <p>
-                            Again, you must have registered and paid before Sep. 30 in order to avoid the Late fee.
+                            Again, you must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid the Late fee.
                         </p>
                         <p>
-                            Only players registering before Oct. 1 are guaranteed a complete player&#039s pack.
+                            Only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.
                         </p>
                         <h3>
-                            Shame-on-you Registration (Oct. 29 - Nov. 9, 2012): $159
+                            Shame-on-you Registration (' . date('M j',$dates['shameonyou_start']) . ' - ' . date('M j, Y',$dates['shameonyou_end']) . '): $159
                         </h3>
                         <p>
-                            Hana hou: You must have registered and paid before Oct. 28 in order to avoid the Shame-on-you fee.  Also, only players registering before Oct. 1 are guaranteed a complete player&#039s pack.  After Oct. 28, <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before Oct. 28 to be accepted.  Payment online is accepted until Nov. 2.  Checks or cash (no credit cards) are accepted as payment at the fields.
+                            Hana hou: You must have registered and paid before ' . date('M j',$dates['latereg_end']) . ' in order to avoid the Shame-on-you fee.  Also, only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.  After ' . date('M j',$dates['latereg_end']) . ', <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before ' . date('M j',$dates['latereg_end']) . ' to be accepted.  Payment online is accepted until ' . date('M j',$dates['online_payment']) . '.  Checks or cash (no credit cards) are accepted as payment at the fields.
                         </p>
                     <h2>
                         Guest Registration Rates
@@ -90,7 +93,7 @@ $params = array(
                             Daily guests may register online (but are not obligated to do so), however they must check-in and pay at the fields.
                         </p>
                         <p>
-                            Daily guests must be escorted through the field entrance by a paid player or be registered on the guest list.  To get on the guest list, a paid player must notify the Tournament Director of the guest&#039s name by Nov. 6.
+                            Daily guests must be escorted through the field entrance by a paid player or be registered on the guest list.  To get on the guest list, a paid player must notify the Tournament Director of the guest&#039s name by ' . date('M j',$dates['guest_list']) . '.
                         </p>
                 </section>
                 <section class="grid_4" id="individualdates">
@@ -101,11 +104,11 @@ $params = array(
                         Please note these dates on your calendar so you know how to register and how much to pay.
                     </p>
                     <dl>
-                        <dt>Sep. 28, 2012</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
-                        <dt>Sep. 30, 2012</dt><dd>Last day to register for Early-bird rate: $120 (payment must be made online or postmarked by this date).</dd>
-                        <dt>Oct. 28, 2012</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
-                        <dt>Nov. 2, 2012</dt><dd>Last day to request a partial player&#039s refund.<br/>Also, last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after Oct. 28, 2012).</dd>
-                        <dt>Nov. 3-9, 2012</dt><dd>Shame-on-you rate applies: $159 (do not mail anything nor register nor pay online; register and pay at the fields on Nov. 9, 2012).</dd>
+                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
+                        <dt>' . date('M j, Y',$dates['earlybird_end']) . '</dt><dd>Last day to register for Early-bird rate: $120 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['latereg_end']) . '</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Last day to request a partial player&#039s refund.<br/>Also, last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after ' . date('M j',$dates['latereg_end']) . ').</dd>
+                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['shameonyou_end']) . '</dt><dd>Shame-on-you rate applies: $159 and registration and payment must be done at the fields on ' . date('M j',$dates['shameonyou_end']) . '.  Do not mail anything nor register nor pay online.</dd>
                     </dl>
                 </section>
                 <section id="paymentoptions" class="grid_4">
@@ -134,8 +137,8 @@ $params = array(
                     </h2>
                     <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
-                        <dt>Sep. 28, 2012</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopu@hawaiiultimate.com">email</a>, by Sep. 28.</dd>
-                        <dt>Sep. 28 - Nov. 2, 2012</dt><dd>Partial player&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
+                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopu@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
+                        <dt>' . date('M j',$dates['full_player_refund']+1) . ' - ' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Partial player&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
                                                         <blockquote>Partial Refund = Paid Registration - $70.</blockquote>
                                                         </dd>
                     </dl>
