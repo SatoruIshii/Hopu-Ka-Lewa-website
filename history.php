@@ -56,7 +56,7 @@ $params = array(
     ),
     array(
       'uri' => 'images/historyslides/DonNajita2012-717799325_img_3033.jpg',
-      'caption' => 'Pirates: 2009 Penultimate Winner'
+      'caption' => 'Pirates: 2009 Beer Bracket Winner'
     ),
     array(
       'uri' => 'images/historyslides/KavehKardan1980-743_4357.jpg',
@@ -149,7 +149,7 @@ $params = array(
       'caption' => 'Curt Riffel: 2009 Spirit Player'
     ),
     array(
-      'uri' => 'images/historyslides/ClayMcKell2011-_DSC5287.jpg',
+      'uri' => 'images/historyslides/KavehKardan2012-IMG_2109.jpg',
       'caption' => 'Chris Stevens: Tournament Director 2010-2012'
     ),
     array(
@@ -177,7 +177,7 @@ $params = array(
       'caption' => 'Three Hour Tour: Champions and Boat Race Winner'
     ),
     array(
-      'uri' => 'images/historyslides/DonNajita2012-DSC05627.jpg',
+      'uri' => 'images/historyslides/2006-Hopu2006Pirates.jpg',
       'caption' => 'Pirates: 2006b Spirit Team'
     ),
     array(
@@ -191,8 +191,28 @@ $params = array(
     array(
       'uri' => 'images/historyslides/2012-paga_pirate_2009.jpg',
       'caption' => 'Chris Hurwitz: 2003 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-007_5A.jpg',
+      'caption' => 'Diego en Fuego: 2003 Champion'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-Rob_Heather.jpg',
+      'caption' => 'Heather Mitchell: 2003 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2010-_MG_0047.jpg',
+      'caption' => 'Ari Patz: 2006b Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-Captain-Edit.jpg',
+      'caption' => 'Jess Kaneshiro: 2010 Spirit Player'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-SwingOfFire2006a.jpg',
+      'caption' => 'Swing of Fire: 2006a Spirit Team'
     )
-  ),
+  )
 );
 foreach($params['slider'] as $k => &$v) {
   $temppath = str_replace('historyslides','historyslides/small',$v['uri']);
