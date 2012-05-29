@@ -14,7 +14,7 @@ $params = array(
   'description' => "Online payment for a team bid to Hopu Ka Lewa 14.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid, pay'
   );
-if ( $curdate >= $dates['bid_deadline'] ){
+if ( $curdate <= $dates['bid_deadline'] ){
   $params['hosted_button_id'] = '563799WLT7CQL';
 }
 else {
