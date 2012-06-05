@@ -1,7 +1,6 @@
 {% extends 'hopu_template_2012.php' %}
 
 {% block contentarea %}
-    <div id="content">
           <hgroup class="grid_12">
               <h1>Hopu Ka Lewa History</h1>
           </hgroup>
