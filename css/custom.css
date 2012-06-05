@@ -82,17 +82,28 @@ section#team_pay > form {
     margin: 1em;
 }
 
-footer div#footimage {
-    text-align: center;
+footer {
+  text-align: center;
+}
+
+footer details {
+  text-align: justify;
 }
 
 footer summary {
     text-align: center;
 }
 
-footer div#sponsoredbyhula {
+/*
+footer div#footimage {
     text-align: center;
 }
+
+
+
+footer div#sponsoredbyhula {
+    text-align: center;
+}*/
 
 #modal .modalContents {
    padding:24px;
