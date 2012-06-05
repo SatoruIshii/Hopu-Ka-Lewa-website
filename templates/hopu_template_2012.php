@@ -6,7 +6,9 @@
 
 {% block head %}
     {{ parent() }}
-    <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    {# Include one-off fonts here.
+      <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    #}
 {% endblock %}
 
 {% block footimage %}
