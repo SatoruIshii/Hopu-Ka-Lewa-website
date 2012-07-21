@@ -11,7 +11,10 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => false  // ( $curdate >= $dates['earlybird_start']) && ( $curdate <= $dates['shameonyou_end'])
+    'active' => ($curdate >= $dates['earlybird_start']) && ( $curdate <= $dates['shameonyou_end']),
+	'id' => 'individualapp',
+	'src' => ' https://docs.google.com/spreadsheet/viewform?formkey=dFI1NVJGR3RYcmdyUnljMXdLeExkaGc6MQ',
+	'height' => '1594px'
   ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
