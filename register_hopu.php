@@ -11,7 +11,7 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => ($curdate >= $dates['earlybird_start']) && ( $curdate <= $dates['shameonyou_end']),
+    'active' => $curdate <= $dates['shameonyou_end'],
 	'id' => 'individualapp',
 	'src' => ' https://docs.google.com/spreadsheet/viewform?formkey=dFI1NVJGR3RYcmdyUnljMXdLeExkaGc6MQ',
 	'height' => '1594px'
