@@ -106,8 +106,14 @@ $params = array(
               
           </section>
           <section class="grid_4">
+					<p>
                 <small>Hopu Ka Lewa is proudly sponsored by Savage Ultimate:</small>
               <a href="http://www.savageultimate.com/" target="_blank"><img src="images/SAVAGEultimateLogo-Square.jpg" style="background:white;" title="Savage Ultimate Logo" alt="Hopu Ka Lewa is proudly sponsored by Savage Ultimate."/></a>
+					</p>
+					<p>
+						<small>Even the CDC is in on the Hopucalypse</small>
+						<a    href="http://www.cdc.gov/phpr/zombies.htm"    title="Get A Kit, Make A Plan, Be Prepared.    emergency.cdc.gov"><img src="http://www.cdc.gov/images/campaigns/emergency/zombies1_300x250.jpg"    style="width:300px; height:250px; border:0px;" alt="Get A Kit,    Make A Plan, Be Prepared. emergency.cdc.gov" /></a>
+				  </p>
           </section>'
 );
 foreach($params['slider'] as $k => &$v) {

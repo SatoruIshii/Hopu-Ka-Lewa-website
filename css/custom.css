@@ -74,12 +74,16 @@ section.googleform {
     text-align: center;
 }
 
-section#team_pay {
+section[id$='_pay'] {
     text-align: center;
 }
 
-section#team_pay > form {
+section[id$='_pay'] > form {
     margin: 1em;
+}
+
+section[id$='_pay'] tr {
+	background-color: transparent;
 }
 
 footer {
