@@ -19,7 +19,7 @@ if ( $curdate <= $dates['bid_deadline'] ){
 }
 else {
   $params['hosted_button_id'] = false;
-  $params['reg_closed_content'] = 'Sorry, the team bid submission deadline has closed.  Please email the <a href="mailto:hopu@hawaiiultimate.com">Tournament Director</a> with any questions.';
+  $params['reg_closed_content'] = 'Sorry, the team bid submission deadline has closed.  Please email the <a href="mailto:hopukalewa@gmail.com">Tournament Director</a> with any questions.';
 }
 $template->display($params);
 ?>
