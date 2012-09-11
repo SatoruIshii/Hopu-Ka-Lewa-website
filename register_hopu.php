@@ -11,7 +11,10 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => false  // ( $curdate >= $dates['earlybird_start']) && ( $curdate <= $dates['shameonyou_end'])
+    'active' => $curdate <= $dates['shameonyou_end'],
+	'id' => 'individualapp',
+	'src' => ' https://docs.google.com/spreadsheet/viewform?formkey=dFI1NVJGR3RYcmdyUnljMXdLeExkaGc6MQ',
+	'height' => '1594px'
   ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
@@ -137,7 +140,7 @@ $params = array(
                     </h2>
                     <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopu@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
+                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopukalewa14@gmail.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
                         <dt>' . date('M j',$dates['full_player_refund']+1) . ' - ' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Partial player&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
                                                         <blockquote>Partial Refund = Paid Registration - $70.</blockquote>
                                                         </dd>
@@ -152,7 +155,7 @@ $params = array(
                         Aloha Spirit (pickup team)
                     </h3>
                         <p>
-                            We&#039ve got an Aloha Spirit team: A fun and spirited pickup team where you&#039ll meet cool people from all over.  To register, sign up on the online registration or drop us an <a href="mailto:hopu@hawaiiultimate.com">email</a> to tell us you would like to play for the Aloha Spirit Team.
+                            We&#039ve got an Aloha Spirit team: A fun and spirited pickup team where you&#039ll meet cool people from all over.  To register, sign up on the online registration or drop us an <a href="mailto:hopukalewa14@gmail.com">email</a> to tell us you would like to play for the Aloha Spirit Team.
                         </p>
                         <p>
                             The Aloha Spirit team is limited to 12 male and 8 female players.  It will be filled on a <emph>first-come, first-served</emph> basis.
@@ -161,7 +164,7 @@ $params = array(
                         Orphan Player List
                     </h3>
                         <p>
-                            Are you interested in playing with an established team?  Often teams will attend even if they have small rosters and be looking to pick up orphan players.  To be considered, please send the Tournament Director an <a href="mailto:hopu@hawaiiultimate.com">email</a> that includes the following:
+                            Are you interested in playing with an established team?  Often teams will attend even if they have small rosters and be looking to pick up orphan players.  To be considered, please send the Tournament Director an <a href="mailto:hopukalewa14@gmail.com">email</a> that includes the following:
                             <ul>
                                 <li>Name: </li>
                                 <li>Email: </li>
