@@ -211,6 +211,14 @@ $params = array(
     array(
       'uri' => 'images/historyslides/2012-SwingOfFire2006a.jpg',
       'caption' => 'Swing of Fire: 2006a Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-sally_spirit.jpg',
+      'caption' => 'Sippin Sallys: 2005 Spirit Team'
+    ),
+    array(
+      'uri' => 'images/historyslides/2012-Jabouti.jpg',
+      'caption' => 'Jabouti: 2005 Penultimate Winner'
     )
   )
 );
