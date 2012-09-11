@@ -25,10 +25,10 @@ $params = array(
                 <dt>Why</dt><dd>Each island has it&#039s own beauty and appeal.  Might as well fit in another ultimate tournament while you are hopping</dd>
             </dl>
             <p>
-                More details to come.
+                More details can be found on <a href="https://sites.google.com/a/mauiultimate.com/website/hat-draw-2011?pli=1">Maui Ultimate\'s</a> page.
             </p>
             <p>
-                We can say that there is usually complimentary camping that goes with the Hat Draw.  Many people find it more convenient to rent a car on outer islands.  Please keep this in mind when budgeting your trip.
+                Much like Hopu itself, tent camping is included in the Maui Hat Draw.  Many people find it more convenient to rent a car on outer islands.  Please keep this in mind when budgeting your trip.
             </p>
           </section>'
 );
