@@ -4,3 +4,4 @@ tmp/*
 intermediate/*
 templates/base.html
 intermediate/*
+.DS_Store
