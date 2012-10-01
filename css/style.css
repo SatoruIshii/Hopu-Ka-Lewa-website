@@ -52,8 +52,9 @@ header h2{
 	margin:20px 0 20px 0;}
 
 #content {  
-	float:right;
-	margin:0 0 20px 0;}
+	float:left;
+	margin:0 0 20px 0;
+	width: 100%;}
 #content ul, #content ol {
 	margin: 1em 0;
 	padding: 0 0 0 40px; }
