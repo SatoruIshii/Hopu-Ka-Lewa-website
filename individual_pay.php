@@ -23,7 +23,6 @@ $params = array(
                           <input type="hidden" name="hosted_button_id" value="DZ542S6BLSNEL">
                           <table>
                           <tr><td><input type="hidden" name="on0" value="Hop Ka Lewa 2012 fees">Hop Ka Lewa 2012 fees</td></tr><tr><td><select name="os0">
-                              <option value="Late fee October 1 to October 28r 30th">Late fee October 1 to October 28r 30th $142.00 USD</option>
                               <option value="Shame on You Fee">Shame on You Fee $159.00 USD</option>
 
 
