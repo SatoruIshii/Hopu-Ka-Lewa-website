@@ -385,6 +385,8 @@ Options -MultiViews
 #   RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # </IfModule>
 
+# When registration isn't open, redirect requests to the payment page.
+Redirect 307 /individual_pay.php http://www.hopukalewa.com/registrer_hopu.php 
 
 
 # ----------------------------------------------------------------------
