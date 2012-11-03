@@ -22,7 +22,7 @@ $params = array(
   'pagejs' => '
                 $(document).ready(function(){
                     var formsec = $("section.googleform");
-                    if (formsec.length > 0) {
+                    if (formsec.find("iframe").length > 0) {
                         var formid = formsec.attr("id");
                         if (formid != "") {
                             $("nav#secondary-navigation ul").prepend("<li><a href=\"register_hopu.php#"+formid+"\">Register!</a></li>");
@@ -124,6 +124,7 @@ $params = array(
                     </details>
                     <details>
                         <summary>Personal Check</summary>
+                        <!--This block removed one week prior to tournament:
                         <p>If you choose not to pay online, please pay by sending a check payable to "Hopu Ka Lewa" to:</p>
                         <blockquote>
                             Kayleigh Hudson<br />
@@ -131,6 +132,7 @@ $params = array(
                             Colorado Springs, CO 80903
                         </blockquote>
                         <p>Along with your check, include a short note with your team name and the name you registered under.  If paying by check, you will still need to fill out the registration form online.  Simply indicate in your registreation that you will pay by check.</p>
+                        -->
                         <p>Note that checks postmarked after <strong>Oct. 28</strong> will not be accepted.  Please either pay online or at the fields.</p>
                     </details>
                 </section>
