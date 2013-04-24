@@ -5,7 +5,7 @@ $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2012.php');
+$template = $twig->loadTemplate('hopu_template_2013.php');
 $params = array(
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',

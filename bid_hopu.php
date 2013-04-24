@@ -5,7 +5,7 @@ $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2012.php');
+$template = $twig->loadTemplate('hopu_template_2013.php');
 date_default_timezone_set('Pacific/Honolulu');
 $curdate = date('m-d-Y');
 require 'model/dates.php';

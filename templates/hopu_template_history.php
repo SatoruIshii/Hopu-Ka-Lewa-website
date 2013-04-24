@@ -1,4 +1,4 @@
-{% extends 'hopu_template_2012.php' %}
+{% extends 'hopu_template_2013.php' %}
 
 {% block contentarea %}
           <hgroup class="grid_12">
