@@ -5,11 +5,37 @@ $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2012.php');
+$template = $twig->loadTemplate('hopu_template_2013.php');
 $params = array(
   'description' => "Hawaii's premier co-ed ultimate tournament",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament',
-  'slider' => array(
+  'fbscript' => true,
+  'content' => '<hgroup class="grid_12">
+                  <h1>
+                      Hopu Ka Lewa 15: Nov. 9-11, 2013
+                  </h1>
+              </hgroup>
+              <section class="grid_7">
+                <p>
+                  Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend 2013.
+                </p>
+                <p>
+                  Stay tuned for theme and bid announcements or head over to <a href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373">Facebook</a> to have your voice heard.
+                </p>
+              </section>
+              <section id="facebook" class="grid_5">
+            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
+          </section>'
+);
+//foreach($params['slider'] as $k => &$v) {
+//  $temppath = str_replace('mainslides','mainslides/small',$v['uri']);
+//  $v['uri_small'] = str_replace('.jpg', '-small.jpg', $temppath);
+//}
+$template->display($params);
+?>
+<?php 
+/* stash:
+ *   'slider' => array(
     array(
       'uri' => 'images/mainslides/ClayMcKell2010-_DSC1838.jpg'
     ),
@@ -47,13 +73,8 @@ $params = array(
       'uri' => 'images/mainslides/HenryHsieh2012-2011finalswomen.jpg'
     )
   ),
-  'fbscript' => true,
-  'content' => '<hgroup class="grid_12">
-                  <h1>
-                      The Hopucalypse is Upon Us: Nov. 9-12, 2012
-                  </h1>
-              </hgroup>
-              <section id="vitals" class="grid_7">
+ * content stuff
+ * <section id="vitals" class="grid_7">
               <dl>
                   <dt>Who:</dt>
                     <dd>You and about 360 other survivors</dd>
@@ -74,9 +95,7 @@ $params = array(
                 Get your <a href="bid_hopu.php">team bids</a> in by Aug. 17!
               </p>
           </section>
-          <section id="facebook" class="grid_5">
-            <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
-          </section>
+          
           <section id="details" class="grid_8">
               <h2>Bids & Registration Summary</h2>
                 <dl>
@@ -114,11 +133,5 @@ $params = array(
 						<small>Even the CDC is in on the Hopucalypse</small>
 						<a    href="http://www.cdc.gov/phpr/zombies.htm"    title="Get A Kit, Make A Plan, Be Prepared.    emergency.cdc.gov"><img src="http://www.cdc.gov/images/campaigns/emergency/zombies1_300x250.jpg"    style="width:300px; height:250px; border:0px;" alt="Get A Kit,    Make A Plan, Be Prepared. emergency.cdc.gov" /></a>
 				  </p>
-          </section>'
-);
-foreach($params['slider'] as $k => &$v) {
-  $temppath = str_replace('mainslides','mainslides/small',$v['uri']);
-  $v['uri_small'] = str_replace('.jpg', '-small.jpg', $temppath);
-}
-$template->display($params);
-?>
+          </section>
+ */
