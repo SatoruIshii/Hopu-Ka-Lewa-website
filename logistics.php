@@ -14,9 +14,15 @@ $params = array(
                     <h1>
                         Hopu Ka Lewa 14 Logistics
                     </h1>
-                    <h2>Tournament Details</h2>
+                    <h2>Tournament Details Coming Soon</h2>
                 </hgroup>
-                <section class="grid_4">
+                '
+);
+$template->display($params);
+?>
+<?php
+/* stash
+ * <section class="grid_4">
                     <h3>Kickoff</h3>
                     <p>Registration will occur at the Waimanalo Polo Fields on the evening of Friday, Nov. 9, 2012 between 3pm and 7pm.  Registration will also be available on Saturday morning between 6:30am and 8am.</p>
                     <p>On Friday night starting at 6pm, we will have dinner, the Opening Ceremony and Captains&#039s meeting.</p>
@@ -68,7 +74,6 @@ $params = array(
                         </details>
                         </dd>
                 </dl>
-      </section>'
-);
-$template->display($params);
+      </section>
+ */
 ?>

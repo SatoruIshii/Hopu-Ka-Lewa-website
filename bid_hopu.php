@@ -23,9 +23,10 @@ $params = array(
                     <h1>
                         Hopu Ka Lewa 14 Team Bid Processes
                     </h1>
-                    <p> 
-                        Want to bring a team to Hopu 14?  Please fill out the bid application <a href="bid_hopu.php#teambidapp">below</a> and follow it with any supplementary materials you wish.
-                    </p>
+                    <h2>
+                      Last year\'s information is provided for reference only.  This year\'s information is subject to change.
+                    </h2>
+                    
                 </hgroup>
                 <section id="bidpriorities" class="grid_7">
                     <h2>
@@ -71,4 +72,12 @@ $params = array(
                 </section>'
 );
 $template->display($params);
+?>
+<?php
+/* stash
+ * 
+ * <p> 
+                        Want to bring a team to Hopu 14?  Please fill out the bid application <a href="bid_hopu.php#teambidapp">below</a> and follow it with any supplementary materials you wish.
+                    </p>
+ */
 ?>

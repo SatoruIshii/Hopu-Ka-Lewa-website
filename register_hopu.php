@@ -33,6 +33,9 @@ $params = array(
                     <h1>
                         Hopu Ka Lewa 14 Individual Registration
                     </h1>
+                    <h2>
+                      Last year\'s information is provided for reference only.  This year\'s information is subject to change.
+                    </h2>
                     <p>
                         Player fee includes all breakfasts and dinners, drinks, entertainment, camping, player&#039s pack (disc and Hopu surprise), plus all field supplies (water, fruit, EMT, etc.).  All players should register through the online registration system, which will be available once team bids are accepted.
                     </p>
