@@ -12,12 +12,12 @@ $params = array(
   'fbscript' => true,
   'content' => '<hgroup class="grid_12">
                   <h1>
-                      Hopu Ka Lewa 15: Nov. 9-11, 2013
+                      Hopu Ka Lewa 15: Hopu High
                   </h1>
               </hgroup>
               <section class="grid_7">
                 <p>
-                  Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend 2013.
+                  Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 9-11, 2013.
                 </p>
                 <p>
                   Stay tuned for theme and bid announcements or head over to <a href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373">Facebook</a> to have your voice heard.
