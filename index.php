@@ -12,7 +12,7 @@ $params = array(
   'fbscript' => true,
   'content' => '<hgroup class="grid_12">
                   <h1>
-                      Hopu Ka Lewa 15: Hopu High
+                      Hopu High
                   </h1>
               </hgroup>
               <section class="grid_7">
