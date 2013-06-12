@@ -35,7 +35,7 @@
     {% block header %}
       <div id="banner">            
         <hgroup>
-          <h1>{% block logo %}{% endblock %}HOPU KA LEWA</h1>
+          <h1>{% block logo %}{% endblock %}HOPU KA LEWA 15</h1>
         </hgroup>            
       </div>
         <nav id="topnav" role="navigation" class="clearfix"> 
