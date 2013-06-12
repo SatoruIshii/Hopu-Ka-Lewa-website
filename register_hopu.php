@@ -31,17 +31,11 @@ $params = array(
                 });',
   'content' => '    <hgroup class="grid_12">
                     <h1>
-                        Hopu Ka Lewa 14 Individual Registration
+                        Individual Registration
                     </h1>
                     <h2>
                       Current Info (as of June 2013)
                     </h2>
-                    <p>
-                        Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
-                    </p>
-										<p>
-												All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also register on-site either Friday night or Saturday morning.
-										</p>
                 </hgroup>
                 <aside class="grid_2">
                     <h2>Info, Stat!</h2>
@@ -55,56 +49,29 @@ $params = array(
                             </ul>
                          </nav>
                 </aside><!-- #end left sidebar -->
-                <section class="grid_6" id="individualregistration">
-                    <h2>
-                        Player Registration Rates
-                    </h2>
-                        <h3>
-                            Early-bird (' . date('M j',$dates['earlybird_start']) . ' - ' . date('M j, Y',$dates['earlybird_end']) . '): $120
-                        </h3>
-                        <p>
-                            You must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid increased fees.  That means that your check must be postmarked before ' . date('M j',$dates['earlybird_end']) . '.
-                        </p>
-                        <h3>
-                            Late Registration (' . date('M j',$dates['latereg_start']) . ' - ' . date('M j, Y',$dates['latereg_end']) . '): $140
-                        </h3>
-                        <p>
-                            Again, you must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid the Late fee.
-                        </p>
-                        <p>
-                            Only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.
-                        </p>
-                        <h3>
-                            Shame-on-you Registration (' . date('M j',$dates['shameonyou_start']) . ' - ' . date('M j, Y',$dates['shameonyou_end']) . '): $159
-                        </h3>
-                        <p>
-                            Hana hou: You must have registered and paid before ' . date('M j',$dates['latereg_end']) . ' in order to avoid the Shame-on-you fee.  Also, only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.  After ' . date('M j',$dates['latereg_end']) . ', <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before ' . date('M j',$dates['latereg_end']) . ' to be accepted.  Payment online is accepted until ' . date('M j',$dates['online_payment']) . '.  Checks or cash (no credit cards) are accepted as payment at the fields.
-                        </p>
-                    <h2>
-                        Guest Registration Rates
-                    </h2>
-                        <h3>
-                            Full Weekend Guest: $70
-                        </h3>
-                        <p>
-                            Included for this rate are all breakfasts and dinners, drinks, camping permit, player&#039s pack, and entertainment.
-                        </p>
-                        <p>
-                            Weekend guests may register online or by sending a check.
-                        </p>
-                        <h3>
-                            Daily Guest: $20
-                        </h3>
-                        <p>
-                            Included for this rate are dinner, drinks, and entertainment.
-                        </p>
-                        <p>
-                            Daily guests may register online (but are not obligated to do so), however they must check-in and pay at the fields.
-                        </p>
-                        <p>
-                            Daily guests must be escorted through the field entrance by a paid player or be registered on the guest list.  To get on the guest list, a paid player must notify the Tournament Director of the guest&#039s name by ' . date('M j',$dates['guest_list']) . '.
-                        </p>
+                <section class="grid_6" id="registrationinfo">
+                  <p>
+                      Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
+                  </p>
+                  <p>
+                      All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also register on-site either Friday night or Saturday morning.
+                  </p>
+                  <p>
+                    After ' . date('F j',$dates['indiv_reg_end']) . ', late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
+                  </p>
+                  <p>
+                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
+                  </p>
+                    Guest fee is $60 for the weekend. Guests should register and pay online. The guest fee covers all breakfasts and dinners, entertainment, camping, and a guest pack.
+                  </p>
+                  <p>
+                    A nightly guest pass can be purchased at the door for $30/night. This fee covers dinner and entertainment for one evening. ALL GUESTS MUST HAVE A PLAYER "SPONSOR" THEM. PLAYERS SHOULD NOTIFY US PRIOR TO THE TOURNEY OF GUEST NAMES. NO ONE WILL BE ALLOWED TO ENTER THE PARTY WITHOUT A PLAYER "SPONSOR".(See further information for guests posted)
+                  </p>
+                  <small>
+                    *Hopu fees are based on an ideal budget divided by a realistic average of the number of players who have attended the tournament in recent years. Any excess monies earned by the tournament go towards supporting the events, activities, and outreach of the Hawaii Ultimate League Association (HULA).
+                  </small>
                 </section>
+                
                 <section class="grid_4" id="individualdates">
                     <h2>
                         Important Individual Registration Dates
@@ -114,7 +81,7 @@ $params = array(
                     </p>
                     <dl>
                         <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
-                        <dt>' . date('M j, Y',$dates['earlybird_end']) . '</dt><dd>Last day to register for Early-bird rate: $120 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $140 (payment must be made online or postmarked by this date).</dd>
                         <dt>' . date('M j, Y',$dates['latereg_end']) . '</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
                         <dt>' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Last day to request a partial player&#039s refund.<br/>Also, last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after ' . date('M j',$dates['latereg_end']) . ').</dd>
                         <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['shameonyou_end']) . '</dt><dd>Shame-on-you rate applies: $159 and registration and payment must be done at the fields on ' . date('M j',$dates['shameonyou_end']) . '.  Do not mail anything nor register nor pay online.</dd>
@@ -193,3 +160,58 @@ $params = array(
 );
 $template->display($params);
 ?>
+
+<?php
+/*
+ * Old info:
+ * <section class="grid_6" id="individualregistration">
+                    <h2>
+                        Player Registration Rates
+                    </h2>
+                        <h3>
+                            Early-bird (' . date('M j',$dates['earlybird_start']) . ' - ' . date('M j, Y',$dates['earlybird_end']) . '): $120
+                        </h3>
+                        <p>
+                            You must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid increased fees.  That means that your check must be postmarked before ' . date('M j',$dates['earlybird_end']) . '.
+                        </p>
+                        <h3>
+                            Late Registration (' . date('M j',$dates['latereg_start']) . ' - ' . date('M j, Y',$dates['latereg_end']) . '): $140
+                        </h3>
+                        <p>
+                            Again, you must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid the Late fee.
+                        </p>
+                        <p>
+                            Only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.
+                        </p>
+                        <h3>
+                            Shame-on-you Registration (' . date('M j',$dates['shameonyou_start']) . ' - ' . date('M j, Y',$dates['shameonyou_end']) . '): $159
+                        </h3>
+                        <p>
+                            Hana hou: You must have registered and paid before ' . date('M j',$dates['latereg_end']) . ' in order to avoid the Shame-on-you fee.  Also, only players registering before ' . date('M j',$dates['earlybird_end']) . ' are guaranteed a complete player&#039s pack.  After ' . date('M j',$dates['latereg_end']) . ', <strong>Do Not Mail A Check.</strong>  Checks had to have been postmarked before ' . date('M j',$dates['latereg_end']) . ' to be accepted.  Payment online is accepted until ' . date('M j',$dates['online_payment']) . '.  Checks or cash (no credit cards) are accepted as payment at the fields.
+                        </p>
+                    <h2>
+                        Guest Registration Rates
+                    </h2>
+                        <h3>
+                            Full Weekend Guest: $70
+                        </h3>
+                        <p>
+                            Included for this rate are all breakfasts and dinners, drinks, camping permit, player&#039s pack, and entertainment.
+                        </p>
+                        <p>
+                            Weekend guests may register online or by sending a check.
+                        </p>
+                        <h3>
+                            Daily Guest: $20
+                        </h3>
+                        <p>
+                            Included for this rate are dinner, drinks, and entertainment.
+                        </p>
+                        <p>
+                            Daily guests may register online (but are not obligated to do so), however they must check-in and pay at the fields.
+                        </p>
+                        <p>
+                            Daily guests must be escorted through the field entrance by a paid player or be registered on the guest list.  To get on the guest list, a paid player must notify the Tournament Director of the guest&#039s name by ' . date('M j',$dates['guest_list']) . '.
+                        </p>
+                </section>
+ */
