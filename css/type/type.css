@@ -23,3 +23,13 @@
 	font-style: normal;
 }
 
+
+@font-face {
+	font-family: 'VarsityRegular';
+	src: url('VarsityRegular/VarsityRegular.eot?') format('eot'), 
+	     url('VarsityRegular/VarsityRegular.woff') format('woff'), 
+	     url('VarsityRegular/VarsityRegular.ttf')  format('truetype'),
+	     url('VarsityRegular/VarsityRegular.svg#VarsityRegular') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
