@@ -34,11 +34,14 @@ $params = array(
                         Hopu Ka Lewa 14 Individual Registration
                     </h1>
                     <h2>
-                      Last year\'s information is provided for reference only.  This year\'s information is subject to change.
+                      Current Info (as of June 2013)
                     </h2>
                     <p>
-                        Player fee includes all breakfasts and dinners, drinks, entertainment, camping, player&#039s pack (disc and Hopu surprise), plus all field supplies (water, fruit, EMT, etc.).  All players should register through the online registration system, which will be available once team bids are accepted.
+                        Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                     </p>
+										<p>
+												All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also register on-site either Friday night or Saturday morning.
+										</p>
                 </hgroup>
                 <aside class="grid_2">
                     <h2>Info, Stat!</h2>
