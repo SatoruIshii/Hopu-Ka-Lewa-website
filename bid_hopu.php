@@ -21,7 +21,7 @@ $params = array(
   ),
   'content' => '<hgroup class="grid_12">
                     <h1>
-                        Hopu Ka Lewa 14 Team Bid Processes
+                        Team Bid Processes
                     </h1>
                     <h2>
                       Last year\'s information is provided for reference only.  This year\'s information is subject to change.
