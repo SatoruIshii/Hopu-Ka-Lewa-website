@@ -71,7 +71,7 @@ $params = array(
                         Keep these dates in mind when planning to bring a team to Hopu!
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['postmark_deadline']) . '</dt><dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline_snailmail']) . '</dt><dd>
                             Postmark date for all team bid checks: $360.  
                             <!--Block comment to remove mailing address after deadline passes:
                             If paying by check, please make it out to:

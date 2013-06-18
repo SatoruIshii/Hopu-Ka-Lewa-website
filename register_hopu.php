@@ -54,10 +54,19 @@ $params = array(
                       Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also check in on-site either Friday night or Saturday morning.
+                      All players should register online. If you cannot pay online, please do so by sending a check to: 
+                      <blockquote>
+                        Aaron Rosa<br/>
+                        3781 Anuhea Street<br/> 
+                        Honolulu HI 96816
+                      </blockquote>
+                      If paying by check, please register using the online form and choose the pay by check option. Players should also check in on-site either Friday night or Saturday morning.
                   </p>
                   <p>
-                    After ' . date('F j',$dates['indiv_reg_end']) . ', late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
+                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
+                  </p>
+                  <p>
+                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $170.  Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  After this, all registration and payment must take place at the fields.
                   </p>
                   <p>
                     A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.

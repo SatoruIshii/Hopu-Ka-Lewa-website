@@ -1,7 +1,7 @@
 <?php
 $dates = array(
   // Team dates:
-  'postmark_deadline' => mktime(23,59,59,8,9,2013),
+  'postmark_deadline' => mktime(23,59,59,8,11,2013),
   'bid_deadline_snailmail' => mktime(23,59,59,8,11,2013),
   'bid_deadline_online' => mktime(23,59,59,8,18,2013),
   'invites_out' => mktime(23,59,59,8,25,2013),
