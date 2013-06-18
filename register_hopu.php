@@ -128,31 +128,11 @@ $params = array(
                         Aloha Spirit (pickup team)
                     </h3>
                         <p>
-                            We&#039ve got an Aloha Spirit team: A fun and spirited pickup team where you&#039ll meet cool people from all over.  To register, sign up on the online registration or drop us an <a href="mailto:hopukalewa14@gmail.com">email</a> to tell us you would like to play for the Aloha Spirit Team.
+                            Individuals who would like to attend, but do not have a team, may register and be placed on the Aloha Spirit team.  This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament.  We may be able to place you on a team that needs players, but this is up to the tournament directors&#039 and team captains&#039 discretion.  To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
                         </p>
+												    
                         <p>
                             The Aloha Spirit team is limited to 12 male and 8 female players.  It will be filled on a <emph>first-come, first-served</emph> basis.
-                        </p>
-                    <h3>
-                        Orphan Player List
-                    </h3>
-                        <p>
-                            Are you interested in playing with an established team?  Often teams will attend even if they have small rosters and be looking to pick up orphan players.  To be considered, please send the Tournament Director an <a href="mailto:hopukalewa14@gmail.com">email</a> that includes the following:
-                            <ul>
-                                <li>Name: </li>
-                                <li>Email: </li>
-                                <li>Where are you from: </li>
-                                <li>Height: </li>
-                                <li>Male or Female? </li>
-                                <li>Short Biography (Playing experience, preferred positions, what you bring to a team, etc.): </li>
-                                <li>Personal best boat race time trial: </li>
-                            </ul>
-                        </p>
-                        <p>
-                            Perspective teams will contact you directly.  Pleaes notify the Tournament Director once you&#039ve picked up with a team.
-                        </p>
-                        <p>
-                            Note that players are not permitted to sign up for both the Aloha Spirit team and the Orphan Player list at the same time.  Please choose one.
                         </p>
                 </section>'
 );
