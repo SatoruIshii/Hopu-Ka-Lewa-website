@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6{
 /* links */
 a,
 a:visited,
-a:active
-a:hover{color:#0099ff;}
+a:active, 
+a:hover{color:#6FE8FE;}
 a:hover{ text-decoration:none;}
 
   
