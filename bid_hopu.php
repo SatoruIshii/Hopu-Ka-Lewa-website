@@ -82,7 +82,7 @@ $params = array(
                             </blockquote>
                             -->
                             </dd>
-                        <dt>' . date('M j, Y',$dates['bid_deadline']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline_online']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
                         <dt>' . date('M j, Y',$dates['invites_out']) . '</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
                         <dt>' . date('M j, Y',$dates['accept_deadline']) . '</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
                         <dt>' . date('M j, Y',$dates['team_refund']) . '</dt><dd>Last day to request partial refund of team deposit.</dd>

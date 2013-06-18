@@ -85,7 +85,8 @@
               Sorry, no can register now.
               <!--For after close of reg:-->
               <br/>
-                Online registration has closed for 2012.  If you still need to register, you can do so at the fields on Friday or Saturday.  Please remember to bring the full $159 Shame-on-you fee as cash or check.
+								We are currently accepting team bid applications.  Online registration for individual players has not yet opened for 2013.
+                <!--Online registration has closed for 2012.  If you still need to register, you can do so at the fields on Friday or Saturday.  Please remember to bring the full $159 Shame-on-you fee as cash or check.-->
             {% endif %}
           </section>
         {% endif %}
