@@ -87,7 +87,8 @@ $params = array(
                         <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $170 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
                     </dl>
                 </section>
-                <section id="paymentoptions" class="grid_4">
+								<div class="grid_12"></div>
+                <section id="paymentoptions" class="grid_3">
                     <h2>
                         Methods of Payment
                     </h2>
@@ -109,7 +110,7 @@ $params = array(
                         <p>Note that checks postmarked after <strong>Oct. 28</strong> will not be accepted.  Please either pay online or at the fields.</p>
                     </details>
                 </section>
-                <section id="individualrefunds" class="grid_5">
+                <section id="individualrefunds" class="grid_4">
                     <h2>
                         Individual Player Refunds
                     </h2>
@@ -118,7 +119,7 @@ $params = array(
                         <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hoputd@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
                     </dl>
                 </section>
-                <section id="pickups" class="grid_7">
+                <section id="pickups" class="grid_5">
                     <h2>
                         Pickup Players
                     </h2>
