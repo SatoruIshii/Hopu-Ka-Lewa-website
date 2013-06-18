@@ -1,4 +1,4 @@
-{% extends 'hopu_template_general.php' %}
+{% extends 'preview_hopu_template_general.php' %}
 
 {% block logo %}
     <img id="logo" src="images/MysteryLogo.jpg" />

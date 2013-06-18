@@ -1,14 +1,14 @@
 <?php
-require_once 'twig/lib/Twig/Autoloader.php';
+require_once '../twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
-$loader = new Twig_Loader_Filesystem('templates');
+$loader = new Twig_Loader_Filesystem('../templates');
 $twig = new Twig_Environment($loader, array(
-  'cache' => 'tmp/chache',
+//  'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2013.php');
+$template = $twig->loadTemplate('preview_hopu_template_2013.php');
 date_default_timezone_set('Pacific/Honolulu');
 $curdate = date('m-d-Y');
-require 'model/dates.php';
+require '../model/dates.php';
 $params = array(
   'pagetitle' => 'Team Bid Registration',
   'description' => "Instructions for submitting a team bid to Hopu Ka Lewa 14.",
@@ -82,7 +82,7 @@ $params = array(
                             </blockquote>
                             -->
                             </dd>
-                        <dt>' . date('M j, Y',$dates['bid_deadline']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline_online']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
                         <dt>' . date('M j, Y',$dates['invites_out']) . '</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
                         <dt>' . date('M j, Y',$dates['accept_deadline']) . '</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
                         <dt>' . date('M j, Y',$dates['team_refund']) . '</dt><dd>Last day to request partial refund of team deposit.</dd>

@@ -1,14 +1,14 @@
 <?php
-require_once 'twig/lib/Twig/Autoloader.php';
+require_once '../twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
-$loader = new Twig_Loader_Filesystem('templates');
+$loader = new Twig_Loader_Filesystem('../templates');
 $twig = new Twig_Environment($loader, array(
-  'cache' => 'tmp/chache',
+  //'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2013.php');
+$template = $twig->loadTemplate('preview_hopu_template_2013.php');
 date_default_timezone_set('Pacific/Honolulu');
 $curdate = date('m-d-Y');
-require 'model/dates.php';
+require_once '../model/dates.php';
 $params = array(
   'googleform' => array(
     'active' => FALSE,
@@ -54,7 +54,7 @@ $params = array(
                       Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also register on-site either Friday night or Saturday morning.
+                      All players should register online. If you cannot pay online, please do so by sending a check to: Aaron Rosa, 3781 Anuhea Street, Honolulu HI 96816. If paying by check, please register using the online form and choose the pay by check option. Players should also check in on-site either Friday night or Saturday morning.
                   </p>
                   <p>
                     After ' . date('F j',$dates['indiv_reg_end']) . ', late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
@@ -82,12 +82,13 @@ $params = array(
                     <dl>
                         <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
                         <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $140 (payment must be made online or postmarked by this date).</dd>
-                        <dt>' . date('M j, Y',$dates['latereg_end']) . '</dt><dd>Last day to register for the Late rate: $142 (payment must be made online or postmarked by this date).</dd>
-                        <dt>' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Last day to request a partial player&#039s refund.<br/>Also, last day to register and pay online for the Shame-on-you rate: $159 (mailed checks will not be accepted after ' . date('M j',$dates['latereg_end']) . ').</dd>
-                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['shameonyou_end']) . '</dt><dd>Shame-on-you rate applies: $159 and registration and payment must be done at the fields on ' . date('M j',$dates['shameonyou_end']) . '.  Do not mail anything nor register nor pay online.</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $155 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $170 (mailed checks will not be accepted after ' . date('M j',$dates['indiv_late_end']) . ').</dd>
+                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $170 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
                     </dl>
                 </section>
-                <section id="paymentoptions" class="grid_4">
+								<div class="grid_12"></div>
+                <section id="paymentoptions" class="grid_3">
                     <h2>
                         Methods of Payment
                     </h2>
@@ -109,19 +110,16 @@ $params = array(
                         <p>Note that checks postmarked after <strong>Oct. 28</strong> will not be accepted.  Please either pay online or at the fields.</p>
                     </details>
                 </section>
-                <section id="individualrefunds" class="grid_5">
+                <section id="individualrefunds" class="grid_4">
                     <h2>
                         Individual Player Refunds
                     </h2>
                     <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hopukalewa14@gmail.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
-                        <dt>' . date('M j',$dates['full_player_refund']+1) . ' - ' . date('M j, Y',$dates['partial_player_refund']) . '</dt><dd>Partial player&#039s fee refund period.  Players withdrawing from the tournament can receive a partial refund corresponding to
-                                                        <blockquote>Partial Refund = Paid Registration - $70.</blockquote>
-                                                        </dd>
+                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hoputd@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
                     </dl>
                 </section>
-                <section id="pickups" class="grid_7">
+                <section id="pickups" class="grid_5">
                     <h2>
                         Pickup Players
                     </h2>
@@ -130,31 +128,11 @@ $params = array(
                         Aloha Spirit (pickup team)
                     </h3>
                         <p>
-                            We&#039ve got an Aloha Spirit team: A fun and spirited pickup team where you&#039ll meet cool people from all over.  To register, sign up on the online registration or drop us an <a href="mailto:hopukalewa14@gmail.com">email</a> to tell us you would like to play for the Aloha Spirit Team.
+                            Individuals who would like to attend, but do not have a team, may register and be placed on the Aloha Spirit team.  This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament.  We may be able to place you on a team that needs players, but this is up to the tournament directors&#039 and team captains&#039 discretion.  To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
                         </p>
+												    
                         <p>
                             The Aloha Spirit team is limited to 12 male and 8 female players.  It will be filled on a <emph>first-come, first-served</emph> basis.
-                        </p>
-                    <h3>
-                        Orphan Player List
-                    </h3>
-                        <p>
-                            Are you interested in playing with an established team?  Often teams will attend even if they have small rosters and be looking to pick up orphan players.  To be considered, please send the Tournament Director an <a href="mailto:hopukalewa14@gmail.com">email</a> that includes the following:
-                            <ul>
-                                <li>Name: </li>
-                                <li>Email: </li>
-                                <li>Where are you from: </li>
-                                <li>Height: </li>
-                                <li>Male or Female? </li>
-                                <li>Short Biography (Playing experience, preferred positions, what you bring to a team, etc.): </li>
-                                <li>Personal best boat race time trial: </li>
-                            </ul>
-                        </p>
-                        <p>
-                            Perspective teams will contact you directly.  Pleaes notify the Tournament Director once you&#039ve picked up with a team.
-                        </p>
-                        <p>
-                            Note that players are not permitted to sign up for both the Aloha Spirit team and the Orphan Player list at the same time.  Please choose one.
                         </p>
                 </section>'
 );
