@@ -73,14 +73,14 @@ $params = array(
                     <dl>
                         <dt>' . date('M j, Y',$dates['bid_deadline_snailmail']) . '</dt><dd>
                             Postmark date for all team bid checks: $360.  
-                            <!--Block comment to remove mailing address after deadline passes:
+                            <!--Block comment to remove mailing address after deadline passes:-->
                             If paying by check, please make it out to:
                             <blockquote>
-                                Kayleigh Hudson<br />
-                                1321 Wood Ave Apt 7<br />
-                                Colorado Springs, CO 80903
+                              Aaron Rosa<br/>
+                              3781 Anuhea Street<br/> 
+                              Honolulu HI 96816
                             </blockquote>
-                            -->
+                            
                             </dd>
                         <dt>' . date('M j, Y',$dates['bid_deadline_online']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
                         <dt>' . date('M j, Y',$dates['invites_out']) . '</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>

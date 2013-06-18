@@ -107,16 +107,16 @@ $params = array(
                     </details>
                     <details>
                         <summary>Personal Check</summary>
-                        <!--This block removed one week prior to tournament:
+                        <!--This block removed one week prior to tournament:-->
                         <p>If you choose not to pay online, please pay by sending a check payable to "Hopu Ka Lewa" to:</p>
                         <blockquote>
-                            Kayleigh Hudson<br />
-                            1321 Wood Ave Apt 7<br />
-                            Colorado Springs, CO 80903
+                          Aaron Rosa<br/>
+                          3781 Anuhea Street<br/> 
+                          Honolulu HI 96816
                         </blockquote>
                         <p>Along with your check, include a short note with your team name and the name you registered under.  If paying by check, you will still need to fill out the registration form online.  Simply indicate in your registreation that you will pay by check.</p>
-                        -->
-                        <p>Note that checks postmarked after <strong>Oct. 28</strong> will not be accepted.  Please either pay online or at the fields.</p>
+                        
+                        <p>Note that checks postmarked after <strong>'. date('F j',$dates['indiv_late_end']) .'</strong> will not be accepted.  Please either pay online or at the fields.</p>
                     </details>
                 </section>
                 <section id="individualrefunds" class="grid_4">
