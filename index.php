@@ -20,7 +20,7 @@ $params = array(
                   Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 9-11, 2013.
                 </p>
                 <p>
-                  Please submit your team bid via video by August 18th.  Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 15.  The more spirited your bid, the better your chances of getting to play!  This tournament is all about sharing the Ohana experience with the community and getting to know eachother.  Creativity and artistic expression are strongly encouraged.
+                  Please <a href="mailto:hoputd@hawaiiultimate.com">submit your team bid</a> via video by August 18th.  Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 15.  The more spirited your bid, the better your chances of getting to play!  This tournament is all about sharing the Ohana experience with the community and getting to know each other.  Creativity and artistic expression are strongly encouraged.
                 </p>
               </section>
               <section id="facebook" class="grid_5">
