@@ -11,7 +11,7 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'pagetitle' => 'Team Bid Registration',
-  'description' => "Instructions for submitting a team bid to Hopu Ka Lewa 14.",
+  'description' => "Instructions for submitting a team bid to Hopu Ka Lewa.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid',
   'googleform' => array(
     'active' => false, //$curdate <= $dates['bid_deadline'],
