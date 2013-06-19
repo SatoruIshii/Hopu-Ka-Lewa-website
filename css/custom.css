@@ -12,15 +12,18 @@
 */
 
 h1 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: VarsityRegular, Helvetica, Arial, sans-serif;
     font-size: 4.8em;
+	text-transform: uppercase;
+	text-align: center;
 }    
 
 h2 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: VarsityRegular, Helvetica, Arial, sans-serif;
     font-size: 2.75em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+	text-transform: uppercase;
 }
 
 header #logo {
@@ -29,7 +32,8 @@ header #logo {
 }
 
 header hgroup > h1 {
-    font-family: Impact, Arial Black, Helvetica, Arial, sans-serif;
+    font-family: VarsityRegular, Impact, Arial Black, Helvetica, Arial, sans-serif;
+	text-align: left;
 }
 
 .sf-menu {
@@ -46,8 +50,8 @@ header hgroup > h1 {
 
 dt {
     font-weight: bold;
-    color: #EE2222;
-    text-shadow: 1px 3px 0 #000000;
+    color: #FF9933;
+    text-shadow: 1px 2px 0 #000000;
 }
 
 table {

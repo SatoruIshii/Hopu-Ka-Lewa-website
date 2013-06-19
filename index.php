@@ -12,16 +12,19 @@ $params = array(
   'fbscript' => true,
   'content' => '<hgroup class="grid_12">
                   <h1>
-                      Hopu Ka Lewa 15: Hopu High
+                      Hopu High
                   </h1>
               </hgroup>
-              <section class="grid_7">
+              <section class="grid_4">
                 <p>
                   Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 9-11, 2013.
                 </p>
                 <p>
-                  Stay tuned for theme and bid announcements or head over to <a href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373">Facebook</a> to have your voice heard.
+                  Please <a href="mailto:hoputd@hawaiiultimate.com">submit your team bid</a> via video by August 18th.  Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 15.  The more spirited your bid, the better your chances of getting to play!  This tournament is all about sharing the Ohana experience with the community and getting to know each other.  Creativity and artistic expression are strongly encouraged.
                 </p>
+              </section>
+              <section class="grid_8">
+                <img src="images/mainslides/HenryHsieh2012-Sallys2012.jpg" width="960" alt="Sippin Sallys 2012 Boat Race Champions"> 
               </section>
               <section id="facebook" class="grid_5">
             <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>

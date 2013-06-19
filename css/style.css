@@ -5,7 +5,7 @@
 
 /* typography */
 body{
-	color:#ddd;
+	color:white;
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:1em; line-height:normal; 
 	}
@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6{
 /* links */
 a,
 a:visited,
-a:active
-a:hover{color:#0099ff;}
+a:active, 
+a:hover{color:#6FE8FE;}
 a:hover{ text-decoration:none;}
 
   
@@ -85,14 +85,14 @@ footer{
 
 /*colors and bgs*/
 /*body{background:url(../images/bg.png);}*/
-body{background: #333;}
+body{background: #005796; /* NOT Dodger Blue */}
 .flexslider .slides {background: #333;}
 h1, h2, h3, h4, h5, h6{
 	color:white; 
-	text-shadow:1px 3px 0px #000;}
+	/*text-shadow:1px 3px 0px #000;*/}
 
 footer{ 
-	background:url(../images/footer-bg.png) top repeat-x;
+	background:url('../images/footer-bg.png') top repeat-x;
 	color:#ccc;}
 footer h1, footer h2, footer h3, footer h4{ 
 	color:#CCC; 

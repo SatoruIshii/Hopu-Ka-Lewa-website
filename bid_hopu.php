@@ -21,13 +21,31 @@ $params = array(
   ),
   'content' => '<hgroup class="grid_12">
                     <h1>
-                        Hopu Ka Lewa 14 Team Bid Processes
+                        Team Bid Processes
                     </h1>
-                    <h2>
-                      Last year\'s information is provided for reference only.  This year\'s information is subject to change.
-                    </h2>
-                    
                 </hgroup>
+                <section id="caveats" class="grid_12">
+                  <h2>
+                    Caveats
+                  </h2>
+                  <p>
+                    The $360 initial deposit can later be applied to three individual players\' fees (the captain plus two other players). For those teams that do not make the final cut, we will refund your full deposit.
+                  </p>
+                  <p>
+                    Bid-winning teams will be notified via email (as will wait-listed teams) by August 25th. Bid-winning teams must respond via e-mail or letter by September 1, whether or not they wish to accept the bid. If no response is received, that team will forfeit its bid, and the next wait-listed team will be contacted. At this point, the declining bid-winning team will receive a 100% refund on its deposit.
+                  </p>
+                  <p>
+                    Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $140 per player) by September 22.
+                  </p>
+                  <p>
+                    If a bid-winning and bid-accepting team fails to submit the above mentioned players\' fees, its bid will be lost, and the next wait-listed team will be given priority. If we are able to fill this new vacancy, we will issue only a partial deposit refund of $160. If we are unable to fill the vacancy, no refund of deposit will be issued.
+                  </p>
+                  <p>
+                    The remainders of each team\'s entrance fees are due by October 15. Any entrance fee not paid in full by this date will be assessed the late registration fee of $155.
+                  </p>
+                  <p>
+                    If any team forfeits its position after October 1, the deposit will be forfeited, regardless of our success in filling the vacancy.
+                  </p>  
                 <section id="bidpriorities" class="grid_7">
                     <h2>
                         Bid Priority Considerations
@@ -53,18 +71,18 @@ $params = array(
                         Keep these dates in mind when planning to bring a team to Hopu!
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['postmark_deadline']) . '</dt><dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline_snailmail']) . '</dt><dd>
                             Postmark date for all team bid checks: $360.  
-                            <!--Block comment to remove mailing address after deadline passes:
+                            <!--Block comment to remove mailing address after deadline passes:-->
                             If paying by check, please make it out to:
                             <blockquote>
-                                Kayleigh Hudson<br />
-                                1321 Wood Ave Apt 7<br />
-                                Colorado Springs, CO 80903
+                              Aaron Rosa<br/>
+                              3781 Anuhea Street<br/> 
+                              Honolulu HI 96816
                             </blockquote>
-                            -->
+                            
                             </dd>
-                        <dt>' . date('M j, Y',$dates['bid_deadline']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
+                        <dt>' . date('M j, Y',$dates['bid_deadline_online']) . '</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
                         <dt>' . date('M j, Y',$dates['invites_out']) . '</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
                         <dt>' . date('M j, Y',$dates['accept_deadline']) . '</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
                         <dt>' . date('M j, Y',$dates['team_refund']) . '</dt><dd>Last day to request partial refund of team deposit.</dd>
