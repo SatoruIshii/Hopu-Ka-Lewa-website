@@ -13,9 +13,9 @@
     <!-- CSS-->
     <link rel="stylesheet" href="css/style-min.120512.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.130618.css" />
     <link rel="stylesheet" href="css/type/type.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom.130618.css">
     {% for selector, style in customstyle %}
         <style type="text/css">
             {{ selector }} {{'{'}} {% for attr, val in style %} {{attr}}:{{val}}; {% endfor %} {{'}'}}
