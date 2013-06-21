@@ -32,7 +32,7 @@ $params = array(
 						As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. We dont\' need spoilers, but we do need a good tease. Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 15!
 					</p>
 				</section>
-                <section id="caveats" class="grid_12">
+                <section id="caveats" class="grid_6">
                   <h2>
                     Caveats
                   </h2>
@@ -53,25 +53,9 @@ $params = array(
                   </p>
                   <p>
                     If any team forfeits its position after October 1, the deposit will be forfeited, regardless of our success in filling the vacancy.
-                  </p>  
-                <section id="bidpriorities" class="grid_7">
-                    <h2>
-                        Bid Priority Considerations
-                    </h2>
-                    <p>
-                        Every year, Hopu Ka Lewa&#039s popularity grows, and we have gotten to the point where we regretfully cannot accept all of the bid applications we receive.  In accordance with the mission of Hopu Ka Lewa, the committee will decide on team bid applications with the following priority considerations in mind.  These are not requirements to submit a successful bid application, but will only help your chances for invitation.
-                    </p>
-                    <ol>
-                        <li>Local Hawaii teams.</li>
-                        <li>Teams whose history of exuding Spirit of the Game, sportsmanship, and creativity far exceeds others at Hopu Ka Lewa.</li>
-                        <li>Bids that include a 3-5 minute video explaining who your team is, why you deserve to be invited, and what you will contribute to the Hopu Ka Lewa theme.  Other creative media and forms of expression are very welcome and appreciated.</li>
-                        <li>Teams that anticipate that they will contribute something to Hopu Ka Lewa that has never been seen before and will change the tournament forever.</li>
-                        <li>Teams with the highest number of players who are 100% committed to attending.</li>
-                        <li>Bids submitted prior to the deadline.</li>
-                        <li>Teams whose registration fees are paid prior to the deadline.</li>
-                    </ol>
-                </section>
-                <section id="importantdates" class="grid_5">
+                  </p> 
+				</section>
+                <section id="importantdates" class="grid_6">
                     <h2>
                         Important Team Bid Dates
                     </h2>
@@ -95,6 +79,24 @@ $params = array(
                         <dt>' . date('M j, Y',$dates['accept_deadline']) . '</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
                         <dt>' . date('M j, Y',$dates['team_refund']) . '</dt><dd>Last day to request partial refund of team deposit.</dd>
                     </dl>
+                </section>
+				<div class="grid_12"></div>
+				<section id="bidpriorities" class="grid_6">
+                    <h2>
+                        Bid Priority Considerations
+                    </h2>
+                    <p>
+                        Every year, Hopu Ka Lewa&#039s popularity grows, and we have gotten to the point where we regretfully cannot accept all of the bid applications we receive.  In accordance with the mission of Hopu Ka Lewa, the committee will decide on team bid applications with the following priority considerations in mind.  These are not requirements to submit a successful bid application, but will only help your chances for invitation.
+                    </p>
+                    <ol>
+                        <li>Local Hawaii teams.</li>
+                        <li>Teams whose history of exuding Spirit of the Game, sportsmanship, and creativity far exceeds others at Hopu Ka Lewa.</li>
+                        <li>Bids that include a 3-5 minute video explaining who your team is, why you deserve to be invited, and what you will contribute to the Hopu Ka Lewa theme.  Other creative media and forms of expression are very welcome and appreciated.</li>
+                        <li>Teams that anticipate that they will contribute something to Hopu Ka Lewa that has never been seen before and will change the tournament forever.</li>
+                        <li>Teams with the highest number of players who are 100% committed to attending.</li>
+                        <li>Bids submitted prior to the deadline.</li>
+                        <li>Teams whose registration fees are paid prior to the deadline.</li>
+                    </ol>
                 </section>'
 );
 $template->display($params);
