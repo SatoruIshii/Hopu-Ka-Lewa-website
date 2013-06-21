@@ -51,7 +51,7 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $130.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
+                      Player fee is $140.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
                       All players should register online. If you cannot pay online, please do so by sending a check to: 

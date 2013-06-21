@@ -24,6 +24,14 @@ $params = array(
                         Team Bid Processes
                     </h1>
                 </hgroup>
+				<section id="summary" class="grid_12">
+					<p>
+						Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. As the tournament has continued to grow in both size and spirit, the team bid competition has become quite heated. We do our best to accomodate all applying teams, but at the same time we are more keen on cultivating a tournament that exemplifies good competitive ultimate founded on the very best of spirit(s), fun, antics, cheers, costumes, games, and all the other aspects of the game that make it an Ultimate Experience. With this in mind we give priority to those teams who we feel offer the most to the entirety of the tournament experience, not just badass disc skills. 
+					</p>
+					<p>
+						As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. We dont\' need spoilers, but we do need a good tease. Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 15!
+					</p>
+				</section>
                 <section id="caveats" class="grid_12">
                   <h2>
                     Caveats
