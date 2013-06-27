@@ -26,10 +26,16 @@ $params = array(
                 </hgroup>
 				<section id="summary" class="grid_12">
 					<p>
-						Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. As the tournament has continued to grow in both size and spirit, the team bid competition has become quite heated. We do our best to accomodate all applying teams, but at the same time we are more keen on cultivating a tournament that exemplifies good competitive ultimate founded on the very best of spirit(s), fun, antics, cheers, costumes, games, and all the other aspects of the game that make it an Ultimate Experience. With this in mind we give priority to those teams who we feel offer the most to the entirety of the tournament experience, not just badass disc skills. 
+						Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. 
+						As the tournament has continued to grow in both size and spirit, the team bid competition has become quite heated. 
+						We do our best to accomodate all applying teams, but at the same time we are more keen on cultivating a tournament that exemplifies good competitive ultimate founded on the very best of spirit(s), fun, antics, cheers, costumes, games, and all the other aspects of the game that make it an Ultimate Experience. 
+						With this in mind we give priority to those teams who we feel offer the most to the entirety of the tournament experience, not just badass disc skills. 
 					</p>
 					<p>
-						As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. We dont\' need spoilers, but we do need a good tease. Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 15!
+						As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. 
+						The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. 
+						We dont\' need spoilers, but we do need a good tease. 
+						Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 15!
 					</p>
 				</section>
                 <section id="caveats" class="grid_6">
@@ -37,19 +43,26 @@ $params = array(
                     Caveats
                   </h2>
                   <p>
-                    The $360 initial deposit can later be applied to three individual players\' fees (the captain plus two other players). For those teams that do not make the final cut, we will refund your full deposit.
+                    The $360 initial deposit can later be applied to three individual players\' fees (the captain plus two other players). 
+					For those teams that do not make the final cut, we will refund your full deposit.
                   </p>
                   <p>
-                    Bid-winning teams will be notified via email (as will wait-listed teams) by August 25th. Bid-winning teams must respond via e-mail or letter by September 1, whether or not they wish to accept the bid. If no response is received, that team will forfeit its bid, and the next wait-listed team will be contacted. At this point, the declining bid-winning team will receive a 100% refund on its deposit.
+                    Bid-winning teams will be notified via email (as will wait-listed teams) by August 25th. 
+					Bid-winning teams must respond via e-mail or letter by September 1, whether or not they wish to accept the bid. 
+					If no response is received, that team will forfeit its bid, and the next wait-listed team will be contacted. 
+					At this point, the declining bid-winning team will receive a 100% refund on its deposit.
                   </p>
                   <p>
                     Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $140 per player) by September 22.
                   </p>
                   <p>
-                    If a bid-winning and bid-accepting team fails to submit the above mentioned players\' fees, its bid will be lost, and the next wait-listed team will be given priority. If we are able to fill this new vacancy, we will issue only a partial deposit refund of $160. If we are unable to fill the vacancy, no refund of deposit will be issued.
+                    If a bid-winning and bid-accepting team fails to submit the above mentioned players\' fees, its bid will be lost, and the next wait-listed team will be given priority. 
+					If we are able to fill this new vacancy, we will issue only a partial deposit refund of $160. 
+					If we are unable to fill the vacancy, no refund of deposit will be issued.
                   </p>
                   <p>
-                    The remainders of each team\'s entrance fees are due by October 15. Any entrance fee not paid in full by this date will be assessed the late registration fee of $155.
+                    The remainders of each team\'s entrance fees are due by October 15. 
+					Any entrance fee not paid in full by this date will be assessed the late registration fee of $155.
                   </p>
                   <p>
                     If any team forfeits its position after October 1, the deposit will be forfeited, regardless of our success in filling the vacancy.
@@ -86,7 +99,9 @@ $params = array(
                         Bid Priority Considerations
                     </h2>
                     <p>
-                        Every year, Hopu Ka Lewa&#039s popularity grows, and we have gotten to the point where we regretfully cannot accept all of the bid applications we receive.  In accordance with the mission of Hopu Ka Lewa, the committee will decide on team bid applications with the following priority considerations in mind.  These are not requirements to submit a successful bid application, but will only help your chances for invitation.
+                        Every year, Hopu Ka Lewa&#039s popularity grows, and we have gotten to the point where we regretfully cannot accept all of the bid applications we receive.  
+						In accordance with the mission of Hopu Ka Lewa, the committee will decide on team bid applications with the following priority considerations in mind.  
+						These are not requirements to submit a successful bid application, but will only help your chances for invitation.
                     </p>
                     <ol>
                         <li>Local Hawaii teams.</li>
