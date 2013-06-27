@@ -51,33 +51,48 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $140.00 per player* this year. Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
+                      Player fee is $140.00 per player* this year. 
+					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register online. If you cannot pay online, please do so by sending a check to: 
+                      All players should register online. 
+					  If you cannot pay online, please do so by sending a check to: 
                       <blockquote>
                         Aaron Rosa<br/>
                         3781 Anuhea Street<br/> 
                         Honolulu HI 96816
                       </blockquote>
-                      If paying by check, please register using the online form and choose the pay by check option. Players should also check in on-site either Friday night or Saturday morning.
+                      If paying by check, please register using the online form and choose the pay by check option. 
+					  Players should also check in on-site either Friday night or Saturday morning.
                   </p>
                   <p>
-                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
+                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
+					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
                   </p>
                   <p>
-                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $170.  Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  After this, all registration and payment must take place at the fields.
+                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $170.  
+					Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  
+					After this, all registration and payment must take place at the fields.
                   </p>
                   <p>
-                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
+                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. 
+					After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
                   </p>
-                    Guest fee is $60 for the weekend. Guests should register and pay online. The guest fee covers all breakfasts and dinners, entertainment, camping, and a guest pack.
+                    Guest fee is $60 for the weekend. 
+					Guests should register and pay online. 
+					The guest fee covers all breakfasts and dinners, entertainment, camping, and a guest pack.
                   </p>
                   <p>
-                    A nightly guest pass can be purchased at the door for $30/night. This fee covers dinner and entertainment for one evening. ALL GUESTS MUST HAVE A PLAYER "SPONSOR" THEM. PLAYERS SHOULD NOTIFY US PRIOR TO THE TOURNEY OF GUEST NAMES. NO ONE WILL BE ALLOWED TO ENTER THE PARTY WITHOUT A PLAYER "SPONSOR".(See further information for guests posted)
+                    A nightly guest pass can be purchased at the door for $30/night. 
+					This fee covers dinner and entertainment for one evening. 
+					ALL GUESTS MUST HAVE A PLAYER "SPONSOR" THEM. 
+					PLAYERS SHOULD NOTIFY US PRIOR TO THE TOURNEY OF GUEST NAMES. 
+					NO ONE WILL BE ALLOWED TO ENTER THE PARTY WITHOUT A PLAYER "SPONSOR".
+					(See further information for guests posted)
                   </p>
                   <small>
-                    *Hopu fees are based on an ideal budget divided by a realistic average of the number of players who have attended the tournament in recent years. Any excess monies earned by the tournament go towards supporting the events, activities, and outreach of the Hawaii Ultimate League Association (HULA).
+                    *Hopu fees are based on an ideal budget divided by a realistic average of the number of players who have attended the tournament in recent years. 
+					Any excess monies earned by the tournament go towards supporting the events, activities, and outreach of the Hawaii Ultimate League Association (HULA).
                   </small>
                 </section>
                 
@@ -103,7 +118,8 @@ $params = array(
                     </h2>
                     <details>
                         <summary>Credit Card</summary>
-                        <p>We use PayPal to process online credit card transactions.  Instructions will be presented to you after you submit your online individual registration.</p>
+                        <p>We use PayPal to process online credit card transactions.  
+						Instructions will be presented to you after you submit your online individual registration.</p>
                     </details>
                     <details>
                         <summary>Personal Check</summary>
@@ -114,18 +130,24 @@ $params = array(
                           3781 Anuhea Street<br/> 
                           Honolulu HI 96816
                         </blockquote>
-                        <p>Along with your check, include a short note with your team name and the name you registered under.  If paying by check, you will still need to fill out the registration form online.  Simply indicate in your registreation that you will pay by check.</p>
+                        <p>Along with your check, include a short note with your team name and the name you registered under.  
+						If paying by check, you will still need to fill out the registration form online.  
+						Simply indicate in your registreation that you will pay by check.</p>
                         
-                        <p>Note that checks postmarked after <strong>'. date('F j',$dates['indiv_late_end']) .'</strong> will not be accepted.  Please either pay online or at the fields.</p>
+                        <p>Note that checks postmarked after <strong>'. date('F j',$dates['indiv_late_end']) .'</strong> will not be accepted.  
+						Please either pay online or at the fields.</p>
                     </details>
                 </section>
                 <section id="individualrefunds" class="grid_4">
                     <h2>
                         Individual Player Refunds
                     </h2>
-                    <p>Did something come up?  We&#039re sorry we won&#039t be seeing you this year.  Please keep the following dates in mind when asking for a refund.</p>
+                    <p>Did something come up?  
+					We&#039re sorry we won&#039t be seeing you this year.  
+					Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hoputd@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
+                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). 
+						To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hoputd@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
                     </dl>
                 </section>
                 <section id="pickups" class="grid_5">
@@ -137,11 +159,15 @@ $params = array(
                         Aloha Spirit (pickup team)
                     </h3>
                         <p>
-                            Individuals who would like to attend, but do not have a team, may register and be placed on the Aloha Spirit team.  This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament.  We may be able to place you on a team that needs players, but this is up to the tournament directors&#039 and team captains&#039 discretion.  To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
+                            Individuals who would like to attend, but do not have a team, may register and be placed on the Aloha Spirit team.  
+							This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament.  
+							We may be able to place you on a team that needs players, but this is up to the tournament directors&#039 and team captains&#039 discretion.  
+							To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
                         </p>
 												    
                         <p>
-                            The Aloha Spirit team is limited to 12 male and 8 female players.  It will be filled on a <emph>first-come, first-served</emph> basis.
+                            The Aloha Spirit team is limited to 12 male and 8 female players.  
+							It will be filled on a <emph>first-come, first-served</emph> basis.
                         </p>
                 </section>'
 );
