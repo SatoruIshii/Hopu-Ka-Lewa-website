@@ -51,22 +51,22 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $140.00 per player* this year. 
+                      Player fee is $120.00 per player* this year. 
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
                       All players should register online. 
-					  If you cannot pay online, please do so by sending a check to: 
+					  If you cannot pay online, please do so by sending a check (made out to <strong>Hopu Ka Lewa</strong>) to: 
                       <blockquote>
-                        Aaron Rosa<br/>
-                        3781 Anuhea Street<br/> 
-                        Honolulu HI 96816
+                        Ari Patz<br/>
+                        1777 Ala Moana Blvd Suite 142-39<br/> 
+                        Honolulu, HI 96815
                       </blockquote>
                       If paying by check, please register using the online form and choose the pay by check option. 
 					  Players should also check in on-site either Friday night or Saturday morning.
                   </p>
                   <p>
-                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $155 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
+                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $145 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
 					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
                   </p>
                   <p>
@@ -78,12 +78,12 @@ $params = array(
                     A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. 
 					After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
                   </p>
-                    Guest fee is $60 for the weekend. 
+                    Guest fee is $80 for the weekend. 
 					Guests should register and pay online. 
-					The guest fee covers all breakfasts and dinners, entertainment, camping, and a guest pack.
+					The guest fee covers all breakfasts and dinners (3 each), nightly entertainment (bands, DJs, and other surprises), camping, and a guest pack (with all the goodies).
                   </p>
                   <p>
-                    A nightly guest pass can be purchased at the door for $30/night. 
+                    A nightly guest pass can be purchased at the door for $20/night. 
 					This fee covers dinner and entertainment for one evening. 
 					ALL GUESTS MUST HAVE A PLAYER "SPONSOR" THEM. 
 					PLAYERS SHOULD NOTIFY US PRIOR TO THE TOURNEY OF GUEST NAMES. 
@@ -104,9 +104,9 @@ $params = array(
                         Please note these dates on your calendar so you know how to register and how much to pay.
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
-                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $140 (payment must be made online or postmarked by this date).</dd>
-                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $155 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $120 (payment must be made online or postmarked by this date).</dd>
+						<dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $145 (payment must be made online or postmarked by this date).</dd>
                         <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $170 (mailed checks will not be accepted after ' . date('M j',$dates['indiv_late_end']) . ').</dd>
                         <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $170 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
                     </dl>

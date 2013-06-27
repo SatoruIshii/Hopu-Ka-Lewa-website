@@ -47,13 +47,13 @@ $params = array(
 					For those teams that do not make the final cut, we will refund your full deposit.
                   </p>
                   <p>
-                    Bid-winning teams will be notified via email (as will wait-listed teams) by August 25th. 
+                    Bid-winning teams will be notified via email (as will wait-listed teams) by August 25. 
 					Bid-winning teams must respond via e-mail or letter by September 1, whether or not they wish to accept the bid. 
 					If no response is received, that team will forfeit its bid, and the next wait-listed team will be contacted. 
 					At this point, the declining bid-winning team will receive a 100% refund on its deposit.
                   </p>
                   <p>
-                    Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $140 per player) by September 22.
+                    Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $120 per player) by September 22.
                   </p>
                   <p>
                     If a bid-winning and bid-accepting team fails to submit the above mentioned players\' fees, its bid will be lost, and the next wait-listed team will be given priority. 
@@ -62,7 +62,7 @@ $params = array(
                   </p>
                   <p>
                     The remainders of each team\'s entrance fees are due by October 15. 
-					Any entrance fee not paid in full by this date will be assessed the late registration fee of $155.
+					Any entrance fee not paid in full by this date will be assessed the late registration fee of $145.
                   </p>
                   <p>
                     If any team forfeits its position after October 1, the deposit will be forfeited, regardless of our success in filling the vacancy.
@@ -79,11 +79,11 @@ $params = array(
                         <dt>' . date('M j, Y',$dates['bid_deadline_snailmail']) . '</dt><dd>
                             Postmark date for all team bid checks: $360.  
                             <!--Block comment to remove mailing address after deadline passes:-->
-                            If paying by check, please make it out to:
+                            If paying by check, please make it out to <strong>Hopu Ka Lewa</strong> and send it to:
                             <blockquote>
-                              Aaron Rosa<br/>
-                              3781 Anuhea Street<br/> 
-                              Honolulu HI 96816
+                              Ari Patz<br/>
+                              1777 Ala Moana Blvd Suite 142-39<br/> 
+                              Honolulu, HI 96815
                             </blockquote>
                             
                             </dd>
