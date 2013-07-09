@@ -1,7 +1,7 @@
 {% extends 'hopu_template_general.php' %}
 
 {% block logo %}
-    <img id="logo" src="images/MysteryLogo.jpg" />
+    <img id="logo" src="images/HopuMenehune.png" />
 {% endblock %}
 
 {% block head %}
