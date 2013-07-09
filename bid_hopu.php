@@ -61,7 +61,7 @@ $params = array(
 					If we are unable to fill the vacancy, no refund of deposit will be issued.
                   </p>
                   <p>
-                    The remainders of each team\'s entrance fees are due by October 15. 
+                    The remainders of each team\'s entrance fees are due by October 1. 
 					Any entrance fee not paid in full by this date will be assessed the late registration fee of $145.
                   </p>
                   <p>
