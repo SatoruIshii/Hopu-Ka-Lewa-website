@@ -15,20 +15,47 @@ $params = array(
                       Hopu High
                   </h1>
               </hgroup>
-              <section class="grid_4">
-                <p>
-                  Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 8-11, 2013.
-                </p>
-                <p>
-                  Please <a href="mailto:hoputd@hawaiiultimate.com">submit your team bid</a> via video or other media by August 18th.  
+              <section class="grid_5">
+                <h2>Morning Announcements</h2>
+                <dl>
+                  <dt>Jul 8: Logo Contest Open</dt>
+                    <dd>Win cool schwag and unending adoration if you win the logo contest.  <a href="#logocontest">See details!</a></dd>
+                  <dt>Jun 20: Accepting Bids</dt>
+                    <dd>
+                      Please <a href="mailto:hoputd@hawaiiultimate.com">submit your team bid</a> via video or other media by August 18th.  
 				  Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 15.  
 				  The more spirited your bid, the better your chances of getting to play!  
 				  This tournament is all about sharing the Ohana experience with the community and getting to know each other.  
 				  Creativity and artistic expression are strongly encouraged.
-                </p>
+                    </dd>
+                  <dt>Jun 19: Dates Set</dt>
+                    <dd>Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 8-11, 2013.</dd>
+                </dl>
               </section>
-              <section class="grid_8">
+              <section class="grid_7">
                 <img src="images/mainslides/HenryHsieh2012-Sallys2012.jpg" width="960" alt="Sippin Sallys 2012 Boat Race Champions"> 
+              </section>
+              <section id="logocontest" class="grid_5">
+                <p>
+                  We would like to announce the Hopu High logo contest!!! Make the Hopu High School experience one you will never forget by entering the tournament logo contest. The winning entry will earn their design being printed on disks and jerseys BUT wait that\'s not all! The winner will also get free admission to the tournament and all the fame and prestige of being the design winner. 
+                </p>
+                <p>
+                  Hopu Ka Lewa will be partnering with SAVAGE for apparel needs so any design entries must be submitted with 300 DPI (or vector), CMYK color code, and no merged layers. Any submission of anything different will be considered but aspects of the logo may have to be remade with these specifications. 
+                </p>
+                <ul>
+                  <li>All submissions must somewhere include the Hopu mascot (Stock artwork in <a href="resources/MenehuneLogo.ai">Illustrator</a> or <a href="resources/MenehuneLogo.svg">SVG</a> formats)</li>
+                  <li>Upon submission all rights of the design will be the property of Hopu Ka Lewa</li>
+                  <li>Changes can be made to the winning design without consent of the artist submitting</li>
+                </ul>
+                <p>
+                  All submitted work must be original and not based on any pre-existing design.
+                  All Entries will become the sole property of Hopu Ka Lewa and may be displayed publicly.
+                  The winning entries agree to transfer all rights and title to Hopu Ka Lewa.
+                  All design entries are due July 31!!!
+                </p>
+                <p>
+                  Email entries to either tournament director at <a href="mailto:stacey.fineran@hawaiiultimate.com">stacey.fineran@hawaiiultimate.com</a> or <a href="mailto:aaron.rosa@hawaiiultimate.com">aaron.rosa@hawaiiultimate.com</a>.  Good Luck!
+                </p>
               </section>
               <section id="facebook" class="grid_5">
             <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
