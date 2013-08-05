@@ -5,6 +5,9 @@ $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
+date_default_timezone_set('Pacific/Honolulu');
+$curdate = date('m-d-Y');
+require 'model/dates.php';
 $template = $twig->loadTemplate('hopu_template_2013.php');
 $params = array(
   'pagetitle' => 'Hat Draw',
@@ -78,6 +81,23 @@ $params = array(
     )
   )
 );
+$paymentcontent = '
+  <section id="hatdrawpay" class="grid_12" style="text-align:center; border-top: 1px solid; border-bottom: 1px solid; padding-bottom: 1em;">
+  <h2>Pay now!</h2>
+  <p>Payment is now being accepted to reserve your spot at the post-Hopu Hat Draw.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="BZK76G7DPXPW8">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+  </section>
+';
+if ( $curdate >= $dates['indiv_reg_start'] & $curdate < $dates['online_payment']){
+  $delimiter = "</hgroup>";
+  $splitcontent = explode($delimiter, $params['content']);
+  $params['content'] = $splitcontent[0] . $delimiter . $paymentcontent . $splitcontent[1];
+};
 $template->display($params);
 ?>
 <?php
