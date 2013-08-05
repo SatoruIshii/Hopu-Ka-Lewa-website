@@ -16,19 +16,38 @@ $params = array(
                   </h1>
               </hgroup>
               <section id="hatdraw" class="grid_6">
-              <p>Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.</p>
-            <p>
-                Who: Anyone who wants some Big Island ultimate.
-            </p>
-            <p>
-              What: Hat-draw style tournament that encourages meeting new people and spirited play.
-            </p>
-            <p>
-              When: November 16-17, 2013.
-            </p>
-            <p>
-              Where: Kamehameha Park in the town of Kapaau (North Kohala District, Hawaii Island).
-            </p>
+              <h2>Vitals</h2>
+              Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.
+            <dl>
+              <dt>Who</dt>
+              <dd>
+                Anyone who wants some Big Island ultimate.
+              </dd>
+              <dt>What</dt>
+              <dd>
+                A weekend jam-packed with fun:
+                <p>
+                  Friday night dinner and (almost) full moon beach ultimate.
+                </p>
+                <p>
+                  Hat draw ultimate games on Saturday and Sunday.
+                </p>
+                <p>
+                  Saturday night party with nice dinner and entertainment.  Think fire spinning, and DJ/band/both!  We have the Big Pavilion reserved and it is great for dancing.
+                </p>
+                <p>
+                  Monday morning continental breakfast included.
+                </p>
+              </dd>
+              <dt>When</dt>
+              <dd>
+                November 16-17, 2013.
+              </dd>
+              <dt>Where</dt>
+              <dd>
+                Kamehameha Park in the town of Kapaau (North Kohala District, Hawaii Island).
+              </dd>
+            </dl>
             <p>
               Hat-draw registration and fee are in the works.  We are currently working on securing campsites/lodging.  Stay tuned!
             </p>
