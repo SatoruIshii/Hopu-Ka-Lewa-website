@@ -69,6 +69,14 @@ $params = array(
             </p>
             
           </section>',
+  'slider' => array(
+    array(
+      'uri' => 'images/hatdraw/86spencertrees2-small.jpg'
+    ),
+    array(
+      'uri' => 'images/hatdraw/spencer1206_07c4.jpg'
+    )
+  )
 );
 $template->display($params);
 ?>
