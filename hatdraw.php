@@ -53,8 +53,22 @@ $params = array(
             </p>
           </section>
           <section id="hatdrawmap" class="grid_6">
+            <h2>Maps</h2>
+            <h3>Fields</h3>
             <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=215686218982924613873.000455b1ba1c743521a81&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=20.240133,-155.801497&amp;spn=0.028186,0.036478&amp;z=14&amp;iwloc=lyrftr:msid:215686218982924613873.000455b1ba1c743521a81,00047f45df01af638c6d1,,,0,-31&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msid=215686218982924613873.000455b1ba1c743521a81&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=20.240133,-155.801497&amp;spn=0.028186,0.036478&amp;z=14&amp;iwloc=lyrftr:msid:215686218982924613873.000455b1ba1c743521a81,00047f45df01af638c6d1,,,0,-31&amp;source=embed" style="color:#0000FF;text-align:left">Kohala Hawaii</a> in a larger map</small>
-          </section>'
+            <h3>Camping</h3>
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?saddr=Kona+International+Airport,+Kailua,+HI&amp;daddr=Samuel+M.+Spencer+Beach+Park,+Waimea,+HI&amp;hl=en&amp;sll=20.128305,-155.810974&amp;sspn=0.413257,0.683899&amp;geocode=FcIoLQEdmgWz9iE3WT-7DL8YqynT5_8BfQ1UeTE3WT-7DL8Yqw%3BFSqIMQEdDli29iHuesZhwFf43SnlY50QxYBTeTHuesZhwFf43Q&amp;oq=spencers&amp;t=h&amp;mra=ls&amp;ie=UTF8&amp;ll=19.8791,-155.926208&amp;spn=0.45201,0.583649&amp;z=10&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?saddr=Kona+International+Airport,+Kailua,+HI&amp;daddr=Samuel+M.+Spencer+Beach+Park,+Waimea,+HI&amp;hl=en&amp;sll=20.128305,-155.810974&amp;sspn=0.413257,0.683899&amp;geocode=FcIoLQEdmgWz9iE3WT-7DL8YqynT5_8BfQ1UeTE3WT-7DL8Yqw%3BFSqIMQEdDli29iHuesZhwFf43SnlY50QxYBTeTHuesZhwFf43Q&amp;oq=spencers&amp;t=h&amp;mra=ls&amp;ie=UTF8&amp;ll=19.8791,-155.926208&amp;spn=0.45201,0.583649&amp;z=10&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          </section>
+          <section id="hatdrawlogistics" class="grid_6">
+            <h2>Logistics</h2>
+            <p>
+              At the campground, security comes by at 9pm to check for our safety and then locks the main gate so no leaving or arriving after 9pm.
+            </p>
+            <p>
+              Players should fly into Kona airport (KOA).
+            </p>
+            
+          </section>',
 );
 $template->display($params);
 ?>
