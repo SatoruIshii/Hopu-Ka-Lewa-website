@@ -38,9 +38,6 @@ $params = array(
                 <p>
                   Saturday night party with nice dinner and entertainment.  Think fire spinning, and DJ/band/both!  We have the Big Pavilion reserved and it is great for dancing.
                 </p>
-                <p>
-                  Monday morning continental breakfast included.
-                </p>
               </dd>
               <dt>When</dt>
               <dd>
