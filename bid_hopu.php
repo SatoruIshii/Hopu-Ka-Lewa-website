@@ -14,10 +14,10 @@ $params = array(
   'description' => "Instructions for submitting a team bid to Hopu Ka Lewa.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid',
   'googleform' => array(
-    'active' => false, //$curdate <= $dates['bid_deadline'],
+    'active' => $curdate <= $dates['bid_deadline_online'],
     'id' => 'teambidapp',
-    'src' => 'https://docs.google.com/spreadsheet/embeddedform?formkey=dHp4N19IRFV0bEFBbHItRkkwN0ZGWHc6MQ',
-    'height' => '1594px'
+    'src' => "https://docs.google.com/forms/d/1L_O7iY35mLBMGyvHYHwqpA-VBb2VldTcF3fGCN7VoZk/viewform?embedded=true",
+    'height' => '1660px'
   ),
   'content' => '<hgroup class="grid_12">
                     <h1>

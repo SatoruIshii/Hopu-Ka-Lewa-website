@@ -11,10 +11,10 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'pagetitle' => 'Pay Team Bid',
-  'description' => "Online payment for a team bid to Hopu Ka Lewa 14.",
+  'description' => "Online payment for a team bid to Hopu Ka Lewa 15.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid, pay'
   );
-if ( $curdate <= $dates['bid_deadline'] ){
+if ( $curdate <= $dates['bid_deadline_online'] ){
   $params['hosted_button_id'] = '563799WLT7CQL';
 }
 else {
