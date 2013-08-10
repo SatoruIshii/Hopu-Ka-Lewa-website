@@ -1,10 +1,9 @@
-{% extends 'hopu_template_2012.php' %}
+{% extends 'hopu_template_2013.php' %}
 
 {% block contentarea %}
 <div id="content">
   <hgroup class="grid_12">
-      <h1>Where are the Effing Twinkies?</h1>
-      <h2>Where are you, you spongy, yellow, delicious bastards?</h2>
+      <h1>Someone's gotta pay for this dance</h1>
   </hgroup>
   <section id="team_pay" class="grid_12">
     {% if hosted_button_id %}
