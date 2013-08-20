@@ -82,10 +82,10 @@
             {% if googleform.active %}
               <iframe src="{{ googleform.src }}" width="98%" height="{{ googleform.height is defined ? googleform.height : '1000px' }}">Sorry, it appears that your browser does not support inline frames (iframes).  Please <a href="{{ googleform.src }}">register using the Google form</a>.</iframe>
             {% else %}
-              Sorry, no can register now.
+              Sorry, the registration period has ended.
               <!--For after close of reg:-->
-              <br/>
-								We are currently accepting team bid applications.  Online registration for individual players has not yet opened for 2013.
+              <!--<br/>-->
+								<!--We are currently accepting team bid applications.  Online registration for individual players has not yet opened for 2013.-->
                 <!--Online registration has closed for 2012.  If you still need to register, you can do so at the fields on Friday or Saturday.  Please remember to bring the full $159 Shame-on-you fee as cash or check.-->
             {% endif %}
           </section>
