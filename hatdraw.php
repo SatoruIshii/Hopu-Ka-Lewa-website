@@ -49,8 +49,11 @@ $params = array(
               </dd>
             </dl>
             <p>
-              Hat-draw registration and fee are in the works.  We are currently working on securing campsites/lodging.  Stay tuned!
+              Hat-draw registration will be available August 31.  The regular fee will be $45 between August 31 and October 31.  After this, the fee will be $60.
             </p>
+			<p>
+				Questions and concerns can be directed toward the <a href="mailto:bigislandstay@gmail.com">Hat Draw Organizer, PJ</a>.
+			</p>
           </section>
           <section id="hatdrawmap" class="grid_6">
             <h2>Maps</h2>
@@ -81,6 +84,9 @@ $params = array(
 $paymentcontent = '
 <section id="hatdraw_pay" class="grid_12">
                 <h2>Registration Now Open!</h2>
+				<p>
+					If you have problems registering, please contact <a href="mailto:bigislandstay@gmail.com">PJ</a>.
+				</p>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <table style="margin-bottom:12px">
