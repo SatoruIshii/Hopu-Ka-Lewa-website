@@ -11,10 +11,10 @@ $curdate = date('m-d-Y');
 require_once 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => false,
+    'active' => true,
 	'id' => 'individualapp',
 	'src' => 'https://docs.google.com/a/hawaiiultimate.com/forms/d/1mNtu_JyOV0e1BCIBEhAVT3e_T1EM9sOb7S3JMudMgIo/viewform?embedded=true',
-	'height' => '1594px'
+	'height' => '950px'
   ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",

@@ -18,6 +18,8 @@ $params = array(
               <section class="grid_5">
                 <h2>Morning Announcements</h2>
                 <dl>
+				  <dt>Sep 5: Registration Open</dt>
+				    <dd>Get your Hopu on!  <a href="register_hopu.php">Register now</a>.
                   <dt>Jul 8: Logo Contest Open</dt>
                     <dd>Win cool schwag and unending adoration if you win the logo contest.  <a href="#logocontest">See details!</a></dd>
                   <dt>Jun 20: Accepting Bids</dt>
