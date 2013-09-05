@@ -386,7 +386,7 @@ Options -MultiViews
 # </IfModule>
 
 # When registration isn't open, redirect requests to the payment page.
-Redirect 307 /individual_pay.php http://www.hopukalewa.com/registrer_hopu.php 
+# Redirect 307 /individual_pay.php http://www.hopukalewa.com/registrer_hopu.php 
 
 
 # ----------------------------------------------------------------------
