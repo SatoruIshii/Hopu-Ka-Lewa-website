@@ -73,6 +73,24 @@ $params = array(
             
           </section>',
   'slider' => array(
+  array(
+      'uri' => 'images/hatdraw/kamehamehastatue.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/kohalatown.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/86spencertrees2-small.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/spencers_camping.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/spencers_large.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/kampark.jpg'
+    ),
     array(
       'uri' => 'images/hatdraw/86spencertrees2-small.jpg'
     ),
@@ -124,7 +142,7 @@ $paymentcontent = '
                 </form>
               </section>
 ';
-if ( $curdate >= $dates['indiv_reg_start'] & $curdate < $dates['online_payment']){
+if ( $curdate < $dates['online_payment']){
   $delimiter = "</hgroup>";
   $splitcontent = explode($delimiter, $params['content']);
   $params['content'] = $splitcontent[0] . $delimiter . $paymentcontent . $splitcontent[1];
