@@ -73,6 +73,24 @@ $params = array(
             
           </section>',
   'slider' => array(
+  array(
+      'uri' => 'images/hatdraw/kamehamehastatue.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/kohalatown.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/86spencertrees2-small.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/spencers_camping.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/spencers_large.jpg'
+    ),
+	array(
+      'uri' => 'images/hatdraw/kampark.jpg'
+    ),
     array(
       'uri' => 'images/hatdraw/86spencertrees2-small.jpg'
     ),
