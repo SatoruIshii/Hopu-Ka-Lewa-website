@@ -124,7 +124,7 @@ $paymentcontent = '
                 </form>
               </section>
 ';
-if ( $curdate >= $dates['indiv_reg_start'] & $curdate < $dates['online_payment']){
+if ( $curdate < $dates['online_payment']){
   $delimiter = "</hgroup>";
   $splitcontent = explode($delimiter, $params['content']);
   $params['content'] = $splitcontent[0] . $delimiter . $paymentcontent . $splitcontent[1];
