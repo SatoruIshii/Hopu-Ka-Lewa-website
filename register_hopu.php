@@ -156,18 +156,18 @@ $params = array(
                     </h2>
                     <p>No team?  No problem!</p>
                     <h3>
-                        Aloha Spirit (pickup team)
+                        Foreign Exchange Program (pickup team)
                     </h3>
                         <p>
-                            Individuals who would like to attend, but do not have a team, may register and be placed on the Aloha Spirit team.  
-							This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament.  
-							We may be able to place you on a team that needs players, but this is up to the tournament directors&#039 and team captains&#039 discretion.  
+							Individuals who would like to attend, but do not have a team, may register for the Foreign Exchange Program - an exciting chance to share language, culture, and bodily fluids with a generous host team. 
+							This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament. 
+							We may be able to place you on a team that needs players, but this is up to the tournament directors\' and team captains\' discretion. 
 							To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
                         </p>
 												    
                         <p>
-                            The Aloha Spirit team is limited to 12 male and 8 female players.  
-							It will be filled on a <emph>first-come, first-served</emph> basis.
+							The Foreign Exchange Program is limited to 20 male and 20 female players. 
+							It will be filled on a first-come, first-served basis.
                         </p>
                 </section>'
 );
