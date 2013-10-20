@@ -37,27 +37,20 @@ $params = array(
               <section class="grid_7">
                 <img src="images/mainslides/HenryHsieh2012-Sallys2012.jpg" width="960" alt="Sippin Sallys 2012 Boat Race Champions"> 
               </section>
-              <section id="logocontest" class="grid_5">
+              <section id="sponsors" class="grid_5">
+                <h2>Sponsors</h2>
+                <p>Hopu would like to thank our sponsors for their generous help.  Many mahalos to:</p>
+                <h3>Savage Ultimate</h3>
+                <img src="images/SAVAGEultimateLogo-Square.jpg" />
+                <h3>KateFarms</h3>
                 <p>
-                  We would like to announce the Hopu High logo contest!!! Make the Hopu High School experience one you will never forget by entering the tournament logo contest. The winning entry will earn their design being printed on disks and jerseys BUT wait that\'s not all! The winner will also get free admission to the tournament and all the fame and prestige of being the design winner. 
+                  KateFarms brings you Komplete: the world\'s first Ready-to-Drink Ultimate Meal Replacement Shake. 
+                  Soy-Free, Dairy-Free, Gluten-Free, Flavor-Full. 
+                  Plant-based protein delivers 17-19g with 21 super foods, all non-GMO. 
+                  Taste how delicious healthy can be. Available at health food stores everywhere.
                 </p>
-                <p>
-                  Hopu Ka Lewa will be partnering with SAVAGE for apparel needs so any design entries must be submitted with 300 DPI (or vector), CMYK color code, and no merged layers. Any submission of anything different will be considered but aspects of the logo may have to be remade with these specifications. 
-                </p>
-                <ul>
-                  <li>All submissions must somewhere include the Hopu mascot (Stock artwork in <a href="resources/MenehuneLogo.ai">Illustrator</a> or <a href="resources/MenehuneLogo.svg">SVG</a> formats)</li>
-                  <li>Upon submission all rights of the design will be the property of Hopu Ka Lewa</li>
-                  <li>Changes can be made to the winning design without consent of the artist submitting</li>
-                </ul>
-                <p>
-                  All submitted work must be original and not based on any pre-existing design.
-                  All Entries will become the sole property of Hopu Ka Lewa and may be displayed publicly.
-                  The winning entries agree to transfer all rights and title to Hopu Ka Lewa.
-                  All design entries are due July 31!!!
-                </p>
-                <p>
-                  Email entries to either tournament director at <a href="mailto:stacey.fineran@hawaiiultimate.com">stacey.fineran@hawaiiultimate.com</a> or <a href="mailto:aaron.rosa@hawaiiultimate.com">aaron.rosa@hawaiiultimate.com</a>.  Good Luck!
-                </p>
+                <img src="images/KF-logo.jpg" />
+                <img src="images/komplete.png" />
               </section>
               <section id="facebook" class="grid_5">
             <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
