@@ -40,8 +40,21 @@ $params = array(
               <section id="sponsors" class="grid_5">
                 <h2>Sponsors</h2>
                 <p>Hopu would like to thank our sponsors for their generous help.  Many mahalos to:</p>
-                <h3>Savage Ultimate</h3>
+                <h3>SAVAGEultimate</h3>
                 <img src="images/SAVAGEultimateLogo-Square.jpg" />
+                <p>
+                  SAVAGEultimate was born out of yeti DNA in 2009.  
+                  You don\'t have to ask yourself "do I look good?" because we know you look good. 
+                  This allows you to concentrate on getting that layout d and getting the bookends. 
+                  Knowing your jersey can take as much abuse as your body can handle, gives you an extra inch on your reach. 
+                  We have designed our uniforms to be lighter than a cloud, stronger than Lou Ferrigno, and soft enough for angels to sleep in.
+                </p>
+                <p>
+                  Having an in house seamstress allows for product development and customization in response to customer feedback, faster turnaround times, and quality assurance of the whole production of your jersey.
+                </p>
+                <p>
+                  SAVAGEultimate is dedicated to making you look good on and off the field.
+                </p>
                 <h3>KateFarms</h3>
                 <p>
                   KateFarms brings you Komplete: the world\'s first Ready-to-Drink Ultimate Meal Replacement Shake. 
