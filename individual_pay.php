@@ -23,7 +23,6 @@ $params = array(
 							<input type="hidden" name="hosted_button_id" value="YB3AECDHHBZP4">
 							<table>
 							<tr><td><input type="hidden" name="on0" value="Hopu High Tuition">Hopu High Tuition</td></tr><tr><td><select name="os0">
-								<option value="Late Fee October 2nd til October 29th">Late Fee October 2nd til October 29th $145.00 USD</option>
 								<option value="Detention Fee October 30th til November 3rd">Detention Fee October 30th til November 3rd $175.00 USD</option>
 								<option value="Prom Date (Guest)">Prom Date (Guest) $80.00 USD</option>
 							</select> </td></tr>
