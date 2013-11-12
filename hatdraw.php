@@ -109,7 +109,6 @@ $paymentcontent = '
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <table style="margin-bottom:12px">
                   <tr><td><input type="hidden" name="on0" value="Registration prices">Registration prices</td></tr><tr><td><select name="os0">
-                      <option value="Early Registration">Early Registration $45.00 USD</option>
                       <option value="Late Registration - after 10/31">Late Registration - after 10/31 $60.00 USD</option>
                   </select> </td></tr>
                   <tr><td><input type="hidden" name="on1" value="Gender">Gender</td></tr><tr><td><select name="os1">
