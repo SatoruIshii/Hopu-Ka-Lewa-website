@@ -51,11 +51,11 @@ $params = array(
       'caption' => 'Megan Grimshaw: Tournament Director 2008-2012'
     ),
     array(
-      'uri' => 'images/historyslides/DonNajita2012-325928.jpg',
+      'uri' => 'images/historyslides/DonN2012-325928.jpg',
       'caption' => 'Pirates: 2011 Penultimate Winner'
     ),
     array(
-      'uri' => 'images/historyslides/DonNajita2012-717799325_img_3033.jpg',
+      'uri' => 'images/historyslides/DonN2012-717799325_img_3033.jpg',
       'caption' => 'Pirates: 2009 Beer Bracket Winner'
     ),
     array(
@@ -165,8 +165,8 @@ $params = array(
       'caption' => 'Caliaskawaii: 2010 Boat Race Winner'
     ),
     array(
-      'uri' => 'images/historyslides/DonNajita2003-DonPopo.jpg',
-      'caption' => 'Don Najita: 2001 Spirit Player'
+      'uri' => 'images/historyslides/DonN2003-DonPopo.jpg',
+      'caption' => 'Don N: 2001 Spirit Player'
     ),
     array(
       'uri' => 'images/historyslides/2012-THT2005.jpg',
