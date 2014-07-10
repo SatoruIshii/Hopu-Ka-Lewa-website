@@ -12,14 +12,14 @@
 */
 
 h1 {
-    font-family: VarsityRegular, Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
     font-size: 4.8em;
 	text-transform: uppercase;
 	text-align: center;
 }    
 
 h2 {
-    font-family: VarsityRegular, Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
     font-size: 2.75em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -32,7 +32,7 @@ header #logo {
 }
 
 header hgroup > h1 {
-    font-family: VarsityRegular, Impact, Arial Black, Helvetica, Arial, sans-serif;
+    font-family:   Impact, Arial Black, Helvetica, Arial, sans-serif;
 	text-align: left;
 }
 
