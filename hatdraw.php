@@ -8,7 +8,7 @@ $twig = new Twig_Environment($loader, array(
 date_default_timezone_set('Pacific/Honolulu');
 $curdate = date('m-d-Y');
 require 'model/dates.php';
-$template = $twig->loadTemplate('hopu_template_2013.php');
+$template = $twig->loadTemplate('hopu_template_2014.php');
 $params = array(
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',

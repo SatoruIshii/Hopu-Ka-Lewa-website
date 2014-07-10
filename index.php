@@ -5,7 +5,7 @@ $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
-$template = $twig->loadTemplate('hopu_template_2013.php');
+$template = $twig->loadTemplate('hopu_template_2014.php');
 $params = array(
   'description' => "Hawaii's premier co-ed ultimate tournament",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament',
