@@ -3,11 +3,14 @@ $dates = array(
   // Team dates:
   'postmark_deadline' => mktime(23,59,59,8,11,2013),
   'bid_deadline_snailmail' => mktime(23,59,59,8,11,2013),
-  'bid_deadline_online' => mktime(23,59,59,8,18,2013),
-  'invites_out' => mktime(23,59,59,8,25,2013),
-  'accept_deadline' => mktime(23,59,59,9,1,2013),
+  'bid_deadline_online' => mktime(23,59,59,8,11,2014),
+  'invites_out' => mktime(23,59,59,8,25,2014),
+  'accept_deadline' => mktime(23,59,59,9,5,2014),
   'team_refund' => mktime(23,59,59,9,22,2013),
   'forfeiture' => mktime(23,59,59,10,1,2013),
+  'skeleton' => mktime(23,59,59,9,22,2014),
+  'tournament_start' => mktime(00,00,01,11,8,2014),
+  'tournament_end' => mktime(23,23,59,11,10,2014),
   // Individ dates:
   'indiv_reg_start' => mktime(0,0,0,8,31,2013),
   'indiv_reg_end' => mktime(23,59,59,10,1,2013),
