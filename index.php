@@ -16,22 +16,30 @@ $params = array(
                   </h1>
               </hgroup>
               <section class="grid_5">
-                <h2>Morning Announcements</h2>
+                <h2>Important Dates</h2>
                 <dl>
-				  <dt>Sep 5: Registration Open</dt>
-				    <dd>Get your Hopu on!  <a href="register_hopu.php">Register now</a>.
-                  <dt>Jul 8: Logo Contest Open</dt>
-                    <dd>Win cool schwag and unending adoration if you win the logo contest.  <a href="#logocontest">See details!</a></dd>
-                  <dt>Jun 20: Accepting Bids</dt>
+                  <dt>July: Bid window opens</dt>
                     <dd>
-                      Please <a href="mailto:hoputd@hawaiiultimate.com">submit your team bid</a> via video or other media by August 18th.  
-				  Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 15.  
-				  The more spirited your bid, the better your chances of getting to play!  
-				  This tournament is all about sharing the Ohana experience with the community and getting to know each other.  
-				  Creativity and artistic expression are strongly encouraged.
+                      Please submit your team bid via the <a href="bid_hopu.php">online form</a>.
+                      Supplemental materials, such as video or other media, are <em>strongly</em> encouraged and can be emailed to the <a href="mailto:hoputd@hawaiiultimate.com">Tournament Directors</a>.
+                      Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 16.  
+                      The more spirited your bid, the better your chances of getting to play!  
+                      This tournament is all about sharing the Ohana experience with the community and getting to know each other.  
+                      Creativity and artistic expression are strongly encouraged.
                     </dd>
-                  <dt>Jun 19: Dates Set</dt>
-                    <dd>Dates are set for Hopu 15!  Plan on joining us for Veterans Day Weekend: Nov. 8-11, 2013.</dd>
+                  <dt>August 11: Bid deadline</dt>
+                    <dd>Please get your bids in before the deadline so the selection process can start.</dd>
+                  <dt>August 25: Teams announced</dt>
+                    <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
+                  <dt>September 5: Bid confirmation deadline</dt>
+                    <dd>Captains must notify the TD or risk forfeiting their team\'s bid.</dd>
+                  <dt>September 22: Skeleton registration deadline</dt>
+                    <dd>We know how hard it is to get players to commit to travel and play.  
+                      But we ask that your team have at least <em>8</em> players registered by this date in order for the committee to see tangible committement.
+                      Your team bid covers 3 players already, so that is really only 5 more people to sign up!
+                    </dd>
+                  <dt>November 8-10: Et Tu Hopu</dt>
+                    <dd>Get your Roman holiday on!</dd>
                 </dl>
               </section>
               <section class="grid_7">
