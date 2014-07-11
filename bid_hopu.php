@@ -15,17 +15,6 @@ $content = <<<CONTENT
         Team Bid Processes
     </h1>
 </hgroup>
-<section id="bidstatus" class="grid_12">
-  <h2>Bid Status</h2>
-  <p>
-    Thanks for your interest in Hopu Ka Lewa 2013. 
-    The deadline for team bids has now passed, and we regretfully cannot accept any more teams. 
-    Please keep our tournament in mind for 2014, when the best damn disc tournament prepares to get even mo betta. 
-  </p>
-  <p>
-    Aloha - Hopu Committee
-  </p>
-</section>
 <section id="summary" class="grid_12">
     <p>
         Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. 
