@@ -25,8 +25,8 @@ $content = <<<CONTENT
     <p>
         As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. 
         The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. 
-        We dont\' need spoilers, but we do need a good tease. 
-        Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 15!
+        We don't need spoilers, but we do need a good tease. 
+        Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 16!
     </p>
 </section>
 <section id="caveats" class="grid_6">
@@ -34,7 +34,7 @@ $content = <<<CONTENT
     Caveats
   </h2>
   <p>
-    The $360 initial deposit can later be applied to three individual players\' fees (the captain plus two other players). 
+    The $360 initial deposit can later be applied to three individual players' fees (the captain plus two other players). 
     For those teams that do not make the final cut, we will refund your full deposit.
   </p>
   <p>
@@ -47,7 +47,7 @@ $content = <<<CONTENT
     Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $120 per player) by September 22.
   </p>
   <p>
-    If a bid-winning and bid-accepting team fails to submit the above mentioned players\' fees, its bid will be lost, and the next wait-listed team will be given priority. 
+    If a bid-winning and bid-accepting team fails to submit the above mentioned players' fees, its bid will be lost, and the next wait-listed team will be given priority. 
     If we are able to fill this new vacancy, we will issue only a partial deposit refund of $160. 
     If we are unable to fill the vacancy, no refund of deposit will be issued.
   </p>
