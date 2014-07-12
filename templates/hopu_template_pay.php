@@ -3,7 +3,7 @@
 {% block contentarea %}
 <div id="content">
   <hgroup class="grid_12">
-      <h1>Someone's gotta pay for this dance</h1>
+      <h1>Let's cross this Rubicon</h1>
   </hgroup>
   <section id="team_pay" class="grid_12">
     {% if hosted_button_id %}

@@ -25,7 +25,7 @@ $hgroup = '<hgroup class="grid_12">
     <h1>
         Team Bid Processes
     </h1>'
-. ($params['googleform']['active'] ? 'You can skip straight to the bid form <a href="#'.$params['googleform']['id'].'">here</a>.  Otherwise, read on!' : '') . 
+. ($params['googleform']['active'] ? 'You can skip straight to the bid form <a href="#'.$params['googleform']['id'].'">here</a>.  We are also accepting <a href="team_pay.php">team bid payments</a>.  Otherwise, read on!' : '') . 
 '</hgroup>';
 $bodycontent = <<<CONTENT
 <section id="summary" class="grid_12">
