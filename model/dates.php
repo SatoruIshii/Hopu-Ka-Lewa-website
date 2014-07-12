@@ -23,11 +23,14 @@ $dates = array(
   'online_payment' => mktime(23,59,59,11,3,2013),
   //'guest_list' => mktime(23,59,59,11,6,2013),
 );
+// Derived dates:
+$dates['bid_deadline_snailmail'] = $dates['bid_deadline_online'] - (4*24*60*60);
+$dates['team_refund'] = $dates['skeleton'];
 
 $Md = array();
 $MdY = array();
 foreach( $dates as $name => $time ) {
   $Md[$name] = date('M j',$time);
-  $MdY[$name] = date('M y, Y',$time);
+  $MdY[$name] = date('M j, Y',$time);
 };
 ?>
