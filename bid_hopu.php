@@ -120,11 +120,3 @@ CONTENT;
 $params['content'] = $hgroup . $bodycontent;
 $template->display($params);
 ?>
-<?php
-/* stash
- * 
- * <p> 
-                        Want to bring a team to Hopu 14?  Please fill out the bid application <a href="bid_hopu.php#teambidapp">below</a> and follow it with any supplementary materials you wish.
-                    </p>
- */
-?>
