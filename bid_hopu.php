@@ -9,13 +9,29 @@ $template = $twig->loadTemplate('hopu_template_2014.php');
 date_default_timezone_set('Pacific/Honolulu');
 $curdate = date('m-d-Y');
 require 'model/dates.php';
-$content = <<<CONTENT
-<hgroup class="grid_12">
+$params = array(
+  'pagetitle' => 'Team Bid Registration',
+  'description' => "Instructions for submitting a team bid to Hopu Ka Lewa.",
+  'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid',
+  'googleform' => array(
+    'active' => $curdate <= $dates['bid_deadline_online'],
+    'id' => 'teambidapp',
+    'src' => "https://docs.google.com/forms/d/1XoWwdmNA6zIRTMCJx-Vc0_d8JhsV2RL7TgKChxaMyiw/viewform?embedded=true",
+    'height' => '1660px'
+  ),
+  'content' => ''
+);
+$hgroup = '<hgroup class="grid_12">
     <h1>
         Team Bid Processes
-    </h1>
-</hgroup>
+    </h1>'
+. ($params['googleform']['active'] ? 'You can skip straight to the bid form <a href="#'.$params['googleform']['id'].'">here</a>.  Otherwise, read on!' : '') . 
+'</hgroup>';
+$bodycontent = <<<CONTENT
 <section id="summary" class="grid_12">
+    <p>
+      
+    </p>
     <p>
         Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. 
         As the tournament has continued to grow in both size and spirit, the team bid competition has become quite heated. 
@@ -101,18 +117,7 @@ $content = <<<CONTENT
     </ol>
 </section>
 CONTENT;
-$params = array(
-  'pagetitle' => 'Team Bid Registration',
-  'description' => "Instructions for submitting a team bid to Hopu Ka Lewa.",
-  'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid',
-  'googleform' => array(
-    'active' => $curdate <= $dates['bid_deadline_online'],
-    'id' => 'teambidapp',
-    'src' => "https://docs.google.com/forms/d/1XoWwdmNA6zIRTMCJx-Vc0_d8JhsV2RL7TgKChxaMyiw/viewform?embedded=true",
-    'height' => '1660px'
-  ),
-  'content' => $content
-);
+$params['content'] = $hgroup . $bodycontent;
 $template->display($params);
 ?>
 <?php
