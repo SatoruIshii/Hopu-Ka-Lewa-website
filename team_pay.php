@@ -11,7 +11,7 @@ $curdate = date('m-d-Y');
 require 'model/dates.php';
 $params = array(
   'pagetitle' => 'Pay Team Bid',
-  'description' => "Online payment for a team bid to Hopu Ka Lewa 15.",
+  'description' => "Online payment for a team bid to Hopu Ka Lewa 16.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, team, bid, pay'
   );
 if ( $curdate <= $dates['bid_deadline_online'] ){
@@ -19,7 +19,7 @@ if ( $curdate <= $dates['bid_deadline_online'] ){
 }
 else {
   $params['hosted_button_id'] = false;
-  $params['reg_closed_content'] = 'Sorry, the team bid submission deadline has closed.  Please email the <a href="mailto:hopukalewa14@gmail.com">Tournament Director</a> with any questions.';
+  $params['reg_closed_content'] = 'Sorry, the team bid submission deadline has closed.  Please email the <a href="mailto:noputd@hawaiiultimate.com">Tournament Director</a> with any questions.';
 }
 $template->display($params);
 ?>

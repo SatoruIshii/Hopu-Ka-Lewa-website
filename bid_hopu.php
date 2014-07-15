@@ -56,7 +56,7 @@ $bodycontent = <<<CONTENT
     Caveats
   </h2>
   <p>
-    The $360 initial deposit can later be applied to three individual players' fees (the captain plus two other players). 
+    The $375 initial deposit can later be applied to three individual players' fees (the captain plus two other players). 
     For those teams that do not make the final cut, we will refund your full deposit.
   </p>
   <p>
@@ -86,7 +86,7 @@ $bodycontent = <<<CONTENT
     </p>
     <dl>
         <dt>{$MdY['bid_deadline_snailmail']}</dt><dd>
-            Postmark date for all team bid checks: $360.  
+            Postmark date for all team bid checks: $375.  
             <!--Block comment to remove mailing address after deadline passes:-->
             If paying by check, please make it out to <strong>Hopu Ka Lewa</strong> and send it to:
             <blockquote>
