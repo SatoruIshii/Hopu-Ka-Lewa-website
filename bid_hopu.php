@@ -85,8 +85,8 @@ $bodycontent = <<<CONTENT
             If paying by check, please make it out to <strong>Hopu Ka Lewa</strong> and send it to:
             <blockquote>
               Ari Patz<br/>
-              1777 Ala Moana Blvd Suite 142-39<br/> 
-              Honolulu, HI 96815
+              666 Prospect St. #102<br/> 
+              Honolulu, HI 96813
             </blockquote>
 
             </dd>
