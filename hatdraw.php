@@ -19,7 +19,11 @@ $content = <<<CONTENT
     <h2>Vitals</h2>
     Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.
     <p>
-        Questions and concerns can be directed toward the <a href="mailto:bigislandstay@gmail.com">Hat Draw Organizer, PJ</a>.
+        Detail about the 2014 Hat Draw are still being worked out.
+        Stay tuned!
+    </p>
+    <p>
+        Questions and concerns can be directed toward the <a href="mailto:rippeddisc@gmail.com">Hat Draw Organizer, Aaron Feinberg</a>.
     </p>
 </section>
 CONTENT;
