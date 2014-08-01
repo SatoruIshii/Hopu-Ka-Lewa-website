@@ -55,6 +55,7 @@ $params = array(
     )
   )
 );
+unset($params['slider']);
 $paymentcontent = '
 <section id="hatdraw_pay" class="grid_12">
                 <h2>Registration Now Open!</h2>
