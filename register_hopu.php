@@ -55,16 +55,16 @@ $params = array(
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register online. 
-					  If you cannot pay online, please do so by sending a check (made out to <strong>Hopu Ka Lewa</strong>) to: 
-                      <blockquote>
+                      All players should register and pay online. 
+					  If you absolutely cannot pay online, please <a href="mailto:hoputd@hawaiiultimate.com">contact the tournament directors</a> <strong>BEFORE submitting your registration online</strong> to make alternate payment arrangements
+					  Players should also check in on-site either Friday night or Saturday morning. 
+		  </p>
+/*                      <blockquote>
                         Ari Patz<br/>
                         1777 Ala Moana Blvd Suite 142-39<br/> 
                         Honolulu, HI 96815
                       </blockquote>
-                      If paying by check, please register using the online form and choose the pay by check option. 
-					  Players should also check in on-site either Friday night or Saturday morning.
-                  </p>
+                      If paying by check, please register using the online form and choose the pay by check option. */
                   <p>
                     From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $145 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
 					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
@@ -121,7 +121,7 @@ $params = array(
                         <p>We use PayPal to process online credit card transactions.  
 						Instructions will be presented to you after you submit your online individual registration.</p>
                     </details>
-                    <details>
+*/                    <details>
                         <summary>Personal Check</summary>
                         <!--This block removed one week prior to tournament:-->
                         <p>If you choose not to pay online, please pay by sending a check payable to "Hopu Ka Lewa" to:</p>
@@ -136,7 +136,7 @@ $params = array(
                         
                         <p>Note that checks postmarked after <strong>'. date('F j',$dates['indiv_late_end']) .'</strong> will not be accepted.  
 						Please either pay online or at the fields.</p>
-                    </details>
+                    </details> */  
                 </section>
                 <section id="individualrefunds" class="grid_4">
                     <h2>
@@ -156,7 +156,7 @@ $params = array(
                     </h2>
                     <p>No team?  No problem!</p>
                     <h3>
-                        Foreign Exchange Program (pickup team)
+                        Citizens Abroad Program (pickup team)
                     </h3>
                         <p>
 							Individuals who would like to attend, but do not have a team, may register for the Foreign Exchange Program - an exciting chance to share language, culture, and bodily fluids with a generous host team. 
@@ -166,7 +166,7 @@ $params = array(
                         </p>
 												    
                         <p>
-							The Foreign Exchange Program is limited to 20 male and 20 female players. 
+							The pickup team is limited to 20 male and 20 female players. 
 							It will be filled on a first-come, first-served basis.
                         </p>
                 </section>'
