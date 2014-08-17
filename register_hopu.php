@@ -51,7 +51,7 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $120.00 per player* this year. 
+                      Player fee is $125.00 per player* this year. 
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
@@ -104,7 +104,7 @@ $params = array(
                         Please note these dates on your calendar so you know how to register and how much to pay.
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $120 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $125 (payment must be made online or postmarked by this date).</dd>
 						<dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
                         <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $145 (payment must be made online or postmarked by this date).</dd>
                         <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $170 (mailed checks will not be accepted after ' . date('M j',$dates['indiv_late_end']) . ').</dd>
@@ -182,7 +182,7 @@ $template->display($params);
                         Player Registration Rates
                     </h2>
                         <h3>
-                            Early-bird (' . date('M j',$dates['earlybird_start']) . ' - ' . date('M j, Y',$dates['earlybird_end']) . '): $120
+                            Early-bird (' . date('M j',$dates['earlybird_start']) . ' - ' . date('M j, Y',$dates['earlybird_end']) . '): $125
                         </h3>
                         <p>
                             You must have registered and paid before ' . date('M j',$dates['earlybird_end']) . ' in order to avoid increased fees.  That means that your check must be postmarked before ' . date('M j',$dates['earlybird_end']) . '.
