@@ -17,7 +17,7 @@ $dates = array(
   'indiv_shame_end' => mktime(23,59,59,11,8,2014),
   'full_player_refund' => mktime(23,59,59,10,15,2014),
   //'partial_player_refund' => mktime(23,59,59,11,2,2013),
-  'online_payment' => mktime(23,59,59,11,3,2014),
+  'online_payment' => mktime(23,59,59,11,1,2014),
   //'guest_list' => mktime(23,59,59,11,6,2013),
 );
 // Derived dates:
