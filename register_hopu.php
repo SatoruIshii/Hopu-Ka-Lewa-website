@@ -55,22 +55,16 @@ $params = array(
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register online. 
-					  If you cannot pay online, please do so by sending a check (made out to <strong>Hopu Ka Lewa</strong>) to: 
-                      <blockquote>
-                        Ari Patz<br/>
-                        1777 Ala Moana Blvd Suite 142-39<br/> 
-                        Honolulu, HI 96815
-                      </blockquote>
-                      If paying by check, please register using the online form and choose the pay by check option. 
-					  Players should also check in on-site either Friday night or Saturday morning.
+                      All players should register and pay online. 
+					  If you absolutely cannot pay online, please <a href="mailto:hoputd@hawaiiultimate.com">contact the tournament directors</a> <strong>BEFORE submitting your registration online</strong> to make alternate payment arrangements
+					  Players should also check in on-site either Friday night or Saturday morning. 
                   </p>
                   <p>
-                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $145 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
+                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $150 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
 					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
                   </p>
                   <p>
-                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $170.  
+                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $180.  
 					Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  
 					After this, all registration and payment must take place at the fields.
                   </p>
@@ -104,11 +98,11 @@ $params = array(
                         Please note these dates on your calendar so you know how to register and how much to pay.
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $125 (payment must be made online or postmarked by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $125 (payment must be made online by this date).</dd>
 						<dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
-                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $145 (payment must be made online or postmarked by this date).</dd>
-                        <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $170 (mailed checks will not be accepted after ' . date('M j',$dates['indiv_late_end']) . ').</dd>
-                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $170 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
+                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $150 (payment must be made online by this date).</dd>
+                        <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $180 </dd>
+                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $180 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
                     </dl>
                 </section>
 								<div class="grid_12"></div>
@@ -120,22 +114,6 @@ $params = array(
                         <summary>Credit Card</summary>
                         <p>We use PayPal to process online credit card transactions.  
 						Instructions will be presented to you after you submit your online individual registration.</p>
-                    </details>
-                    <details>
-                        <summary>Personal Check</summary>
-                        <!--This block removed one week prior to tournament:-->
-                        <p>If you choose not to pay online, please pay by sending a check payable to "Hopu Ka Lewa" to:</p>
-                        <blockquote>
-                          Aaron Rosa<br/>
-                          3781 Anuhea Street<br/> 
-                          Honolulu HI 96816
-                        </blockquote>
-                        <p>Along with your check, include a short note with your team name and the name you registered under.  
-						If paying by check, you will still need to fill out the registration form online.  
-						Simply indicate in your registreation that you will pay by check.</p>
-                        
-                        <p>Note that checks postmarked after <strong>'. date('F j',$dates['indiv_late_end']) .'</strong> will not be accepted.  
-						Please either pay online or at the fields.</p>
                     </details>
                 </section>
                 <section id="individualrefunds" class="grid_4">
@@ -156,17 +134,17 @@ $params = array(
                     </h2>
                     <p>No team?  No problem!</p>
                     <h3>
-                        Foreign Exchange Program (pickup team)
+                        Citizens Abroad Program (pickup team)
                     </h3>
                         <p>
-							Individuals who would like to attend, but do not have a team, may register for the Foreign Exchange Program - an exciting chance to share language, culture, and bodily fluids with a generous host team. 
+							Individuals who would like to attend, but do not have a team, may register for the Citizens Abroad Program - an exciting chance to share language, culture, and bodily fluids with a generous host team. 
 							This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament. 
 							We may be able to place you on a team that needs players, but this is up to the tournament directors\' and team captains\' discretion. 
 							To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
                         </p>
 												    
                         <p>
-							The Foreign Exchange Program is limited to 20 male and 20 female players. 
+							The pickup or "spirit" team is limited to 20 male and 20 female players. 
 							It will be filled on a first-come, first-served basis.
                         </p>
                 </section>'
