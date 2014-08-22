@@ -34,7 +34,7 @@ $params = array(
                         Individual Registration
                     </h1>
                     <h2>
-                      Current Info (as of June 2013)
+                      Current Info (as of August 2014)
                     </h2>
                 </hgroup>
                 <aside class="grid_2">
