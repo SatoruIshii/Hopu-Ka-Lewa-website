@@ -25,3 +25,5 @@ Please refer to the [issues page](https://github.com/kcmckell/Hopu-Ka-Lewa-websi
 ### Documentation
 
 Please check out the [documentation page](https://github.com/kcmckell/Hopu-Ka-Lewa-website/wiki/Documentation) on the GitHub Wiki for more information on how the website is structured and how to contribute and maintain the code.
+
+This is an online edit.
