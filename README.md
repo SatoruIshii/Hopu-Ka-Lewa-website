@@ -16,7 +16,7 @@ Instructions for developers
 For local development:
 + Clone this [repository](https://github.com/kcmckell/Hopu-Ka-Lewa-website) to your machine.
 + Create the file `templates/base.html` with a single line: `<base href="local/server/path/to/root" />`.  On the live server, this line looks like `<base href="" />`.
-+ Profit.
++ Profit!
 
 ### Issues
 
