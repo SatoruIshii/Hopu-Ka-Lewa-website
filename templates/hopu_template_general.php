@@ -104,15 +104,15 @@
 {% block subfootscript %}
   <!-- grab jQuery from Google SDN , fallback on local, if offline -->
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-  <script type="text/javascript">google.load("jquery", "1.6.2");</script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.3.min.js"><\/script>')</script>
   <!-- superfish menu by Joel Birch http://users.tpg.com.au/j_birch/plugins/superfish/ -->
   <script type="text/javascript" src="js/superfish/hoverIntent.js"></script>
   <script type="text/javascript" src="js/superfish/superfish.js"></script>
   <!-- responsive select menu by Matt Kersley. Turns ul / ol into select box https://github.com/mattkersley/Responsive-Menu -->
   <script type="text/javascript" src="js/jquery.mobileselect-min.js"></script>
   <!-- Polyfill for DETAILS element -->
-  <script type="text/javascript" src="js/details.polyfill.min.js"></script>
+  <!--<script type="text/javascript" src="js/details.polyfill.min.js"></script>-->
   {% if slider is defined %}
     <!-- responsive FlexSlider slideshow by (C) http://flex.madebymufffin.com/ -->
     <script src="js/jquery.flexslider-min.js"></script>
