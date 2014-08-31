@@ -149,7 +149,7 @@ if ($verified) {
     "late" => 150,
     "shame" => 180
   );
-  $fees["player"] = ($payment_date_proper < $dates["indiv_late_start"] ? $fees["regular"] : $fees["late"]);
+  $fees["player"] = ($payment_date_proper < $dates["indiv_late_start"] ? $fees["regular"] : ($payment_date_proper < $dates['indiv_shame_start'] ? $fees['late'] : $fees['shame']));
   $expected_amount = $npeople["players"]*$fees["player"] + $npeople["guests"]*$fees["guest"];
   $payment_amount = $_POST['mc_gross'];
   $writedata = array();
