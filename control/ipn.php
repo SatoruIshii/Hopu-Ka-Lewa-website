@@ -136,7 +136,7 @@ if ($verified) {
     "guests" => 0
   );
   foreach ($id_array as $id) {
-    if ($id[2] == '2') {
+    if ($id[2] == '3') {
       $npeople["guests"] += 1;
     } else {
       $npeople["players"] += 1;
@@ -179,7 +179,7 @@ if ($verified) {
     // Write results to database.
     foreach ($writedata as $id => $val) {
       $id_string = (string)$id;
-      if ($id_string[2] == '2') {
+      if ($id_string[2] == '3') {
         $writedata[$id]['amt'] = $fees['guest'];
         $writedata[$id]['meth'] = 'PayPal';
       } else {
