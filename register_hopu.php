@@ -7,14 +7,14 @@ $twig = new Twig_Environment($loader, array(
 ));
 $template = $twig->loadTemplate('hopu_template_2014.php');
 date_default_timezone_set('Pacific/Honolulu');
-$curdate = date('m-d-Y');
+$curdate = time();
 require_once 'model/dates.php';
 $params = array(
   'googleform' => array(
-    'active' => true,
+    'active' => $curdate < $dates['online_payment'],
 	'id' => 'individualapp',
-	'src' => 'https://docs.google.com/a/hawaiiultimate.com/forms/d/1mNtu_JyOV0e1BCIBEhAVT3e_T1EM9sOb7S3JMudMgIo/viewform?embedded=true',
-	'height' => '950px'
+	'src' => "https://docs.google.com/forms/d/1VwRT79cV9rVciBQzk4fSvg_dx7XxlqwrLkV3woor0Z8/viewform?embedded=true",
+	'height' => '750px'
   ),
   'pagetitle' => 'Individual Registration',
   'description' => "Instructions for player registration for Hopu Ka Lewa.",
