@@ -1,4 +1,4 @@
-{% extends 'hopu_template_2013.php' %}
+{% extends 'hopu_template_2014.php' %}
 
 {% block contentarea %}
 <div id="content">
