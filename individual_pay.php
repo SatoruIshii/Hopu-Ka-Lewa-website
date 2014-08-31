@@ -3,7 +3,7 @@ require_once 'twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
-//  'cache' => 'tmp/chache',
+  'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2014.php');
 require 'model/dates.php';
@@ -85,8 +85,7 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
   <div id="payment_summary" class="grid_6 mobile-grid-100">
     <table></table>
     <div id="reg_pay">
-      <script src="js/paypal-button.min.js?merchant=photo-facilitator@claymckell.com" 
-          data-env="sandbox" 
+      <script src="js/paypal-button.min.js?merchant=mondochun@gmail.com" 
           data-button="buynow" 
           data-name="Hopu16Registration" 
           data-amount="1" 

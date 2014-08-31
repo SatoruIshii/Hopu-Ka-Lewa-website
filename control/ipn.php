@@ -64,9 +64,9 @@ When you are testing your IPN script you should be using a PayPal "Sandbox"
 account: https://developer.paypal.com
 When you are ready to go live change use_sandbox to false.
 */
-$listener->use_sandbox = true;
-$payee = $sandbox_payee;
-# $payee = $prod_payee;
+$listener->use_sandbox = false;
+#$payee = $sandbox_payee;
+$payee = $prod_payee;
 
 /*
 By default the IpnListener object is going  going to post the data back to PayPal
