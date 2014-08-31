@@ -13,6 +13,41 @@ $params = array(
   'description' => "Payment portal for individuals registering for Hopu 2013.",
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, registration, player, payment, paypal'
   );
+$css = array(
+  "div#payment_instructions" => array("text-align"=>"left"),
+  "div.select_pair_wrapper" => array("line-height"=>".75rem"),
+  "form#registration label" => array("line-height"=>"1rem"),
+  "form#registration select.player" => array("vertical-align"=>"top"),
+  "form#registration button" => array(
+    "-moz-appearance"=>"none", 
+    "padding"=>".2rem", 
+    "margin-top"=>".5rem", 
+    "margin-bottom"=>".5rem"
+    ),
+  "div#payment_summary table" => array(
+    "width"=>"100%", 
+    "font-size"=>"110%",
+    "margin-bottom"=>"1rem"
+    ),
+  "div#payment_summary table td" => array(
+    "padding-top"=>"6px",
+    "padding-bottom"=>"6px"
+    ),
+  "div#payment_summary table td:first-child" => array(
+    "text-align"=>"left",
+    "padding-left"=>".5rem"
+    ),
+  "div#payment_summary table tr:last-of-type" => array(
+    "font-weight"=>"bold", 
+    "border-top"=>"1px solid white"
+    ),
+  "div#payment_summary table tr:last-of-type td:first-of-type" => array("text-align"=>"right"),
+  "div#reg_pay" => array("text-align"=>"center"),
+  "p#time_warning" => array("font-size"=>"130%"),
+  "option" => array("padding"=>"4px")
+  );
+$params['customstyle'] = $css;
+
 $hgroup = <<<HGROUP
 <hgroup class="grid_12">
   <h1>
@@ -44,7 +79,7 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
   </div> <!-- end div#payment_instructions -->
   <div id="reg_form" class="grid_6 mobile-grid-100 grid-parent">
     <form id="registration">
-      <button id="calculate" class="grid-100 mobile-grid-100" type="submit">Calculate total</button>
+      <button id="calculate" class="grid_12 mobile-grid-100" type="submit">Calculate total</button>
     </form>
   </div>
   <div id="payment_summary" class="grid_6 mobile-grid-100">
@@ -291,27 +326,26 @@ function build_team_list(n) {
     });
   });
   var $add_button = $('<button/>', {
-    'class':"add_team grid-50 mobile-grid-50",
+    'class':"add_team grid_6 mobile-grid-50",
     'type':"button",
     'name':"add_team",
     'text':'Add team'
   });
   var $rem_button = $('<button/>', {
-    'class':"rem_team grid-50 mobile-grid-50",
+    'class':"rem_team grid_6 mobile-grid-50",
     'type':"button",
     'name':"rem_team",
     'text':'Remove team'
   });
   var $team_pair = $('<div/>', {'class':'grid-100 grid-parent select_pair_wrapper'})
-    .append('<label for="team'+n+'" class="grid-20 mobile-grid-100">Team</label>')
-    .append($teamselect.addClass("grid-80 mobile-grid-100"));
+    .append('<label for="team'+n+'" class="grid_2 mobile-grid-100">Team</label>')
+    .append($teamselect.addClass("grid_10 mobile-grid-100"));
   var $player_pair = $('<div/>', {'class':'grid-100 grid-parent select_pair_wrapper'})
-    .append('<label for="players'+n+'" class="grid-30 mobile-grid-100">Players and Guests</label>')
-    .append($playerselect.addClass("grid-70 mobile-grid-100"));
+    .append('<label for="players'+n+'" class="grid_3 mobile-grid-100">Players and Guests</label>')
+    .append($playerselect.addClass("grid_9 mobile-grid-100"));
   $fieldset.append($team_pair).append($player_pair)
   if (n==1) {
-    $add_button.addClass("prefix-50 mobile-prefix-50");
-    $fieldset.append($add_button);
+    $fieldset.append('<div class="grid_6"></div>').append($add_button);
   } else {
     $fieldset.append($rem_button).append($add_button);;
   };
