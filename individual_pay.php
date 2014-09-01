@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
   <div id="payment_summary" class="grid_6 mobile-grid-100">
     <table></table>
     <div id="reg_pay">
-      <script src="js/paypal-button.min.js?merchant=mondochun@gmail.com" 
+      <script src="js/paypal-button.min.js?merchant=mondochun@juno.com" 
           data-button="buynow" 
           data-name="Hopu16Registration" 
           data-amount="1" 
