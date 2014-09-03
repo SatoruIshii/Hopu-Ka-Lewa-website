@@ -120,7 +120,7 @@ if ($verified) {
     */
     $errmsg = '';
     // DEBUG:
-    $errmsg .= '\n' . json_encode($_POST) . '\n';
+    //$errmsg .= '\n' . json_encode($_POST) . '\n';
 	// check whether the payment_status is Completed
   if ($_POST['payment_status'] != 'Completed') {exit(0);};
 	// check that txn_id has not been previously processed
