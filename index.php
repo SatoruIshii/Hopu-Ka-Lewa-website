@@ -36,7 +36,7 @@ $content = <<<CONTENT
         But we ask that your team have at least <em>8</em> players registered by this date in order for the committee to see tangible committement.
         Your team bid covers 3 players already, so that is really only 5 more people to sign up!
       </dd>
-    <dt>November 8-10: Et Tu Hopu</dt>
+    <dt>November 7-10: Et Tu Hopu</dt>
       <dd>Get your Roman holiday on!</dd>
   </dl>
 </section>
