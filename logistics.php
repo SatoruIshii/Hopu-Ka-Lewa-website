@@ -13,7 +13,7 @@ $params = array(
   'content' => '    
     <hgroup class="grid_12">
       <h1>
-          Hopu 15 Logistics
+          Hopu 16 Logistics
       </h1>
     </hgroup>
     <section class="grid_12">
@@ -29,20 +29,20 @@ $params = array(
         The Hopu Ka Lewa Committee has some awesome plans to facilitate “Spirit” out of each participant (whether they like it or not), so bring it!
       </p>
       <h2>Tournament Theme:</h2>
-      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">2013 Hopu High School 15th Reunion!</h3>
+      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">Et Tu Hopu?</h3>
       <p>
-        For fourteen years, players have gorged themselves in the Ultimate Frisbee ecstasy only Hopu Ka Lewa could provide. 
-        However, now is not the time to let out your waste bands and let yourself go. 
-        Cause this rock is getting hot and all of your Hopu Ohana is going to be dressed to impress at Prom on Saturday night in Waimanalo, Oahu. 
-        Show your school spirit as we celebrate the 15th Hopu Ka Lewa!!!! (we had 2 one year, if you\'re wondering) 
+        For fifteen years, players have gorged themselves in the Ultimate Frisbee ecstasy only Hopu Ka Lewa could provide.
+        However, now is not the time to let out your waist bands and let yourself go.
+        \'Cause this rock is getting hot and all of your Hopu Ohana is going to be dressed to impress in their finest togas at the Cacchanalia on Saturday night in Waimanalo, Oahu.
+        Show your spirit as we celebrate the 16th Hopu Ka Lewa!!!! (we had 2 one year, if you\'re wondering)
       </p>
       <h2>How Your Team Contributes to the Theme</h2> 
       <dl>
-        <dt>Pep Rally<dt>
+        <dt>Spirit Circle<dt>
         <dd>
           It is traditional that each team brings a cheer for the “Opening Ceremonies” held on Friday night. 
           The cheer can be funny, crude, cheesy, brutally honest, shameless, a parody, a musical, a dance; the possibilities are endless. 
-          <strong>This is an opportunity for you and your team to introduce yourselves to everyone and show us your school spirit.</strong>
+          <strong>This is an opportunity for you and your team to introduce yourselves to everyone and show us your spirit.</strong>
           To keep things moving along, all cheers will be strictly limited to 60 seconds. 
           Notable cheers from Hopu Ka Lewa past can be viewed on the <a href="http://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373?sk=videos">Hopu Facebook page</a>.
         </dd>
@@ -59,24 +59,25 @@ $params = array(
           There are no limitations to what the game should be. 
           But it is recommended that the game is a representation of your team, where you are from, or the personality your team is trying to portray here at Hopu Ka Lewa.
         </dd>
-        <dt>Hopu High Weekend Spirit Game</dt>
+        <dt>Hopu Spirit Game, or should we say Olympics</dt>
         <dd>
-          What sets Hopu apart from all other tournaments is that the fun doesn’t stop before, during, or after games. 
-          This year, everyone in attendance will compete in a team winner take all year book challenge. 
-          There are a list of challenges that you as a team must complete along with meeting a member of every single other team and having them “sign” the team year book.
+          What sets Hopu apart from all other tournaments is that the fun doesn\'t stop before, during, or after games.
+          This year, everyone in attendance will be assigned a color that will determine your Olympic team.
+          Olympic teams will compete in life or death challenges.
+          There will be scheduled Olympic challenges that will require you to work together as a team as tight as a roman infantry to win.
         </dd>
       </dl>
     </section>
     <section class="grid_6">
       <h2>Schedule of Events</h2>
-      <h3>Friday, Nov. 8th, 2013 Agenda</h3>
+      <h3>Friday, Nov. 7th, 2013 Agenda</h3>
       <dl>
         <dt>The party starts FRIDAY night (~4pm)</dt>
         <dd>
           Opening ceremonies, dinner, beer, spirit circle, team cheers, acrobat troupe, captains meeting, JUST BE THERE! 
           This is a great time to meet and greet.
         </dd>
-        <dt>Pep Rally</dt>
+        <dt>Spirit Circle</dt>
         <dd>
           Starts promptly at 8pm
         </dd>
@@ -88,13 +89,13 @@ $params = array(
           Saturday check-in will be open from 6am-8am, during breakfast.
         </dd>
       </dl>
-      <h3>Saturday, Nov. 9, 2013 Agenda</h3>
+      <h3>Saturday, Nov. 8, 2013 Agenda</h3>
       <dl>
         <dt>Pool play games</dt>
         <dd>
           Run from 8am – 5pm
         </dd>
-        <dt>Saturday night is the Prom</dt>
+        <dt>Saturday night is the Bacchanalia</dt>
         <dd>
           Proper attire <strong>is appreciated at dinner</strong>. 
           Yes, people do get into costume, and you will be in the minority if you don’t. 
@@ -113,7 +114,7 @@ $params = array(
           Will be laying down tracks so prepare to rip up the dance floor!
         </dd>
       </dl>
-      <h3>Sunday, Nov. 10, 2013 Agenda</h3>
+      <h3>Sunday, Nov. 9, 2013 Agenda</h3>
       <dl>
         <dt>Bracket play</dt>
         <dd>Starts at 9am.
@@ -132,12 +133,12 @@ $params = array(
         <dd>
           Follows Taiko.
         </dd>
-        <dt>Etherial Monkey</dt>
+        <dt>Cynth and the What\'s his Faces</dt>
         <dd>
-          Born and raised on Ultimate spirit this band will keep you dancing into Monday.
+          This Oahu band will have you on your feet and keep you dancing into Monday.
         </dd>
       </dl>
-      <h3>Monday, Nov. 11, 2013 Agenda</h3>
+      <h3>Monday, Nov. 10, 2013 Agenda</h3>
       <dl>
         <dt>Hat Draw</dt>
         <dd>
