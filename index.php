@@ -30,7 +30,7 @@ $content = <<<CONTENT
     <dt>{$Md['invites_out']}: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
     <dt>{$Md['accept_deadline']}: Bid confirmation deadline</dt>
-      <dd>Captains must notify the TD or risk forfeiting their team\'s bid.</dd>
+      <dd>Captains must notify the TD or risk forfeiting their team's bid.</dd>
     <dt>{$Md['skeleton']}: Skeleton registration deadline</dt>
       <dd>We know how hard it is to get players to commit to travel and play.  
         But we ask that your team have at least <em>8</em> players registered by this date in order for the committee to see tangible committement.
@@ -43,14 +43,14 @@ $content = <<<CONTENT
 <section class="grid_7">
   <img src="images/mainslides/HenryHsieh2012-Sallys2012.jpg" width="960" alt="Sippin Sallys 2012 Boat Race Champions"> 
 </section>
-<section id="sponsors" class="grid_5">
+<section id="sponsors" class="grid_7">
   <h2>Sponsors</h2>
   <p>Hopu would like to thank our sponsors for their generous help.  Many mahalos to:</p>
   <h3>SAVAGEultimate</h3>
   <img src="images/SAVAGEultimateLogo-Square.jpg" />
   <p>
     SAVAGEultimate was born out of yeti DNA in 2009.  
-    You don\'t have to ask yourself "do I look good?" because we know you look good. 
+    You don't have to ask yourself "do I look good?" because we know you look good. 
     This allows you to concentrate on getting that layout d and getting the bookends. 
     Knowing your jersey can take as much abuse as your body can handle, gives you an extra inch on your reach. 
     We have designed our uniforms to be lighter than a cloud, stronger than Lou Ferrigno, and soft enough for angels to sleep in.
@@ -61,6 +61,7 @@ $content = <<<CONTENT
   <p>
     SAVAGEultimate is dedicated to making you look good on and off the field.
   </p>
+  <img src="images/SAVAGE_Hopu_Ka_Lewa_2014_HopuDeals.jpg" />
 </section>
 <section id="facebook" class="grid_5">
 <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
