@@ -6,6 +6,17 @@ $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_history.php');
+/* Champ Table of the form:
+ * <tr>
+      <th>Year</th>
+      <th>Champions</th>
+      <th>Boat Race<br/>Winners</th>
+      <th>Penultimate<br/>Winners</th>
+      <th>Beer Bracket Winners</th>
+      <th>Spirit Team</th>
+      <th>Spirit Players</th>
+  </tr>
+ */
 $params = array(
   'pagetitle' => 'History',
   'description' => "History of Hopu Ka Lewa.",
