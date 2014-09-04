@@ -133,20 +133,10 @@ $params = array(
                         Pickup Players
                     </h2>
                     <p>No team?  No problem!</p>
-                    <h3>
-                        Citizens Abroad Program (pickup team)
-                    </h3>
-                        <p>
-							Individuals who would like to attend, but do not have a team, may register for the Citizens Abroad Program - an exciting chance to share language, culture, and bodily fluids with a generous host team. 
-							This honor is specially reserved for those individual submissions that show outstanding promise in bringing the best spirit and fun to our tournament. 
-							We may be able to place you on a team that needs players, but this is up to the tournament directors\' and team captains\' discretion. 
-							To register, complete the online registration and select "Other" for your team or <a href="mailto:hoputd@hawaiiultimate.com">drop us an email</a> that you would like to be placed on a team, and we will be in touch as the tournament approaches.
-                        </p>
-												    
-                        <p>
-							The pickup or "spirit" team is limited to 20 male and 20 female players. 
-							It will be filled on a first-come, first-served basis.
-                        </p>
+                    <p>
+                      All players wishing to play for the Spirit Team should register with "Genius Ludi - Spirit".  
+                      If more than 20 players register for this team, we may consider adding a second spirit team.
+                    </p>
                 </section>'
 );
 $template->display($params);
