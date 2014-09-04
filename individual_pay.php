@@ -74,6 +74,10 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
       Disabled (gray-ed out) names indicate that person has already been paid for online.
     </p>
     <p>
+      <strong>NOTE:</strong> We are currently experience significant delays (up to one hour) between registration and appearance in the payment form below.
+      Please wait a bit and try again if you don't see your name at first.
+    </p>
+    <p>
       Any problems with registration or payments should be directed to <a href="mailto:webmaster@hawaiiultimate.com">the webmaster</a>.
     </p>
   </div> <!-- end div#payment_instructions -->
