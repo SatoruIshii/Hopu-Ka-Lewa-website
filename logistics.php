@@ -224,7 +224,7 @@ $params = array(
         </dd>
         <dt><a href="http://savageultimate.com/">Savage Ultimate</a></dt>
         <dd>
-          Will be joining us again this year! Stop by their tent to pick up some official Hopu Ka Lewa 2013 merchandise. 
+          Will be joining us again this year! Stop by their tent to pick up some official Hopu Ka Lewa 2014 merchandise. 
           I’ve seen them and they are freaking sweet.
         </dd>
         <dt>Car ride sharing</dt>
@@ -243,10 +243,10 @@ $params = array(
         Programs and game schedules will be emailed, as we get closer to the tournament date. 
       </p>
       <p>
-        Have a good day, Class Dismissed
+        Have a good day, Carpe Diem
       </p>
       <p>
-        Principal Fineran
+        Magistrate Fineran
       </p>
       <p>
         P.S. Feel free to <a href="mailto:hoputd@hawaiiultimate.com">email</a> me any questions
