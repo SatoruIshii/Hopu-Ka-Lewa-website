@@ -61,15 +61,6 @@ $content = <<<CONTENT
   <p>
     SAVAGEultimate is dedicated to making you look good on and off the field.
   </p>
-  <h3>KateFarms</h3>
-  <p>
-    KateFarms brings you Komplete: the world\'s first Ready-to-Drink Ultimate Meal Replacement Shake. 
-    Soy-Free, Dairy-Free, Gluten-Free, Flavor-Full. 
-    Plant-based protein delivers 17-19g with 21 super foods, all non-GMO. 
-    Taste how delicious healthy can be. Available at health food stores everywhere.
-  </p>
-  <img src="images/KF-logo.jpg" />
-  <img src="images/komplete.png" />
 </section>
 <section id="facebook" class="grid_5">
 <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
