@@ -19,8 +19,7 @@ $content = <<<CONTENT
     <h2>Vitals</h2>
     Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.
     <p>
-        Detail about the 2014 Hat Draw are still being worked out.
-        Stay tuned!
+        This year's post-Hopu Hat Draw will be in beautiful Hanalei, Kauai.
     </p>
     <p>
         Questions and concerns can be directed toward the <a href="mailto:rippeddisc@gmail.com">Hat Draw Organizer, Aaron Feinberg</a>.
