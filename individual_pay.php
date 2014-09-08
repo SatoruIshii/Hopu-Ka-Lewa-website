@@ -76,6 +76,11 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
     <p>
       Any problems with registration or payments should be directed to <a href="mailto:webmaster@hawaiiultimate.com">the webmaster</a>.
     </p>
+    <p>
+      Remember, your registration is <i>not complete</i> until your <strong>payment is submitted</strong>! 
+      The registration fee you pay is determined by the date/time you <i>submit your payment</i>, <strong>NOT</strong>
+      by the date/time you submit the registration form.
+    </p>
   </div> <!-- end div#payment_instructions -->
   <div id="reg_form" class="grid_6 mobile-grid-100 grid-parent">
     <form id="registration">
