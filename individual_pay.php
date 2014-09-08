@@ -320,7 +320,7 @@ function build_team_list(n) {
     $playerselect.append('<option class="loading" value="">Loading...</option>');
     // Know the value is passed of the form KEYSTRING,Sheet Name.
     var team_vals = $teamselect.val().split(',');
-    reg_get(team_vals[0],team_vals[1]).done(function(data, textStatus, jqXHR){
+    reg_get(team_vals[0],team_vals.slice(1).join(',')).done(function(data, textStatus, jqXHR){
       console.log(data);
       $playerselect.find('option.loading').remove();
       var data_array = data;
