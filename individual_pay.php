@@ -276,10 +276,7 @@ function build_team_list(n) {
   var sskey_teams = "1mdTywaPgCPUk3gjtMJTHt3EFJyFfNNOhKrU59tOOhzk";
   var sskey_guests = "1obYBNSPGIttZfkZ8AY6wM-KpsreO7AHvLMVrmA5sHEk";
   var sskeys = [[sskey_teams], [sskey_guests]];
-  // Map English-language field names to their Google-sheets equivalent.
-  // The player spreadsheet returns different field names from the Guest spreadsheet.
-  // I don't know why.  Something to do with the "New Sheets"?
-  var playerdic = {
+  var teamdic = {
     'playerid':'playerid',
     'firstname':'firstname',
     'lastname':'lastname',
@@ -288,16 +285,6 @@ function build_team_list(n) {
     'receiveddate':'receiveddate',
     'privatereg':'privatereg',
     'paymentmeth':'receivedmethod'
-  };
-  var guestdic = {
-    'playerid':'_chk2m',
-    'firstname':'_cokwr',
-    'lastname':'_cpzh4',
-    'team':'_cre1l',
-    'receivedamt':'_ciyn3',
-    'receiveddate':'_ckd7g',
-    'privatereg':'',
-    'paymentmeth':'_cyevm'
   };
   var $fieldset = $('<fieldset/>');
   var $teamselect = $('<select/>', {'id':'team'+n, 'name':'team'+n, 'class':'reg team'})
@@ -341,13 +328,12 @@ function build_team_list(n) {
       } else {
         for (var p = 0; p < data_array.length; p++){
           player_info = data_array[p];
-          var generaldic = ( player_info.hasOwnProperty(playerdic["playerid"]) ? playerdic : guestdic );
-          if ( player_info[playerdic[generaldic["privatereg"]]] != 1 ) {
+          if ( player_info[teamdic["privatereg"]] != 1 ) {
             $opt = $('<option/>', {
-                'value':player_info[generaldic["playerid"]]+','+player_info[generaldic["firstname"]]+' '+player_info[generaldic["lastname"]],
-                'text':player_info[generaldic["firstname"]]+' '+player_info[generaldic["lastname"]]
+                'value':player_info[teamdic["playerid"]]+','+player_info[teamdic["firstname"]]+' '+player_info[teamdic["lastname"]],
+                'text':player_info[teamdic["firstname"]]+' '+player_info[teamdic["lastname"]]
             });
-            if (player_info[generaldic["paymentmeth"]]!=="" || player_info[generaldic["paymentmeth"]]=="FRAUD") {
+            if (player_info[teamdic["paymentmeth"]]!=="" || player_info[teamdic["paymentmeth"]]=="FRAUD") {
               $opt.attr({'disabled':'disabled'});
               // Add help message explaining the grey-ness.
             };
