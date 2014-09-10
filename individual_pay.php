@@ -333,10 +333,10 @@ function build_team_list(n) {
           player_info = data_array[p];
           if ( player_info[teamdic["privatereg"]] != 1 ) {
             $opt = $('<option/>', {
-                'value':player_info[teamdic["playerid"]]+','+player_info[teamdic["firstname"]]+' '+player_info[teamdic["lastname"]],
-                'text':player_info[teamdic["firstname"]]+' '+player_info[teamdic["lastname"]]
+                'value' : (player_info[teamdic["playerid"]] || player_info["_chk2m"] || '') + ',' + (player_info[teamdic["firstname"]] || player_info["_cokwr"] || '') + ' ' + (player_info[teamdic["lastname"]] || player_info["_cpzh4"] || ''),
+                'text' : (player_info[teamdic["firstname"]] || player_info["_cokwr"] || 'Sorry, an error occurred.') + ' ' + (player_info[teamdic["lastname"]] || player_info["_cpzh4"] || 'Please reload the page.')
             });
-            if (player_info[teamdic["paymentmeth"]]!=="" || player_info[teamdic["paymentmeth"]]=="FRAUD") {
+            if ( (teamdic["paymentmeth"] in player_info ? player_info[teamdic["paymentmeth"]] : player_info["_cyevm"]) !== "" || (teamdic["paymentmeth"] in player_info ? player_info[teamdic["paymentmeth"]] : player_info["_cyevm"]) == "FRAUD" ) {
               $opt.attr({'disabled':'disabled'});
               // Add help message explaining the grey-ness.
             };
