@@ -336,7 +336,11 @@ function build_team_list(n) {
                 'value' : (player_info[teamdic["playerid"]] || player_info["_chk2m"] || '') + ',' + (player_info[teamdic["firstname"]] || player_info["_cokwr"] || '') + ' ' + (player_info[teamdic["lastname"]] || player_info["_cpzh4"] || ''),
                 'text' : (player_info[teamdic["firstname"]] || player_info["_cokwr"] || 'Sorry, an error occurred.') + ' ' + (player_info[teamdic["lastname"]] || player_info["_cpzh4"] || 'Please reload the page.')
             });
-            if ( (teamdic["paymentmeth"] in player_info ? player_info[teamdic["paymentmeth"]] : player_info["_cyevm"]) !== "" || (teamdic["paymentmeth"] in player_info ? player_info[teamdic["paymentmeth"]] : player_info["_cyevm"]) == "FRAUD" ) {
+            // Regular field name check
+            var reg_paid_bool = teamdic["paymentmeth"] in player_info && (player_info[teamdic["paymentmeth"]] !== "" || player_info[teamdic["paymentmeth"]] == "FRAUD");
+            // Alternative field name check
+            var odd_paid_bool = "_cyevm" in player_info && (player_info["_cyevm"] !== "" || player_info["_cyevm"] == "FRAUD");
+            if (reg_paid_bool | odd_paid_bool) {
               $opt.attr({'disabled':'disabled'});
               // Add help message explaining the grey-ness.
             };
