@@ -74,6 +74,9 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
       Disabled (gray-ed out) names indicate that person has already been paid for online.
     </p>
     <p>
+      Guests should select "Guest" on the list, NOT the team on which the sponsoring player will be playing.
+    </p
+    <p>
       Any problems with registration or payments should be directed to <a href="mailto:webmaster@hawaiiultimate.com">the webmaster</a>.
     </p>
     <p>
