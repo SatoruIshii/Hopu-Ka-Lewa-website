@@ -15,36 +15,45 @@ $content = <<<CONTENT
         Post-Hopu Hat Draw
     </h1>
 </hgroup>
-<section id="hatdraw" class="grid_6">
-  <h2>Vitals</h2>
-  Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.
-  <p>
-    This year's post-Hopu Hat Draw will be in beautiful Hanalei, Kauai.
-  </p>
-  <p>
-    Games will be held on the Hanalei Soccer fields. 
-    Meet at 8:30am on Saturday.
-    Registration is $60 and that includes a disc, local beer, a delectable dinner and fantastic prizes!  
-  </p>
-  <p>
-    Party location: TBD; fun, inevitable.
-  </p>
-  <p>
-    Brought to you by Kauai Ultimate and the <a href="mailto:rippeddisc@gmail.com">Finest Feinberg</a> on the island.
-  </p>
-  <h2>Housing</h2>
-  <p>
-    The Hanalei Inn is across the street and is renting for $149/$159 (for 3 days but she can do a bit of a discount for longer stays).
-  </p>
-  <p>
-    Camping permits for Hanalei are NOT available online but can be picked up at one of 4 locations on Kauai at strange times.  
-    Hanalei Blackpot Beachpark only allows camping on Friday and Saturday nights. 
-    Camping fees for Hanelei Blackpot Beachpark are $3 per adult per night.   
-    It also says online that they only accept money orders for camping fees (try email or call them to see if they will take cash).
-  </p>
-  <p>
-    For more stone-age information please visit the <a href="http://www.kauai.gov/government/departments/parksrecreation/campinginformation/tabid/176/default.aspx">Kauai County Parks and Rec page</a> or send them a carrier pigeon.
-  </p>
+<div class="clearfix"></div>
+<section id="hatdraw">
+  <article class="grid_6">
+    <h2>
+      Vitals
+    </h2>
+    Every year, we keep the party going on the next weekend on an outer island where life is a bit slower and players get a chance to experience another island.
+    <p>
+      This year's post-Hopu Hat Draw will be in beautiful Hanalei, Kauai.
+    </p>
+    <p>
+      Games will be held on the Hanalei Soccer fields. 
+      Meet at 8:30am on Saturday.
+      Registration is $60 and that includes a disc, local beer, a delectable dinner and fantastic prizes!  
+    </p>
+    <p>
+      Party location: TBD; fun, inevitable.
+    </p>
+    <p>
+      Brought to you by Kauai Ultimate and the <a href="mailto:rippeddisc@gmail.com">Finest Feinberg</a> on the island.
+    </p>
+  </article>
+  <article class="grid_6">
+    <h2>
+      Housing
+    </h2>
+    <p>
+      The Hanalei Inn is across the street and is renting for $149/$159 (for 3 days but she can do a bit of a discount for longer stays).
+    </p>
+    <p>
+      Camping permits for Hanalei are NOT available online but can be picked up at one of 4 locations on Kauai at strange times.  
+      Hanalei Blackpot Beachpark only allows camping on Friday and Saturday nights. 
+      Camping fees for Hanelei Blackpot Beachpark are $3 per adult per night.   
+      It also says online that they only accept money orders for camping fees (try email or call them to see if they will take cash).
+    </p>
+    <p>
+      For more stone-age information please visit the <a href="http://www.kauai.gov/government/departments/parksrecreation/campinginformation/tabid/176/default.aspx">Kauai County Parks and Rec page</a> or send them a carrier pigeon.
+    </p>
+  </article>
 </section>
 CONTENT;
 $params = array(
