@@ -14,6 +14,8 @@ $params = array(
   'keywords' => 'Hawaii, ultimate, frisbee, ultimate frisbee, coed, tournament, registration, player, payment, paypal'
   );
 $css = array(
+  "html.no-js .js_req" => array("display"=>"none"),
+  "html.js .js_prompt" => array("display"=>"none"),
   "div#payment_instructions" => array("text-align"=>"left"),
   "div.select_pair_wrapper" => array("line-height"=>".75rem"),
   "form#registration label" => array("line-height"=>"1rem"),
@@ -85,12 +87,17 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
       by the date/time you submit the registration form.
     </p>
   </div> <!-- end div#payment_instructions -->
-  <div id="reg_form" class="grid_6 mobile-grid-100 grid-parent">
+  <div class="js_prompt grid_12">
+    <p>It appears that you have disabled JavaScript in this browser.</p>
+    <p>JavaScript is required to complete the online payment process.</p>
+    <p>Please enable JavasScript or contact the <a href="mailto:hoputd@hawaiiultimate.com">Tournament Directors</a> if this is not an option.<p>
+  </div>
+  <div id="reg_form" class="grid_6 mobile-grid-100 grid-parent js_req">
     <form id="registration">
       <button id="calculate" class="grid_12 mobile-grid-100" type="submit">Calculate total</button>
     </form>
   </div>
-  <div id="payment_summary" class="grid_6 mobile-grid-100">
+  <div id="payment_summary" class="grid_6 mobile-grid-100 js_req">
     <table></table>
     <div id="reg_pay">
       <script src="js/paypal-button.min.js?merchant=mondochun@juno.com" 
