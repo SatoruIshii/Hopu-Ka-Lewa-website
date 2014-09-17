@@ -15,7 +15,7 @@ $params = array(
   );
 $css = array(
   "html.no-js .js_req" => array("display"=>"none"),
-  "html.js .js_prompt" => array("display"=>"none"),
+  "html.modjs .js_prompt" => array("display"=>"none"),
   "div#payment_instructions" => array("text-align"=>"left"),
   "div.select_pair_wrapper" => array("line-height"=>".75rem"),
   "form#registration label" => array("line-height"=>"1rem"),
