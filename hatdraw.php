@@ -58,7 +58,7 @@ $content = <<<CONTENT
     <h2>
       Registration
     </h2>
-    To register, simply use the PayPal button below to send your $60 to the Hat Draw TD, Aaron Feinberg.
+    To register, please complete the form and use the PayPal button below to send your $60 to the Hat Draw TD, Aaron Feinberg.
     <p>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -69,6 +69,12 @@ $content = <<<CONTENT
 </section>
 CONTENT;
 $params = array(
+  'googleform' => array(
+    'active' => true,
+	'id' => 'hatdrawreg',
+	'src' => "https://docs.google.com/forms/d/1UNf3ssovMrRUtBu_4g0uDNlnNcC_i38CqeBLmY_grAg/viewform?embedded=true",
+	'height' => '950px'
+  ),
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',
   'keywords' => 'Hawaii, ultimate, outer island, neighbor island, frisbee, ultimate frisbee, coed, hat, hat draw',
