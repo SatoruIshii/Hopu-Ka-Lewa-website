@@ -79,6 +79,13 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
       Guests should select "Guest" on the list, NOT the team on which the sponsoring player will be playing.
     </p
     <p>
+      If you selected "My registration fees were covered in the team bid" as your payment method during registration, 
+      you do not need to submit a payment, even if your name appears on the list. 
+      However, remember that each team can only have three players covered by this option; 
+      if more than 3 players select this option, individual registration fees will be required from the extra players, 
+      and the price will be determined by the date on which payment is submitted!
+    </p>
+    <p>
       Any problems with registration or payments should be directed to <a href="mailto:webmaster@hawaiiultimate.com">the webmaster</a>.
     </p>
     <p>
