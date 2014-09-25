@@ -31,7 +31,7 @@ $content = <<<CONTENT
       Registration is $60 and that includes a disc, local beer, a delectable dinner and fantastic prizes!  
     </p>
     <p>
-      Party location: TBD; fun, inevitable.
+      Party location: Kalihiwai Ridge about 2 miles up Haliholo Road.
     </p>
     <p>
       Brought to you by Kauai Ultimate and the <a href="mailto:rippeddisc@gmail.com">Finest Feinberg</a> on the island.
@@ -43,6 +43,9 @@ $content = <<<CONTENT
     </h2>
     <p>
       The Hanalei Inn is across the street and is renting for $149/$159 (for 3 days but she can do a bit of a discount for longer stays).
+    </p>
+    <p>
+      Please contact <a href="mailto:rippeddisc@gmail.com">Aaron</a> for information about accomodations at/near the party site on Saturday night.
     </p>
     <p>
       Camping permits for Hanalei are NOT available online but can be picked up at one of 4 locations on Kauai at strange times.  
