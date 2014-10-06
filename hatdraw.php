@@ -31,7 +31,7 @@ $content = <<<CONTENT
       Registration is $60 and that includes a disc, local beer, a delectable dinner and fantastic prizes!  
     </p>
     <p>
-      Party location: Kalihiwai Ridge about 2 miles up Haliholo Road.
+      Party location: Kalihiwai Ridge about 2 miles up Kahiliholo Road.
     </p>
     <p>
       Brought to you by Kauai Ultimate and the <a href="mailto:rippeddisc@gmail.com">Finest Feinberg</a> on the island.
