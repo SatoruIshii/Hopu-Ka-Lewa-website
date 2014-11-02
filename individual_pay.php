@@ -6,6 +6,7 @@ $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
 $template = $twig->loadTemplate('hopu_template_2014.php');
+date_default_timezone_set('Pacific/Honolulu');
 require 'model/dates.php';
 define('SECURE_CONSTANT_173945d5ecd6224993ffc110dfb30fa0', 1);
 $params = array(
