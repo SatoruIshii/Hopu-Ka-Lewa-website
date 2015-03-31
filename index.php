@@ -10,12 +10,15 @@ require 'model/dates.php';
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-        Et Tu Hopu?
+    	Nov. 13-16, 2015
+        <!-- Et Tu Hopu? -->
     </h1>
 </hgroup>
 <section class="grid_5">
   <h2>Important Dates</h2>
   <dl>
+    <dt>We'll make an announcement in June or July.</dt>
+    <del>
     <dt>July: Bid window opens</dt>
       <dd>
         Please submit your team bid via the <a href="bid_hopu.php">online form</a>.
@@ -38,6 +41,7 @@ $content = <<<CONTENT
       </dd>
     <dt>November 7-10: Et Tu Hopu</dt>
       <dd>Get your Roman holiday on!</dd>
+    </del>
   </dl>
 </section>
 <section class="grid_7">
