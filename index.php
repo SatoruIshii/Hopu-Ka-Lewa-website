@@ -10,7 +10,7 @@ require 'model/dates.php';
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-    	Nov. 13-16, 2015
+    	November 13-16, 2015
         <!-- Et Tu Hopu? -->
     </h1>
 </hgroup>
