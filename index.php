@@ -17,7 +17,7 @@ $content = <<<CONTENT
 <section class="grid_5">
   <h2>Important Dates</h2>
   <dl>
-    <dt>We'll make an announcement in June or July.</dt>
+    <dt>We'll make an announcement soon.</dt>
     <del>
     <dt>July: Bid window opens</dt>
       <dd>
