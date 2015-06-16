@@ -11,35 +11,31 @@ $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
     	November 13-16, 2015
-        <!-- Et Tu Hopu? -->
     </h1>
 </hgroup>
 <section class="grid_5">
   <h2>Important Dates</h2>
   <dl>
-    <dt>We'll make an announcement soon.</dt>
-    <dt>July: Bid window opens</dt>
+    <dt>June 15: Bid window opens</dt>
       <dd>
-        Please submit your team bid via the <a href="bid_hopu.php">online form</a>.
+        Please submit your team bid via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">Ultimate Central</a>.
         Supplemental materials, such as video or other media, are <em>strongly</em> encouraged and can be emailed to the <a href="mailto:hoputd@hawaiiultimate.com">Tournament Directors</a>.
         Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 16.  
         The more spirited your bid, the better your chances of getting to play!  
         This tournament is all about sharing the Ohana experience with the community and getting to know each other.  
         Creativity and artistic expression are strongly encouraged.
       </dd>
-    <dt>{$Md['bid_deadline_online']}: Bid deadline</dt>
+    <dt>September 1: Bid deadline</dt>
       <dd>Please get your bids in before the deadline so the selection process can start.</dd>
-    <dt>{$Md['invites_out']}: Teams announced</dt>
+    <dt>September 15: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
-    <dt>{$Md['accept_deadline']}: Bid confirmation deadline</dt>
-      <dd>Captains must notify the TD or risk forfeiting their team's bid.</dd>
-    <dt>{$Md['skeleton']}: Skeleton registration deadline</dt>
-      <dd>We know how hard it is to get players to commit to travel and play.  
-        But we ask that your team have at least <em>8</em> players registered by this date in order for the committee to see tangible committement.
-        Your team bid covers 3 players already, so that is really only 5 more people to sign up!
+    <dt>September 16: Iindividual Registration</dt>
+      <dd>Darly bird: $125.00 (by October 2nd)
+      Regular rate: $150.00 (by November 1st)
+      Late rate: $180.00 (by November 8th)
       </dd>
-    <dt>November 7-10: Et Tu Hopu</dt>
-      <dd>Get your Roman holiday on!</dd>
+    <dt>November 13-16: HOPU, here we come!</dt>
+      <dd>May the HOPU be with you.</dd>
   </dl>
 </section>
 <section class="grid_7">
