@@ -58,8 +58,9 @@ $content = <<<CONTENT
   </p>
   <p>
     SAVAGEultimate is dedicated to making you look good on and off the field.
+    Details are coming later.
   </p>
-  <img src="images/SAVAGE_Hopu_Ka_Lewa_2014_HopuDeals.jpg" />
+  <!-- <img src="images/SAVAGE_Hopu_Ka_Lewa_2014_HopuDeals.jpg" /> -->
 </section>
 <section id="facebook" class="grid_5">
 <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
