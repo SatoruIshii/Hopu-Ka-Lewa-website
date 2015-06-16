@@ -39,7 +39,7 @@ $content = <<<CONTENT
   </dl>
 </section>
 <section class="grid_7">
-  <img src="images/mainslides/HenryHsieh2012-Sallys2012.jpg" width="960" alt="Sippin Sallys 2012 Boat Race Champions"> 
+  <img src="https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/11167984_876563889083839_781677902467969874_o.jpg" width="960" alt="HOPU KA LEWA"> 
 </section>
 <section id="sponsors" class="grid_7">
   <h2>Sponsors</h2>
