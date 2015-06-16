@@ -18,7 +18,6 @@ $content = <<<CONTENT
   <h2>Important Dates</h2>
   <dl>
     <dt>We'll make an announcement soon.</dt>
-    <del>
     <dt>July: Bid window opens</dt>
       <dd>
         Please submit your team bid via the <a href="bid_hopu.php">online form</a>.
@@ -41,7 +40,6 @@ $content = <<<CONTENT
       </dd>
     <dt>November 7-10: Et Tu Hopu</dt>
       <dd>Get your Roman holiday on!</dd>
-    </del>
   </dl>
 </section>
 <section class="grid_7">
