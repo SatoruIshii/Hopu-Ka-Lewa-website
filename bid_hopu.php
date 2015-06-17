@@ -21,9 +21,20 @@ $params = array(
   ),
   'content' => ''
 );
+$hgroup = '<hgroup class="grid_12">
     <h1>
         Team Bid Processes
     </h1>';
+if ($params['googleform']['active']) {
+  $hgroup .= 'You can skip straight to the bid form <a href="#'.$params['googleform']['id'].'">here</a>.  ';
+  $hgroup .= 'We are also accepting <a href="team_pay.php">team bid payments</a>.  ';
+  $hgroup .= 'Otherwise, read on!';
+  $hgroup .= '<br/>';
+  $hgroup .= '<strong id="deadline_warning" class="'.(strtotime("+1 week",$_SERVER['REQUEST_TIME'])>=$dates['bid_deadline_online'] ? '' : 'hidden').'">NOTICE: Team bid payments submitted after midnight Hawaii Standard Time on '. $MdY['bid_deadline_online'] .' will be considered late.</strong>';
+} else {
+  $hgroup .= 'Sorry, the online bid period is over.'; 
+}
+$hgroup .= '</hgroup>';
 
 $bodycontent = <<<CONTENT
 <section id="summary" class="grid_12">
