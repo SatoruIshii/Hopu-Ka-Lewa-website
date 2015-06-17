@@ -30,7 +30,7 @@ $content = <<<CONTENT
     <dt>September 15: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
     <dt>September 16: Iindividual Registration</dt>
-      <dd>Darly bird: $125.00 (by October 2nd)
+      <dd>Early bird: $125.00 (by October 2nd)
       Regular rate: $150.00 (by November 1st)
       Late rate: $180.00 (by November 8th)
       </dd>
