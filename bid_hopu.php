@@ -21,34 +21,19 @@ $params = array(
   ),
   'content' => ''
 );
-$hgroup = '<hgroup class="grid_12">
     <h1>
         Team Bid Processes
     </h1>';
-if ($params['googleform']['active']) {
-  $hgroup .= 'You can skip straight to the bid form <a href="#'.$params['googleform']['id'].'">here</a>.  ';
-  $hgroup .= 'We are also accepting <a href="team_pay.php">team bid payments</a>.  ';
-  $hgroup .= 'Otherwise, read on!';
-  $hgroup .= '<br/>';
-  $hgroup .= '<strong id="deadline_warning" class="'.(strtotime("+1 week",$_SERVER['REQUEST_TIME'])>=$dates['bid_deadline_online'] ? '' : 'hidden').'">NOTICE: Team bid payments submitted after midnight Hawaii Standard Time on '. $MdY['bid_deadline_online'] .' will be considered late.</strong>';
-} else {
-  $hgroup .= 'Sorry, the online bid period is over.'; 
-}
-$hgroup .= '</hgroup>';
 
 $bodycontent = <<<CONTENT
 <section id="summary" class="grid_12">
     <p>
-        Hopu Ka Lewa is a Hawaii Ultimate tournament that focuses on capturing and encouraging the Spirit of the Game, and the Spirit of the Community. 
-        As the tournament has continued to grow in both size and spirit, the team bid competition has become quite heated. 
-        We do our best to accomodate all applying teams, but at the same time we are more keen on cultivating a tournament that exemplifies good competitive ultimate founded on the very best of spirit(s), fun, antics, cheers, costumes, games, and all the other aspects of the game that make it an Ultimate Experience. 
-        With this in mind we give priority to those teams who we feel offer the most to the entirety of the tournament experience, not just badass disc skills. 
-    </p>
-    <p>
-        As we promote the creative and community building aspects of this tournament, we base a lot of our bid critiques on the overall message a team sends through its bid documents. 
-        The documents can be video or presentation based, songs, dances, photo montages, or the promise of some really intriguing surprises. 
-        We don't need spoilers, but we do need a good tease. 
-        Please keep this in mind as you formulate your teams plan to get invited to Hopu Ka Lewa 16!
+        Please submit your team bid via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">Ultimate Central</a>.
+        Supplemental materials, such as video or other media, are <em>strongly</em> encouraged and can be emailed to the <a href="mailto:hoputd@hawaiiultimate.com">Tournament Directors</a>.
+        Show us what your team will contribute to the tournament and why you want to play in Hopu Ka Lewa 16.  
+        The more spirited your bid, the better your chances of getting to play!  
+        This tournament is all about sharing the Ohana experience with the community and getting to know each other.  
+        Creativity and artistic expression are strongly encouraged. 
     </p>
 </section>
 <section id="caveats" class="grid_6">
@@ -56,26 +41,18 @@ $bodycontent = <<<CONTENT
     Caveats
   </h2>
   <p>
-    The $375 initial deposit can later be applied to three individual players' fees (the captain plus two other players). 
+    The $875 initial deposit can later be applied to seven individual players' fees. 
     For those teams that do not make the final cut, we will refund your full deposit.
   </p>
   <p>
-    Bid-winning teams will be notified via email (as will wait-listed teams) by {$Md['invites_out']}. 
-    Bid-winning teams must respond via e-mail or letter by {$Md['forfeiture']}, whether or not they wish to accept the bid. 
-    If no response is received, that team will forfeit its bid, and the next wait-listed team will be contacted. 
-    At this point, the declining bid-winning team will receive a 100% refund on its deposit.
+    Bid-winning teams will be notified via email (as will wait-listed teams) by September 15. 
   </p>
   <p>
-    Bid-winning teams are required to secure their bid by submitting entrance fees for at least 8 players (at $120 per player) by {$Md['skeleton']}.
+    Iindividual Registration will open on September 16.
   </p>
   <p>
-    If a bid-winning and bid-accepting team fails to submit the above mentioned players' fees, its bid will be lost, and the next wait-listed team will be given priority. 
-    If we are able to fill this new vacancy, we will issue only a partial deposit refund of $160. 
-    If we are unable to fill the vacancy, no refund of deposit will be issued.
+    For those of you who have captained HOPU teams in the past, you will notice the price increase for the team bid. We are implementing a new "7 On The Line" policy for activating the team bid review. This new policy is meant to help the organizers better plan for the tournament costs, and helps us separate the "wheat from the shaft." Or the stars from the dark matter if you're really into the sci-fi theme ;) Either way, the entire Hopu committee dedicates themselves to putting on the best damn tournament in the galaxy, and asking folks to find a savage squad of early recruits helps us do just that. 
   </p>
-  <p>
-    If any team forfeits its position after {$Md['forfeiture']}, the deposit will be forfeited, regardless of our success in filling the vacancy.
-  </p> 
 </section>
 <section id="importantdates" class="grid_6">
     <h2>
@@ -85,8 +62,8 @@ $bodycontent = <<<CONTENT
         Keep these dates in mind when planning to bring a team to Hopu!
     </p>
     <dl>
-        <dt>{$MdY['bid_deadline_snailmail']}</dt><dd>
-            Postmark date for all team bid checks: $375.  
+        <dt>August 25</dt><dd>
+            Postmark date for all team bid checks: $875.  
             <!--Block comment to remove mailing address after deadline passes:-->
             If paying by check, please make it out to <strong>Hopu Ka Lewa</strong> and send it to:
             <blockquote>
@@ -96,10 +73,12 @@ $bodycontent = <<<CONTENT
             </blockquote>
 
             </dd>
-        <dt>{$MdY['bid_deadline_online']}</dt><dd>Last day to submit a team bid and pay the deposit online.</dd>
-        <dt>{$MdY['invites_out']}</dt><dd>Invite and Waitlisted notifications will be emailed to captains.</dd>
-        <dt>{$MdY['accept_deadline']}</dt><dd>Last day for teams to send email confirmation of bid acceptance.</dd>
-        <dt>{$MdY['team_refund']}</dt><dd>Last day to request partial refund of team deposit.</dd>
+        <dt>September 1</dt><dd>Last day to submit a team bid and pay the deposit <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">online</a>.</dd>
+        <dt>September 15</dt><dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
+        <dt>September 16</dt><dd>Iindividual Registration opens.</dd>
+        <dd>Early bird: $125.00 (by October 2nd)<br />
+        Regular rate: $150.00 (by November 1st)<br />
+        Late rate: $180.00 (by November 8th)</dd>
     </dl>
 </section>
 <div class="grid_12"></div>
