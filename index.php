@@ -30,12 +30,12 @@ $content = <<<CONTENT
     <dt>September 15: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
     <dt>September 16: Iindividual Registration opens</dt>
-      <dd>Early bird: $125.00 (by October 2nd)<br />
-      Regular rate: $150.00 (by November 1st)<br />
-      Late rate: $180.00 (by November 8th)
-      </dd>
+      <dd>Early bird: $125.00 (by October 2nd)</dd>
+      <dd>Regular rate: $150.00 (by November 1st)</dd>
+      <dd>Late rate: $180.00 (by November 8th)</dd>
     <dt>November 13-16: HOPU, here we come!</dt>
       <dd>May the HOPU be with you.</dd>
+      <dd><div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div></dd>
   </dl>
 </section>
 <section class="grid_7">
