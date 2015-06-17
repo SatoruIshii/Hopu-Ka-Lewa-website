@@ -35,7 +35,7 @@ $content = <<<CONTENT
       <dd>Late rate: $180.00 (by November 8th)</dd>
     <dt>November 13-16: HOPU, here we come!</dt>
       <dd>May the HOPU be with you.</dd>
-      <dd><div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-height="405" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></dd>
+    <dt><div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div></dt>
   </dl>
 </section>
 <section class="grid_7">
@@ -62,9 +62,11 @@ $content = <<<CONTENT
   </p>
   <!-- <img src="images/SAVAGE_Hopu_Ka_Lewa_2014_HopuDeals.jpg" /> -->
 </section>
+<!--
 <section id="facebook" class="grid_5">
 <div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div>
 </section>
+-->
 CONTENT;
 $params = array(
   'description' => "Hawaii's premier co-ed ultimate tournament",
