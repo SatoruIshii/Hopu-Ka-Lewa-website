@@ -16,8 +16,8 @@ $params = array(
   'googleform' => array(
     'active' => $curdate <= $dates['bid_deadline_online'],
     'id' => 'teambidapp',
-    'src' => "https://docs.google.com/forms/d/1XoWwdmNA6zIRTMCJx-Vc0_d8JhsV2RL7TgKChxaMyiw/viewform?embedded=true",
-    'height' => '1660px'
+    'src' => "#",
+    'height' => '1px'
   ),
   'content' => ''
 );
