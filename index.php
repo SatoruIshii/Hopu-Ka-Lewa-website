@@ -35,7 +35,7 @@ $content = <<<CONTENT
       <dd>Late rate: $180.00 (by November 8th)</dd>
     <dt>November 13-16: HOPU, here we come!</dt>
       <dd>May the HOPU be with you.</dd>
-      <dd> </dd>
+      <dd> <br /></dd>
     <dt><div class="fb-like-box" data-href="https://www.facebook.com/pages/Hopu-Ka-Lewa/145315288875373" data-width="380" data-colorscheme="dark" data-show-faces="true" data-border-color="black" data-stream="true" data-header="true"></div></dt>
   </dl>
 </section>
