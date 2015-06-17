@@ -30,8 +30,8 @@ $content = <<<CONTENT
     <dt>September 15: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
     <dt>September 16: Iindividual Registration</dt>
-      <dd>Early bird: $125.00 (by October 2nd)
-      Regular rate: $150.00 (by November 1st)
+      <dd>Early bird: $125.00 (by October 2nd)<br />
+      Regular rate: $150.00 (by November 1st)<br />
       Late rate: $180.00 (by November 8th)
       </dd>
     <dt>November 13-16: HOPU, here we come!</dt>
