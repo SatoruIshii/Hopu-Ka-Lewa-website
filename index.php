@@ -29,7 +29,7 @@ $content = <<<CONTENT
       <dd>Please get your bids in before the deadline so the selection process can start.</dd>
     <dt>September 15: Teams announced</dt>
       <dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
-    <dt>September 16: Iindividual Registration</dt>
+    <dt>September 16: Iindividual Registration opens</dt>
       <dd>Early bird: $125.00 (by October 2nd)<br />
       Regular rate: $150.00 (by November 1st)<br />
       Late rate: $180.00 (by November 8th)
