@@ -104,6 +104,8 @@ $bodycontent = <<<CONTENT
     </ol>
 </section>
 CONTENT;
+<!--
 $params['content'] = $hgroup . $bodycontent;
 $template->display($params);
+-->
 ?>
