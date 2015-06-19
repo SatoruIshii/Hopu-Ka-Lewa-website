@@ -64,17 +64,6 @@ $bodycontent = <<<CONTENT
         Keep these dates in mind when planning to bring a team to Hopu!
     </p>
     <dl>
-        <dt>August 25</dt><dd>
-            Postmark date for all team bid checks: $875.  
-            <!--Block comment to remove mailing address after deadline passes:-->
-            If paying by check, please make it out to <strong>Hopu Ka Lewa</strong> and send it to:
-            <blockquote>
-              Ari Patz<br/>
-              666 Prospect St. #102<br/> 
-              Honolulu, HI 96813
-            </blockquote>
-
-            </dd>
         <dt>September 1</dt><dd>Last day to submit a team bid and pay the deposit <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">online</a>.</dd>
         <dt>September 15</dt><dd>All captains of teams who submitted bids will get emails notifying them of acceptance or otherwise.</dd>
         <dt>September 16</dt><dd>Iindividual Registration opens.</dd>
