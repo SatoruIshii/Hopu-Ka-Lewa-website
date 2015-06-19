@@ -51,26 +51,26 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $125.00 per player (Early bird) this year. 
+                      Player fee is $125.00 per player* this year. 
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register and pay <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">online</a>. 
+                      All players should register and pay online. 
 					  If you absolutely cannot pay online, please <a href="mailto:hoputd@hawaiiultimate.com">contact the tournament directors</a> <strong>BEFORE submitting your registration online</strong> to make alternate payment arrangements
 					  Players should also check in on-site either Friday night or Saturday morning. 
                   </p>
                   <p>
-                    From October 3 - November 1, the regular rate is $150 (you must have registered and PAID before October 2 in order to avoid the late fee). 
-					Only players registering before October 2 are guaranteed a complete player\'s pack.
+                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $150 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
+					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
                   </p>
                   <p>
-                    After November 2, the late rate applies: $180.  
-					Online registration and payment will only be accepted through November 8.  
+                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $180.  
+					Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  
 					After this, all registration and payment must take place at the fields.
                   </p>
                   <p>
-                    A full player\'s fee (*extract a transaction fee) refund is available to players who notify the tournament director (via writing or email) before ' . October 15 that they will not be attending the tournament. 
-					After October 16, players withdrawing from the tournament will receive a partial refund.
+                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. 
+					After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
                   </p>
                     Guest fee is $80 for the weekend. 
 					Guests should register and pay online. 
