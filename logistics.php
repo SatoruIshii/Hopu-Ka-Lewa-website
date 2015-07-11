@@ -203,11 +203,14 @@ $params = array(
       </p>
     </section>
     <section class="grid_6">
-      <h2>Post-Hopu Ka Lewa Hat Draw</h2>
+      <h2>Pre-Hopu Ka Lewa Hat Draw</h2>
       <p>
+      TBA
+      <!--
         Looking to do some island hopping? 
         Try Kohala Coast on the Big Island (fly into Kona) a week before (Nov. 7-8th).
         A great reason to extended your vacation, to include a very relaxed ultimate atmosphere and another weekend of parties.
+      -->
       </p>
       <p>
         Check it out at: <a href="http://hopukalewa.com/hatdraw.php">http://hopukalewa.com/hatdraw.php</a>
