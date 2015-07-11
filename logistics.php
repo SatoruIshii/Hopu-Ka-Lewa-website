@@ -13,7 +13,7 @@ $params = array(
   'content' => '    
     <hgroup class="grid_12">
       <h1>
-          Hopu 16 Logistics
+          Hopu 17 Logistics
       </h1>
     </hgroup>
     <section class="grid_12">
@@ -29,12 +29,12 @@ $params = array(
         The Hopu Ka Lewa Committee has some awesome plans to facilitate “Spirit” out of each participant (whether they like it or not), so bring it!
       </p>
       <h2>Tournament Theme:</h2>
-      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">Et Tu Hopu?</h3>
+      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">Sci-Fi Hopu?</h3>
       <p>
-        For fifteen years, players have gorged themselves in the Ultimate Frisbee ecstasy only Hopu Ka Lewa could provide.
+        For more than fifteen years, players have gorged themselves in the Ultimate Frisbee ecstasy only Hopu Ka Lewa could provide.
         However, now is not the time to let out your waist bands and let yourself go.
         \'Cause this rock is getting hot and all of your Hopu Ohana is going to be dressed to impress in their finest togas at the Cacchanalia on Saturday night in Waimanalo, Oahu.
-        Show your spirit as we celebrate the 16th Hopu Ka Lewa!!!! (we had 2 one year, if you\'re wondering)
+        Show your spirit as we celebrate the 17th Hopu Ka Lewa!!!!
       </p>
       <h2>How Your Team Contributes to the Theme</h2> 
       <dl>
@@ -48,7 +48,7 @@ $params = array(
         </dd>
         <dt>Flag</dt>
         <dd>
-          We ask that each team come to the tournament with their very own high school flag to represent their clique. 
+          We ask that each team come to the tournament with their very own team flag to represent their clique. 
           The fields you play at will have long metal poles to hang and display your team’s colors proudly. 
           The poles will accommodate mounting your team flag (sleeve over pole) (haha: mounting pole). 
         </dd>
@@ -59,18 +59,16 @@ $params = array(
           There are no limitations to what the game should be. 
           But it is recommended that the game is a representation of your team, where you are from, or the personality your team is trying to portray here at Hopu Ka Lewa.
         </dd>
-        <dt>Hopu Spirit Game, or should we say Olympics</dt>
+        <dt>Hopu Spirit Game</dt>
         <dd>
           What sets Hopu apart from all other tournaments is that the fun doesn\'t stop before, during, or after games.
-          This year, everyone in attendance will be assigned a color that will determine your Olympic team.
-          Olympic teams will compete in life or death challenges.
-          There will be scheduled Olympic challenges that will require you to work together as a team as tight as a roman infantry to win.
+          Details TBA.
         </dd>
       </dl>
     </section>
     <section class="grid_6">
       <h2>Schedule of Events</h2>
-      <h3>Friday, Nov. 7th, 2013 Agenda</h3>
+      <h3>Friday, Nov. 13th, 2015 Agenda</h3>
       <dl>
         <dt>The party starts FRIDAY night (~4pm)</dt>
         <dd>
@@ -89,7 +87,7 @@ $params = array(
           Saturday check-in will be open from 6am-8am, during breakfast.
         </dd>
       </dl>
-      <h3>Saturday, Nov. 8, 2013 Agenda</h3>
+      <h3>Saturday, Nov. 14th, 2015 Agenda</h3>
       <dl>
         <dt>Pool play games</dt>
         <dd>
@@ -114,7 +112,7 @@ $params = array(
           Will be laying down tracks so prepare to rip up the dance floor!
         </dd>
       </dl>
-      <h3>Sunday, Nov. 9, 2013 Agenda</h3>
+      <h3>Sunday, Nov. 15, 2015 Agenda</h3>
       <dl>
         <dt>Bracket play</dt>
         <dd>Starts at 9am.
@@ -138,7 +136,7 @@ $params = array(
           This Oahu band will have you on your feet and keep you dancing into Monday.
         </dd>
       </dl>
-      <h3>Monday, Nov. 10, 2013 Agenda</h3>
+      <h3>Monday, Nov. 16, 2015 Agenda</h3>
       <dl>
         <dt>Hat Draw</dt>
         <dd>
@@ -182,7 +180,7 @@ $params = array(
         We will do our best to make it really easy for you to know how you can help.
       </p>
       <p>
-        <strong>Chris Truffa</strong> (Volunteer Coordinator) will send you an email about what tasks we could use your help with and remind you at check-in. 
+        <strong>Michelle Swan</strong> (Volunteer Coordinator) will send you an email about what tasks we could use your help with and remind you at check-in. 
         We truly appreciate everyone’s help and it’s really the volunteers that make the tournament run smoothly.
       </p>
       <p>
@@ -194,7 +192,8 @@ $params = array(
       </p>
     </section>
     <section class="grid_6">
-      <h2>Individual Registration</h2>
+      <h2>Individual 
+      Registration</h2>
       <p>
         Everyone must register online including those who paid with the team bid deposit. 
         This is where we find out about your contact info, diet preferences, and team associations.
@@ -207,7 +206,7 @@ $params = array(
       <h2>Post-Hopu Ka Lewa Hat Draw</h2>
       <p>
         Looking to do some island hopping? 
-        Try Kohala Coast on the Big Island (fly into Kona) the following weekend (Nov. 16-17th).
+        Try Kohala Coast on the Big Island (fly into Kona) a week before (Nov. 7-8th).
         A great reason to extended your vacation, to include a very relaxed ultimate atmosphere and another weekend of parties.
       </p>
       <p>
