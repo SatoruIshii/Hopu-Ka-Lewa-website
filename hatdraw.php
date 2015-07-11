@@ -12,9 +12,10 @@ $template = $twig->loadTemplate('hopu_template_2014.php');
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-        Post-Hopu Hat Draw
+        Pre-Hopu Hat Draw (Details TBA)
     </h1>
 </hgroup>
+<!--
 <div class="clearfix"></div>
 <section id="hatdraw">
   <article class="grid_6">
@@ -70,6 +71,7 @@ $content = <<<CONTENT
       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </section>
+-->
 CONTENT;
 $params = array(
   'googleform' => array(
