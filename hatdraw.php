@@ -73,6 +73,7 @@ $content = <<<CONTENT
 </section>
 -->
 CONTENT;
+-->
 $params = array(
   'googleform' => array(
     'active' => true,
@@ -112,6 +113,7 @@ $params = array(
   )
 );
 unset($params['slider']);
+-->
 //if ( $curdate < $dates['online_payment']){
 //  $delimiter = "</hgroup>";
 //  $splitcontent = explode($delimiter, $params['content']);
