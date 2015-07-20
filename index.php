@@ -16,7 +16,7 @@ $content = <<<CONTENT
 <section class="grid_5">
   <h2>Important Dates</h2>
   <dl>
-    <dt>June 15th: Bid window opens</dt>
+    <dt>June 15: Bid window opens</dt>
       <dd>
         Please submit your team bid via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">Ultimate Central</a>.
         Supplemental materials, such as video or other media, are <em>strongly</em> encouraged and can be emailed to the <a href="mailto:hoputd@hawaiiultimate.com">Tournament Directors</a>.
