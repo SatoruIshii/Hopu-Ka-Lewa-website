@@ -12,8 +12,9 @@ $template = $twig->loadTemplate('hopu_template_2014.php');
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-        Hopu Hat Draw (Details TBA)
+        Hopu Hat Draw
     </h1>
+     (Details TBA)
 </hgroup>
 <!--
 <div class="clearfix"></div>
