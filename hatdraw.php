@@ -12,7 +12,7 @@ $template = $twig->loadTemplate('hopu_template_2014.php');
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-        Pre-Hopu Hat Draw (Details TBA)
+        Hopu Hat Draw (Details TBA)
     </h1>
 </hgroup>
 <!--
@@ -78,7 +78,7 @@ $params = array(
     'active' => true,
 	'id' => 'hatdrawreg',
 	'src' => "",
-	'height' => '950px'
+	'height' => '1px'
   ),
   'pagetitle' => 'Hat Draw',
   'description' => 'Outer island hat draw tournament.',
