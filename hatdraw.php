@@ -77,7 +77,7 @@ $params = array(
   'googleform' => array(
     'active' => true,
 	'id' => 'hatdrawreg',
-	'src' => "https://docs.google.com/forms/d/1UNf3ssovMrRUtBu_4g0uDNlnNcC_i38CqeBLmY_grAg/viewform?embedded=true",
+	'src' => "",
 	'height' => '950px'
   ),
   'pagetitle' => 'Hat Draw',
