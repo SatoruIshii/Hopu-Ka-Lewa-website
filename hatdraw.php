@@ -14,7 +14,7 @@ $content = <<<CONTENT
     <h1>
         Hopu Hat Draw
     </h1>
-     (Details TBA)
+    <div align="center"> (Details TBA)</div>
 </hgroup>
 <!--
 <div class="clearfix"></div>
