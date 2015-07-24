@@ -205,7 +205,6 @@ $params = array(
     <section class="grid_6">
       <h2>Hopu Ka Lewa Hat Draw</h2>
       <p>
-      TBA
       <!--
         Looking to do some island hopping? 
         Try Kohala Coast on the Big Island (fly into Kona) a week before (Nov. 7-8th).
@@ -226,7 +225,7 @@ $params = array(
         </dd>
         <dt><a href="http://savageultimate.com/">Savage Ultimate</a></dt>
         <dd>
-          Will be joining us again this year! Stop by their tent to pick up some official Hopu Ka Lewa 2015 merchandise. 
+          Will be joining us again this year! Stop by their tent to pick up some official Hopu Ka Lewa 17 merchandise. 
           I’ve seen them and they are freaking sweet.
         </dd>
         <dt>Car ride sharing</dt>
@@ -246,9 +245,6 @@ $params = array(
       </p>
       <p>
         Have a good day!
-      </p>
-      <p>
-        Magistrate Fineran
       </p>
       <p>
         P.S. Feel free to <a href="mailto:hoputd@hawaiiultimate.com">email</a> me any questions
