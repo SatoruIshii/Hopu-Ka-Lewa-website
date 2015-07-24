@@ -29,7 +29,7 @@ $params = array(
         The Hopu Ka Lewa Committee has some awesome plans to facilitate “Spirit” out of each participant (whether they like it or not), so bring it!
       </p>
       <h2>Tournament Theme:</h2>
-      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">Sci-Fi Hopu?</h3>
+      <h3 style="text-align:center; font-size:200%; color:#FF9933; text-shadow:1px 2px 0 #000000;">Sci-Fi Hopu</h3>
       <p>
         For more than fifteen years, players have gorged themselves in the Ultimate Frisbee ecstasy only Hopu Ka Lewa could provide.
         However, now is not the time to let out your waist bands and let yourself go.
