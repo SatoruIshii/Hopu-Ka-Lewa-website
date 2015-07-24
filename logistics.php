@@ -203,7 +203,7 @@ $params = array(
       </p>
     </section>
     <section class="grid_6">
-      <h2>Pre-Hopu Ka Lewa Hat Draw</h2>
+      <h2>Hopu Ka Lewa Hat Draw</h2>
       <p>
       TBA
       <!--
