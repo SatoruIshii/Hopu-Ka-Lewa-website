@@ -51,7 +51,7 @@ $params = array(
                 </aside><!-- #end left sidebar -->
                 <section class="grid_6" id="registrationinfo">
                   <p>
-                      Player fee is $125.00 per player* this year. 
+                      Player fee (early bird) is $125.00 per player* this year (by October 2nd). 
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
@@ -60,17 +60,17 @@ $params = array(
 					  Players should also check in on-site either Friday night or Saturday morning. 
                   </p>
                   <p>
-                    From ' . date('F j',$dates['indiv_late_start']) . '-' . date('j',$dates['indiv_late_end']) . ', the late registration fee is $150 (you must have registered and PAID before ' . date('F j',$dates['indiv_reg_end']) . ' in order to avoid the late fee). 
-					Only players registering before ' . date('F j',$dates['indiv_reg_end']) . ' are guaranteed a complete player\'s pack.
+                    From October 3rd - by November 1st, the late registration fee is $150 (you must have registered and PAID before October 2nd in order to get the early bird fee). 
+					Only players registering before October 2nd are guaranteed a complete player\'s pack.
                   </p>
                   <p>
-                    After ' . date('F j',$dates['indiv_shame_start']) . ', the shame-on-you rate applies: $180.  
-					Online registration and payment will only be accepted through '  . date('F j',$dates['online_payment']) . '.  
+                    After November 2nd, the late rate applies: $180.  
+					Online registration and payment will only be accepted through by November 8th.  
 					After this, all registration and payment must take place at the fields.
                   </p>
                   <p>
-                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before ' . date('F j',$dates['full_player_refund']) . ' that they will not be attending the tournament. 
-					After ' . date('F j',$dates['full_player_refund']) . ', players withdrawing from the tournament will receive a partial refund.
+                    A full player\'s fee refund is available to players who notify the tournament director (via writing or email) before October 15th that they will not be attending the tournament. 
+					After October 15th, players withdrawing from the tournament will receive a partial refund.
                   </p>
                     Guest fee is $80 for the weekend. 
 					Guests should register and pay online. 
@@ -98,11 +98,10 @@ $params = array(
                         Please note these dates on your calendar so you know how to register and how much to pay.
                     </p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['indiv_reg_end']) . '</dt><dd>Last day to register for regular player rate: $125 (payment must be made online by this date).</dd>
-						<dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
-                        <dt>' . date('M j, Y',$dates['indiv_late_end']) . '</dt><dd>Last day to register for the Late rate: $150 (payment must be made online by this date).</dd>
-                        <dt>' . date('M j, Y',$dates['online_payment']) . '</dt><dd>Last day to register and pay online for the Shame-on-you rate: $180 </dd>
-                        <dt>' . date('M j',$dates['online_payment']+1) . '-' . date('j, Y',$dates['indiv_shame_end']) . '</dt><dd>Shame-on-you rate applies: $180 and registration and payment must be done at the fields on ' . date('M j',$dates['indiv_shame_end']) . '.  Do not mail anything nor register nor pay online.</dd>
+                        <dt>October 2nd</dt><dd>Last day to register for the early bird fee: $125 (payment must be made online by this date).</dd>
+						<dt>October 15th</dt><dd>Last day to request a full player&#039s refund (minus $15 processing fee).</dd>
+                        <dt>November 1st</dt><dd>Last day to register for the regular rate: $150 (payment must be made online by this date).</dd>
+                        <dt>November 8th</dt><dd>Last day to register and pay online for the late rate: $180 </dd>
                     </dl>
                 </section>
 								<div class="grid_12"></div>
@@ -134,7 +133,7 @@ $params = array(
                     </h2>
                     <p>No team?  No problem!</p>
                     <p>
-                      All players wishing to play for the Spirit Team should register with "Genius Ludi - Spirit".  
+                      All players wishing to play for the Spirit Team should register with "Aloha Spirit".  
                       If more than 20 players register for this team, we may consider adding a second spirit team.
                     </p>
                 </section>'
