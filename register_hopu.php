@@ -34,9 +34,11 @@ $params = array(
                         Individual Registration
                     </h1>
                     <h2>
-                      Current Info (as of August 2014)
+                    TBA
+                      <!-- Current Info (as of August 2014) -->
                     </h2>
                 </hgroup>
+                <!--
                 <aside class="grid_2">
                     <h2>Info, Stat!</h2>
                         <nav id="secondary-navigation">
@@ -138,6 +140,7 @@ $params = array(
                       If more than 20 players register for this team, we may consider adding a second spirit team.
                     </p>
                 </section>'
+                -->
 );
 $template->display($params);
 ?>
