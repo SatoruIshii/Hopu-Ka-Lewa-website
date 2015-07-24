@@ -123,10 +123,11 @@ CONTENT;
 } else {
   $content .=<<<CONTENT
   <p>
-    In order for us to have accurate records at the fields, we have closed online payment at this time.
+    <!-- In order for us to have accurate records at the fields, we have closed online payment at this time. -->
+    TBA
   </p>
   <p>
-    If you still need to register or pay, please bring your information and cash to the registration tent on Friday night or Saturday morning.
+    <!-- If you still need to register or pay, please bring your information and cash to the registration tent on Friday night or Saturday morning. -->
   </p>
 CONTENT;
 }
