@@ -123,7 +123,7 @@ $params = array(
 					We&#039re sorry we won&#039t be seeing you this year.  
 					Please keep the following dates in mind when asking for a refund.</p>
                     <dl>
-                        <dt>' . date('M j, Y',$dates['full_player_refund']) . '</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). 
+                        <dt>Oct 15th, 2015</dt><dd>Last day for full player&#039s fee refund (minus a processing fee of $15). 
 						To qualify for a full refund, you must notify the Tournament Director, via mail or <a href="mailto:hoputd@hawaiiultimate.com">email</a>, by ' . date('M j',$dates['full_player_refund']) . '.</dd>
                     </dl>
                 </section>
