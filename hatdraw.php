@@ -14,7 +14,7 @@ $content = <<<CONTENT
     <h1>
         Hopu Hat Draw
     </h1>
-    <div align="center"> (TBA)</div>
+    <div align="center">It's happening on November 7-8. We're working on the venue now and will announce it as soon as it's secured.</div>
 </hgroup>
 <!--
 <div class="clearfix"></div>
