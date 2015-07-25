@@ -75,7 +75,7 @@ $params = array(
           Opening ceremonies, dinner, beer, spirit circle, team cheers, acrobat troupe, captains meeting, JUST BE THERE! 
           This is a great time to meet and greet.
         </dd>
-        <dt>Spirit Circle</dt>
+        <dt>Spirit Circle and "A surprise event" (TBA)</dt>
         <dd>
           Starts promptly at 8pm
         </dd>
