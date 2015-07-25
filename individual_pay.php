@@ -123,7 +123,7 @@ CONTENT;
 } else {
   $content .=<<<CONTENT
     <h1>
-        Iindividual RegistrationHopu Hat Draw
+        Iindividual RegistrationHopu
     </h1>
     <p>
     <!-- In order for us to have accurate records at the fields, we have closed online payment at this time. -->
