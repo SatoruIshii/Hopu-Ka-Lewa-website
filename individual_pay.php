@@ -122,9 +122,12 @@ if ($_SERVER['REQUEST_TIME'] < $dates["online_payment"]) {
 CONTENT;
 } else {
   $content .=<<<CONTENT
-  <p>
+    <h1>
+        Iindividual RegistrationHopu Hat Draw
+    </h1>
+    <p>
     <!-- In order for us to have accurate records at the fields, we have closed online payment at this time. -->
-    Iindividual Registration opens on September 16th. (Detalis TBA)
+    <div align="center">Iindividual Registration opens on September 16th. (Detalis TBA)</div>
   </p>
   <p>
     <!-- If you still need to register or pay, please bring your information and cash to the registration tent on Friday night or Saturday morning. -->
