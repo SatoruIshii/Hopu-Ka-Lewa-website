@@ -55,7 +55,10 @@ $params = array(
 					  Fee includes all breakfasts and dinners, entertainment, camping, player\'s pack (cup, disc, and Hopu logo surprise), plus all field supplies (water, fruit, juice, EMT).
                   </p>
                   <p>
-                      All players should register and pay online. 
+                      <font size=+1><a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Individual Registration page >></a></font> 
+		  </p>
+                  <p>
+                      All players should register and pay via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17">Ultimate Central</a>.. 
 					  If you absolutely cannot pay online, please <a href="mailto:hoputd@hawaiiultimate.com">contact the tournament directors</a> <strong>BEFORE submitting your registration online</strong> to make alternate payment arrangements
 					  Players should also check in on-site either Friday night or Saturday morning. 
                   </p>
