@@ -130,7 +130,7 @@ CONTENT;
     <div align="center">Please register and pay via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Ultimate Central</a>.</div>
   </p>
   <p>
-    <font size=+1><a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Individual Registration page >></a></font> 
+    <div align="center"><font size=+1><a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Individual Registration page >></a></font></div> 
   </p>
   <p>
     <!-- If you still need to register or pay, please bring your information and cash to the registration tent on Friday night or Saturday morning. -->
