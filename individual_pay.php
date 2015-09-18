@@ -127,7 +127,10 @@ CONTENT;
     </h1>
     <p>
     <!-- In order for us to have accurate records at the fields, we have closed online payment at this time. -->
-    <div align="center">Iindividual Registration opens on September 16th. (Detalis TBA)</div>
+    <div align="center">Please register and pay via the <a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Ultimate Central</a>.</div>
+  </p>
+  <p>
+    <font size=+1><a href="http://ultimatecentral.com/en_US/e/hopu-ka-lewa-17/register">Individual Registration page >></a></font> 
   </p>
   <p>
     <!-- If you still need to register or pay, please bring your information and cash to the registration tent on Friday night or Saturday morning. -->
