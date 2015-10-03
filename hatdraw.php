@@ -14,11 +14,18 @@ $content = <<<CONTENT
     <h1>
         2015 Hopu Hat Draw
     </h1>
-    <div align="center">It's happening in beautiful Hana, Maui this year! It will be held the weekend BEFORE Hopu (November 7-8). This is a change from previous years. Buy your tickets now!!! There's TONS of fun stuff to do in Hana.<br>
-    <br>
-    The detalis and registration is here.
-    <a href="https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce" target="_blank">https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce</a></div>
 </hgroup>
+<section id="hatdraw">
+  <article class="grid_6">
+    <p>
+    It's happening in beautiful Hana, Maui this year! It will be held the weekend BEFORE Hopu (November 7-8). This is a change from previous years. Buy your tickets now!!! There's TONS of fun stuff to do in Hana.
+    </p>
+    <p>
+    The detalis and registration is here.<br>
+    <a href="https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce" target="_blank">https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce</a></div>
+    </p>
+  </article>
+</section>
 <!--
 <div class="clearfix"></div>
 <section id="hatdraw">
