@@ -12,9 +12,12 @@ $template = $twig->loadTemplate('hopu_template_2014.php');
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-        Hopu Hat Draw
+        2015 Hopu Hat Draw
     </h1>
-    <div align="center">It's happening on November 7-8. We're working on the venue now and will announce it as soon as it's secured.</div>
+    <div align="center">It's happening in beautiful Hana, Maui this year! It will be held the weekend BEFORE Hopu (November 7-8). This is a change from previous years. Buy your tickets now!!! There's TONS of fun stuff to do in Hana.<br>
+    <br>
+    The detalis and registration is here.
+    <a href="https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce" target="_blank">https://sites.google.com/a/mauiultimate.com/website/maui-hat-draw/maui-hat-draw-2015-deuce</a></div>
 </hgroup>
 <!--
 <div class="clearfix"></div>
