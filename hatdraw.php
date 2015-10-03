@@ -15,6 +15,7 @@ $content = <<<CONTENT
         2015 Hopu Hat Draw
     </h1>
 </hgroup>
+<div align="center">
 <section id="hatdraw">
   <article class="grid_6">
     <p>
@@ -26,6 +27,7 @@ $content = <<<CONTENT
     </p>
   </article>
 </section>
+</div>
 <!--
 <div class="clearfix"></div>
 <section id="hatdraw">
