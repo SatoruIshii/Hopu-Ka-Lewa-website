@@ -93,7 +93,7 @@ $params = array(
         <dd>
           Run from 8am – 5pm
         </dd>
-        <dt>Saturday night is the Bacchanalia</dt>
+        <dt>Saturday night is the Space the Final Frontier</dt>
         <dd>
           Proper attire <strong>is appreciated at dinner</strong>. 
           Yes, people do get into costume, and you will be in the minority if you don’t. 
