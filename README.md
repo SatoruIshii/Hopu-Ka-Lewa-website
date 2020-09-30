@@ -1,4 +1,4 @@
-Hopu Ka Lewa's Website
+Hopu Ka Lewa - An Amazing Website
 ======================
 
 Aloha!
