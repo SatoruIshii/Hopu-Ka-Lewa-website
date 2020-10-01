@@ -8,7 +8,7 @@ We're trying to modernize and redesign the Hopu Ka Lewa tournament website.  We'
 Mahalo,
 The Hopu Committee
 
-Instructions for developers
+Instructions to developers
 ---------------------------
 
 ### Installation
