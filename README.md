@@ -1,4 +1,4 @@
-Hopu Ka Lewa's Website
+Hopu Ka Lewa's Website for the PHP
 ======================
 
 Aloha!
