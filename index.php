@@ -10,7 +10,7 @@ require 'model/dates.php';
 $content = <<<CONTENT
 <hgroup class="grid_12">
     <h1>
-    	November 13-16, 2015
+    	October 13-16, 2020
     </h1>
 </hgroup>
 <section class="grid_5">
