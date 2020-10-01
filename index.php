@@ -1,7 +1,7 @@
 <?php
 require_once 'twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
-$loader = new Twig_Loader_Filesystem('templates');
+$loader = new Twig_Loader_Filesystem('templates');//Loading the templates
 $twig = new Twig_Environment($loader, array(
   'cache' => 'tmp/chache',
 ));
